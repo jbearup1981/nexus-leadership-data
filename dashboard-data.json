@@ -1,0 +1,1095 @@
+{
+  "meta": {
+    "lastUpdated": "2026-03-14T15:00:00Z",
+    "updatedBy": "Claude Code",
+    "version": "1.0",
+    "dataSource": "Obsidian Vault (~/ClaudeCodeTerminal_Projects/)"
+  },
+  "eos": {
+    "scorecard": [
+      {
+        "name": "Monthly Commission Revenue",
+        "goal": 20000,
+        "actual": 17842.70,
+        "unit": "USD",
+        "period": "Feb 2026",
+        "status": "on_track",
+        "notes": "Feb 2026 closed — 12 carriers entered, $17,842.70 verified"
+      },
+      {
+        "name": "Active Group Clients",
+        "goal": 10,
+        "actual": 7,
+        "unit": "count",
+        "period": "Mar 2026",
+        "status": "on_track",
+        "notes": "One Way, Perceptive Controls, PRTS, West Cannon, Stearns, Zero Collective, Media Place Partners"
+      },
+      {
+        "name": "Active Advisors",
+        "goal": 6,
+        "actual": 5,
+        "unit": "count",
+        "period": "Mar 2026",
+        "status": "on_track",
+        "notes": "Ken Fortier, Cam Manning, Tom Snikkers, Mike Bearup, Courtney Uhrig (new Mar 2026)"
+      },
+      {
+        "name": "Total Agent Pay",
+        "goal": null,
+        "actual": 5736.97,
+        "unit": "USD",
+        "period": "Feb 2026",
+        "status": "complete",
+        "notes": "Ken $1,316.44, Cam $2,495.82, Tom $1,924.71 — PAID Mar 13"
+      },
+      {
+        "name": "Client Retention Rate",
+        "goal": 95,
+        "actual": 100,
+        "unit": "percent",
+        "period": "Q1 2026",
+        "status": "on_track",
+        "notes": "No client attrition in Q1 2026"
+      },
+      {
+        "name": "Automation Jobs Live",
+        "goal": 30,
+        "actual": 32,
+        "unit": "count",
+        "period": "Mar 2026",
+        "status": "on_track",
+        "notes": "18 Jason email + 7 Ken email + 4 vault/system + 3 other automation"
+      },
+      {
+        "name": "Blog Posts Published",
+        "goal": 4,
+        "actual": 1,
+        "unit": "count",
+        "period": "Mar 2026",
+        "status": "at_risk",
+        "notes": "Post #1 (ESTA) live. 3 remaining March posts need editing. 38 total drafts written."
+      },
+      {
+        "name": "Commission Reconciliation Gap",
+        "goal": 0,
+        "actual": 0,
+        "unit": "USD",
+        "period": "Feb 2026",
+        "status": "complete",
+        "notes": "Feb 2026 fully reconciled — all 12 carriers balanced"
+      }
+    ],
+    "rocks": [
+      {
+        "name": "Commission Tracker — Monthly Process Matured",
+        "owner": "Jason Bearup",
+        "status": "complete",
+        "targetDate": "2026-03-31",
+        "notes": "Feb 2026 CLOSED. 12 carriers entered, $17,842.70 verified. HTML statements generated. Commission Entry SOP created (10-step, 18-item checklist). Next: Ellen carrier portal training by Mar 31."
+      },
+      {
+        "name": "NexHub CRM MCP Integration",
+        "owner": "Jason Bearup",
+        "status": "behind",
+        "targetDate": "2026-02-21",
+        "notes": "MCP connected but not yet used for daily briefings. AI CRM Access and Teams Bot sub-projects past due (were Feb 21). Commissions module active (Apr 30 target)."
+      },
+      {
+        "name": "VA Onboarding — Cam Manning Trial",
+        "owner": "Jason Bearup",
+        "status": "on_track",
+        "targetDate": "2026-04-11",
+        "notes": "Cam in 3-month trial. Commission training started. Handoff after Feb-Apr test period."
+      },
+      {
+        "name": "1099/Tax Filing — S-Corp Return",
+        "owner": "Jason Bearup",
+        "status": "complete",
+        "targetDate": "2026-03-15",
+        "notes": "Filed Mar 12 — ahead of Mar 15 deadline."
+      },
+      {
+        "name": "Carrier Appointments & Outreach",
+        "owner": "Jason Bearup",
+        "status": "on_track",
+        "targetDate": "2026-03-31",
+        "notes": "Nexus Health Plus carrier outreach active — targeting Crum & Forster, Clear Spring, AXIS before Howard follow-up Mar 21."
+      },
+      {
+        "name": "Blog Strategy — Content Calendar Live",
+        "owner": "Jason Bearup",
+        "status": "on_track",
+        "targetDate": "2026-12-31",
+        "notes": "Post #1 LIVE on website. 38 total drafts. Ken blog coaching instructions sent. March posts #2-4 need editing."
+      },
+      {
+        "name": "Nexus Health Plus — Phase 2",
+        "owner": "Jason Bearup",
+        "status": "on_track",
+        "targetDate": "2026-03-21",
+        "notes": "Met with Howard (Insight Benefits) Mar 13. Follow-up meeting Fri Mar 21. Carrier research updated (6 carriers). Outreach brief emailed. Critical: connect with indemnity carriers before Mar 21."
+      },
+      {
+        "name": "NexMail Email Automation System",
+        "owner": "Jason Bearup",
+        "status": "complete",
+        "targetDate": "2026-03-14",
+        "notes": "LIVE — 25+ jobs across Jason + Ken. Dashboard emails (8 cadences), Command Scanner, Digest V12, contact scraping, calendar sync, feature requests. Full audit completed Mar 14."
+      },
+      {
+        "name": "NexBench HRIS — Team Onboarding",
+        "owner": "Jason Bearup",
+        "status": "on_track",
+        "targetDate": "2026-03-31",
+        "notes": "Courtney 90-day plan + branded HTML portal built. 4 draft legal docs (need attorney review). Onboarding docs being finalized this weekend."
+      }
+    ],
+    "issues": [
+      {
+        "title": "10 CRM sub-projects past due — need new target dates",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "details": "Data Integrity (Feb 7), AI CRM Access (Feb 21), Teams Bot (Feb 21), Performance Foundation (Feb 28), plus Claude Team, Vendor Directory, Nexus Website, and 3 Training programs all past Feb 28 deadlines.",
+        "category": "technology"
+      },
+      {
+        "title": "Onboarding legal docs require attorney review",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "details": "NDA/IP protection, contractor agreement, W-9, advisor agreement — 4 draft docs ready but need legal review before Courtney and new team members can sign.",
+        "category": "operations"
+      },
+      {
+        "title": "Team member website pages not built",
+        "priority": "medium",
+        "owner": "Jason Bearup",
+        "details": "Ellen, Grace, Wendi, Sheya, Courtney all need profile pages on Nexus website for onboarding.",
+        "category": "marketing"
+      },
+      {
+        "title": "Ellen carrier portal access not started",
+        "priority": "medium",
+        "owner": "Jason Bearup",
+        "details": "13 carrier portals need access setup + Loom training videos. Target Mar 31. Prerequisite for commission processing handoff.",
+        "category": "operations"
+      },
+      {
+        "title": "Ken missing folder IDs for digest reply scanner",
+        "priority": "medium",
+        "owner": "Jason Bearup",
+        "details": "NexMail digest reply scanner can't process Ken's replies — missing digest_replies_folder_id and actioned_folder_id in Ken's user config.",
+        "category": "technology"
+      },
+      {
+        "title": "meeting_sync.py has hardcoded API key",
+        "priority": "medium",
+        "owner": "Jason Bearup",
+        "details": "Security issue — NexBench API key hardcoded in meeting_sync.py instead of using config/env.",
+        "category": "technology"
+      },
+      {
+        "title": "~30 projects still need target dates",
+        "priority": "medium",
+        "owner": "Jason Bearup",
+        "details": "Project inventory shows ~30 projects with 'Needs date' — need assignment or explicit parking.",
+        "category": "operations"
+      },
+      {
+        "title": "March blog posts behind schedule",
+        "priority": "low",
+        "owner": "Jason Bearup",
+        "details": "Only 1 of 4 March posts published. Posts #2-4 (Church ERISA, Church Insurance, ICHRA Marketplace) need editing and review.",
+        "category": "marketing"
+      }
+    ],
+    "todos": [
+      {
+        "name": "ACG panel blog post — 'Practical AI for Business Owners'",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-14"
+      },
+      {
+        "name": "Connect with indemnity carriers before Howard follow-up Mar 21",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-20"
+      },
+      {
+        "name": "Review & edit 3 remaining March blog posts",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-21"
+      },
+      {
+        "name": "Send Ken & Brenda interview questions",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-21"
+      },
+      {
+        "name": "Audit/set up Nexus LinkedIn company page",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-21"
+      },
+      {
+        "name": "Start March 2026 commission workbook",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-21"
+      },
+      {
+        "name": "Ellen: carrier portal access + Loom videos (13 carriers)",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-31"
+      },
+      {
+        "name": "Ellen: photo + profile on Nexus website",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-21"
+      },
+      {
+        "name": "Ellen: logins + system access (email, OneDrive, portals)",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-21"
+      },
+      {
+        "name": "Finalize onboarding docs (NDA, contractor agreement, W-9, advisor agreement)",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-16"
+      },
+      {
+        "name": "Courtney onboarding checklist — finalize docs and get signed",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-17"
+      },
+      {
+        "name": "All team member website pages (Ellen, Grace, Wendi, Sheya, Courtney)",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-21"
+      },
+      {
+        "name": "Enneagram assessments — remind team",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-16"
+      },
+      {
+        "name": "Order business cards",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-16"
+      },
+      {
+        "name": "Bob Griffin follow-up",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-18"
+      },
+      {
+        "name": "Move March PH statement to OneDrive",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-17"
+      },
+      {
+        "name": "Viper Industrial Feb Beam commission — add to Tom's next pay",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-21"
+      },
+      {
+        "name": "Donald Koop personal email for COBRA letter",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-17"
+      }
+    ],
+    "accountability": [
+      {
+        "name": "Jason Bearup",
+        "role": "CEO / Visionary / Integrator",
+        "type": "leadership",
+        "status": "active",
+        "responsibilities": ["Strategy", "Technology", "Operations", "Finance", "Client Relationships"]
+      },
+      {
+        "name": "Ken Fortier",
+        "role": "Founder / CRO",
+        "type": "leadership",
+        "status": "active",
+        "responsibilities": ["Sales Leadership", "Client Relationships", "Blog Content", "Industry Knowledge"]
+      },
+      {
+        "name": "Cam Manning",
+        "role": "Advisor / Account Manager",
+        "type": "advisor",
+        "status": "active",
+        "responsibilities": ["Client Service", "Commission Training (trial)", "Account Management"]
+      },
+      {
+        "name": "Tom Snikkers",
+        "role": "Advisor",
+        "type": "advisor",
+        "status": "active",
+        "responsibilities": ["Client Service", "New Business Development"]
+      },
+      {
+        "name": "Mike Bearup",
+        "role": "Advisor",
+        "type": "advisor",
+        "status": "active",
+        "responsibilities": ["Client Service", "New Business Development"]
+      },
+      {
+        "name": "Courtney Uhrig",
+        "role": "Advisor (New — Mar 2026)",
+        "type": "advisor",
+        "status": "onboarding",
+        "responsibilities": ["Training", "Mentored by Wendi", "90-day onboarding plan active"]
+      },
+      {
+        "name": "Wendi Uhrig",
+        "role": "Account Manager",
+        "type": "contractor",
+        "status": "active",
+        "responsibilities": ["Account Management", "Mentoring Courtney", "Future advisor transition"]
+      },
+      {
+        "name": "Ellen Vasco",
+        "role": "Processor / Admin / EA",
+        "type": "contractor",
+        "status": "incoming",
+        "responsibilities": ["Commission Statement Gathering", "Carrier Portal Management", "Admin Support"]
+      },
+      {
+        "name": "Sheya Beuge",
+        "role": "PM / Ops / Commissions",
+        "type": "contractor",
+        "status": "incoming",
+        "responsibilities": ["Project Management", "Operations", "Commission Processing"]
+      },
+      {
+        "name": "Grace Morris",
+        "role": "Processing / Admin / Social Media",
+        "type": "contractor",
+        "status": "active",
+        "responsibilities": ["Processing Support", "Admin", "LinkedIn/Social Media (3-month ramp plan)"]
+      }
+    ]
+  },
+  "domains": {
+    "sales": {
+      "summary": "7 active group clients with strong retention. Nexus Health Plus in Phase 2 with Howard follow-up Mar 21. MI Prospect Pipeline has 71K orgs staged with Top 100 scored. Griffin Beverage new prospect ($75K deal).",
+      "projects": [
+        {
+          "name": "Nexus Health Plus",
+          "status": "Active",
+          "priority": "High",
+          "nextAction": "Connect with indemnity carriers (Crum & Forster, Clear Spring, AXIS) before Howard meeting Mar 21",
+          "targetDate": "2026-03-21"
+        },
+        {
+          "name": "Michigan Prospect Pipeline",
+          "status": "Active",
+          "priority": "High",
+          "nextAction": "Leadership contacts for top 50, cross-ref against CRM",
+          "targetDate": null
+        },
+        {
+          "name": "Builders Exchange",
+          "status": "Active",
+          "priority": "High",
+          "nextAction": "Needs target date and next steps",
+          "targetDate": null
+        },
+        {
+          "name": "Presentation Decks",
+          "status": "Active",
+          "priority": "High",
+          "nextAction": "Upload to Claude Team, Loom walkthrough",
+          "targetDate": null
+        },
+        {
+          "name": "Griffin Beverage (Prospect)",
+          "status": "Active",
+          "priority": "Medium",
+          "nextAction": "Follow-up with Bob if no response by Mar 18",
+          "targetDate": "2026-03-18"
+        }
+      ],
+      "metrics": {
+        "activeClients": 7,
+        "activeProspects": 1,
+        "pipelineValue": 75000,
+        "clientRetention": "100%",
+        "clientList": [
+          "One Way Products",
+          "Perceptive Controls",
+          "Puritan Reformed Seminary",
+          "West Cannon Baptist Church",
+          "Stearns Drilling",
+          "The Zero Collective",
+          "Media Place Partners"
+        ]
+      },
+      "upcomingMeetings": [
+        {
+          "date": "2026-03-21",
+          "title": "Nexus Health Plus follow-up with Howard (Insight Benefits)",
+          "type": "client"
+        },
+        {
+          "date": "2026-04-28",
+          "title": "ACG AI Panel — Embassy Suites GR Downtown, 8-10 AM",
+          "type": "event"
+        }
+      ],
+      "resources": [
+        {
+          "name": "Client Folders",
+          "path": "1-sales/[1] clients/"
+        },
+        {
+          "name": "Prospect Folders",
+          "path": "1-sales/[2] prospects/"
+        },
+        {
+          "name": "MI Prospect Pipeline",
+          "path": "1-sales/michigan-prospect-pipeline/"
+        },
+        {
+          "name": "NexHub CRM",
+          "url": "https://nexhub.nexusbenefitsolutions.com"
+        }
+      ]
+    },
+    "finance": {
+      "summary": "Feb 2026 commissions fully closed ($17,842.70). Agent pay disbursed ($5,736.97). S-Corp tax filed Mar 12. QuickBooks cleanup in progress (Apr 10 target). Commission Entry SOP formalized.",
+      "projects": [
+        {
+          "name": "Commission Tracker",
+          "status": "Active",
+          "priority": "High",
+          "nextAction": "Start March 2026 workbook. Ellen carrier portal training (Mar 31 target).",
+          "targetDate": null
+        },
+        {
+          "name": "Financial Cleanup & Setup",
+          "status": "Active",
+          "priority": "High",
+          "nextAction": "QuickBooks cleanup",
+          "targetDate": "2026-04-10"
+        },
+        {
+          "name": "Tax & S-Corp 2025",
+          "status": "Complete",
+          "priority": null,
+          "nextAction": null,
+          "targetDate": "2026-03-12"
+        }
+      ],
+      "metrics": {
+        "febCommissionRevenue": 17842.70,
+        "febAgentPay": 5736.97,
+        "febNetRetained": 12105.73,
+        "carriersTracked": 12,
+        "agentPayBreakdown": {
+          "Ken Fortier": 1316.44,
+          "Cam Manning": 2495.82,
+          "Tom Snikkers": 1924.71
+        },
+        "taxStatus": "S-Corp return filed Mar 12 (ahead of Mar 15 deadline)",
+        "commissionReconciliationGap": 0
+      },
+      "resources": [
+        {
+          "name": "Commission Tracker",
+          "path": "2-finance/commission-tracker/"
+        },
+        {
+          "name": "Commission Entry SOP",
+          "path": "3-operations/business-process-docs/commission-processing/"
+        },
+        {
+          "name": "OneDrive Commission Statements",
+          "path": "OneDrive/Commission_Statements/Group_2026/"
+        }
+      ]
+    },
+    "marketing": {
+      "summary": "Blog strategy active with Post #1 (ESTA) live and 38 total drafts. ACG AI Panel confirmed for Apr 28. Grace Morris onboarded for social media (LinkedIn). 3 March posts still need editing. Nexus website rebuild queued.",
+      "projects": [
+        {
+          "name": "Blog Strategy 2026",
+          "status": "Active",
+          "priority": "High",
+          "nextAction": "Edit March posts #2-4. Ken & Brenda interview questions.",
+          "targetDate": "2026-12-31"
+        },
+        {
+          "name": "ACG AI Panel",
+          "status": "Active",
+          "priority": "High",
+          "nextAction": "Bio + headshot to Denise. Blog post draft.",
+          "targetDate": "2026-04-28"
+        },
+        {
+          "name": "Nexus Website",
+          "status": "Queued",
+          "priority": "Medium",
+          "nextAction": "Replit rebuild — needs new target date",
+          "targetDate": null
+        },
+        {
+          "name": "Advisor Hub",
+          "status": "Parked",
+          "priority": "Medium",
+          "nextAction": "Needs date",
+          "targetDate": null
+        },
+        {
+          "name": "Newsletter",
+          "status": "Parked",
+          "priority": "Medium",
+          "nextAction": "Start Apr/May",
+          "targetDate": null
+        },
+        {
+          "name": "SBBMI Resource Hub",
+          "status": "Parked",
+          "priority": "Medium",
+          "nextAction": "Needs date",
+          "targetDate": "2026-03-31"
+        },
+        {
+          "name": "Marketing Assets",
+          "status": "Parked",
+          "priority": "Medium",
+          "nextAction": "Needs date",
+          "targetDate": null
+        }
+      ],
+      "metrics": {
+        "blogPostsPublished": 1,
+        "blogDraftsReady": 38,
+        "marchPostsTarget": 4,
+        "marchPostsPublished": 1,
+        "upcomingEvents": 1,
+        "socialMediaStatus": "Grace Morris onboarded — LinkedIn company page setup pending"
+      },
+      "resources": [
+        {
+          "name": "Blog Strategy",
+          "path": "4-marketing/blog-strategy-2026/"
+        },
+        {
+          "name": "ACG AI Panel",
+          "path": "4-marketing/acg-ai-panel/"
+        },
+        {
+          "name": "Nexus Website",
+          "url": "https://nexusbenefitsolutions.com"
+        }
+      ]
+    },
+    "operations": {
+      "summary": "NexBench HRIS active with Courtney 90-day onboarding plan. VA onboarding (Cam) on track for Apr 11. Onboarding legal docs drafted but need attorney review. Business process documentation expanding (Commission SOP complete). OneDrive file org complete (3,118 files).",
+      "projects": [
+        {
+          "name": "NexBench HRIS",
+          "status": "Active",
+          "priority": "High",
+          "nextAction": "Finalize onboarding docs, get Courtney signed, host portal on website",
+          "targetDate": "2026-03-31"
+        },
+        {
+          "name": "VA Onboarding",
+          "status": "Active",
+          "priority": "High",
+          "nextAction": "Commission processing handoff after Feb-Apr test period",
+          "targetDate": "2026-04-11"
+        },
+        {
+          "name": "Business Strategy",
+          "status": "Active",
+          "priority": "High",
+          "nextAction": "Living document — ongoing updates",
+          "targetDate": null
+        },
+        {
+          "name": "Renewal Process",
+          "status": "Active",
+          "priority": "High",
+          "nextAction": "Needs target date",
+          "targetDate": null
+        },
+        {
+          "name": "Business Process Docs",
+          "status": "Active",
+          "priority": "High",
+          "nextAction": "Commission SOP done. Group proposal, new group setup docs next.",
+          "targetDate": null
+        },
+        {
+          "name": "COBRA Outreach — Media Place Partners",
+          "status": "Active",
+          "priority": "Medium",
+          "nextAction": "Donald Koop personal email needed (work email may be dead). 4 letters sent Mar 13.",
+          "targetDate": "2026-03-17"
+        },
+        {
+          "name": "Vault Maintenance",
+          "status": "Active",
+          "priority": "Medium",
+          "nextAction": "Daily scan (5 AM) + weekly arch review + monthly system audit",
+          "targetDate": null
+        },
+        {
+          "name": "Personal Org System",
+          "status": "Active",
+          "priority": "Medium",
+          "nextAction": "Protocol live, session logging overhauled",
+          "targetDate": null
+        },
+        {
+          "name": "NexOS",
+          "status": "Active",
+          "priority": "Medium",
+          "nextAction": "Domain structure documented",
+          "targetDate": null
+        },
+        {
+          "name": "OneDrive File Org",
+          "status": "Complete",
+          "priority": null,
+          "nextAction": null,
+          "targetDate": "2026-03-08"
+        }
+      ],
+      "metrics": {
+        "activeProcessDocs": 1,
+        "pendingProcessDocs": 3,
+        "teamMembersOnboarding": 3,
+        "legalDocsAwaitingReview": 4,
+        "filesOrganized": 3118,
+        "vaultProjects": 75,
+        "pastDueProjects": 10,
+        "projectsNeedingDates": 30
+      },
+      "resources": [
+        {
+          "name": "NexBench HRIS",
+          "path": "3-operations/nexbench-hris/"
+        },
+        {
+          "name": "VA Onboarding",
+          "path": "3-operations/va-onboarding/"
+        },
+        {
+          "name": "Business Process Docs",
+          "path": "3-operations/business-process-docs/"
+        },
+        {
+          "name": "Quick Reference",
+          "path": "3-operations/nexus-sbbmi-quick-reference.md"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "NexMail fully operational (25+ jobs, 8 dashboard cadences, Command Scanner). NexHub CRM live with MCP connected but multiple sub-projects past due. System Blueprint maintained. 32 automation jobs running via launchd. Session namer and session summarizer automated.",
+      "projects": [
+        {
+          "name": "NexMail (Email Automation)",
+          "status": "LIVE",
+          "priority": "High",
+          "nextAction": "Phase 3: calendar MCP tools, contact sync, OneDrive tools, unsubscribe worker",
+          "targetDate": null
+        },
+        {
+          "name": "NexHub CRM",
+          "status": "Active",
+          "priority": "High",
+          "nextAction": "Commissions redesign, MCP briefings, agent dashboard. Multiple sub-projects past due.",
+          "targetDate": "2026-03-31"
+        },
+        {
+          "name": "CRM — Commissions Module",
+          "status": "Active",
+          "priority": "High",
+          "nextAction": "Redesign in progress",
+          "targetDate": "2026-04-30"
+        },
+        {
+          "name": "System Blueprint",
+          "status": "Active",
+          "priority": "High",
+          "nextAction": "Canonical component registry — ongoing",
+          "targetDate": null
+        },
+        {
+          "name": "Delegate Agent Stack",
+          "status": "Active",
+          "priority": "High",
+          "nextAction": "Sophie/M365 overlap unresolved",
+          "targetDate": null
+        },
+        {
+          "name": "Claude Code Setup",
+          "status": "Active",
+          "priority": "High",
+          "nextAction": "Domain profiles, SOP written",
+          "targetDate": null
+        },
+        {
+          "name": "MCP vs CLI Evaluation",
+          "status": "Active",
+          "priority": "Medium",
+          "nextAction": "Commission tracker migrated. M365 skill wrapper next.",
+          "targetDate": null
+        },
+        {
+          "name": "M365 MCP Server",
+          "status": "Active",
+          "priority": "Medium",
+          "nextAction": "Email/calendar connected. Custom Graph API jobs running.",
+          "targetDate": null
+        },
+        {
+          "name": "CRM Contact Sync",
+          "status": "Queued",
+          "priority": "Medium",
+          "nextAction": "Shared mailbox, phone sync",
+          "targetDate": null
+        },
+        {
+          "name": "Sophie Enhancement",
+          "status": "Parked",
+          "priority": "High",
+          "nextAction": "Needs date",
+          "targetDate": null
+        }
+      ],
+      "metrics": {
+        "automationJobsLive": 32,
+        "emailJobsJason": 18,
+        "emailJobsKen": 7,
+        "systemJobs": 4,
+        "otherJobs": 3,
+        "crmSubProjects": 15,
+        "crmSubProjectsComplete": 2,
+        "crmSubProjectsPastDue": 4,
+        "mcpServersConnected": 5,
+        "totalProjectsInTech": 37
+      },
+      "systemHealth": {
+        "nexmail": {
+          "status": "operational",
+          "jobs": 25,
+          "users": ["Jason Bearup", "Ken Fortier"],
+          "lastAudit": "2026-03-14",
+          "knownIssues": [
+            "Ken missing folder IDs for digest reply scanner",
+            "meeting_sync.py hardcoded API key",
+            "monthly_unum_request.py not multi-user ready"
+          ]
+        },
+        "nexhub": {
+          "status": "operational",
+          "notes": "Flask + PostgreSQL. MCP connected. Commission module live. Multiple sub-projects past due."
+        },
+        "nexbench": {
+          "status": "operational",
+          "notes": "Courtney onboarding portal built. Meeting sync live (Fyxer integration)."
+        },
+        "vaultMaintenance": {
+          "status": "operational",
+          "dailyScan": "5:00 AM",
+          "weeklyArchReview": "Sunday 6:00 AM",
+          "monthlyAudit": "1st of month 6:00 AM",
+          "backup": "Every 15 min (rsync to iCloud)"
+        },
+        "sessionAutomation": {
+          "summarizer": "Daily 12:15 AM",
+          "namer": "Daily 12:30 AM"
+        }
+      },
+      "resources": [
+        {
+          "name": "System Blueprint",
+          "path": "5-technology/system-blueprint/"
+        },
+        {
+          "name": "System Architecture",
+          "path": "5-technology/system-architecture.md"
+        },
+        {
+          "name": "NexMail",
+          "path": "5-technology/email-automation-basic/"
+        },
+        {
+          "name": "NexHub CRM",
+          "path": "5-technology/rocktship-crm/"
+        },
+        {
+          "name": "Claude Code Cheat Sheet",
+          "path": "5-technology/claude-code-setup/"
+        }
+      ]
+    },
+    "talent": {
+      "summary": "Team expanding rapidly — 5 active advisors (Courtney new Mar 2026), 4 contractors (Ellen and Sheya incoming). Courtney 90-day plan built. Training programs all past due (Feb 28 targets). Enneagram assessments pending for full team.",
+      "projects": [
+        {
+          "name": "Training Program (Parent)",
+          "status": "In Progress",
+          "priority": "High",
+          "nextAction": "All 7 sub-projects need new target dates (all past Feb 28)",
+          "targetDate": null
+        },
+        {
+          "name": "AI CRM & Client Folders Training",
+          "status": "Past Due",
+          "priority": "High",
+          "nextAction": "Needs new target date",
+          "targetDate": null
+        },
+        {
+          "name": "AI + Notion Mastery",
+          "status": "Past Due",
+          "priority": "High",
+          "nextAction": "Needs new target date",
+          "targetDate": null
+        },
+        {
+          "name": "AI Tools Training",
+          "status": "Past Due",
+          "priority": "High",
+          "nextAction": "Needs new target date",
+          "targetDate": null
+        },
+        {
+          "name": "Brenda's Modules",
+          "status": "Not Started",
+          "priority": "Medium",
+          "nextAction": "Needs date",
+          "targetDate": null
+        },
+        {
+          "name": "CRM Mastery",
+          "status": "Not Started",
+          "priority": "Medium",
+          "nextAction": "Needs date",
+          "targetDate": null
+        },
+        {
+          "name": "Ken's Modules",
+          "status": "Not Started",
+          "priority": "Medium",
+          "nextAction": "Needs date",
+          "targetDate": null
+        },
+        {
+          "name": "Sales Training",
+          "status": "Not Started",
+          "priority": "Medium",
+          "nextAction": "Needs date",
+          "targetDate": null
+        }
+      ],
+      "metrics": {
+        "totalTeamSize": 10,
+        "activeAdvisors": 5,
+        "activeContractors": 2,
+        "incomingTeamMembers": 2,
+        "onboardingInProgress": 1,
+        "trainingModulesComplete": 0,
+        "trainingModulesTotal": 7,
+        "talentPipeline": ["Racquel Paulis (Traverse City, 25-yr veteran)", "Wendi Uhrig (future advisor transition)"]
+      },
+      "resources": [
+        {
+          "name": "Training Programs",
+          "path": "6-talent-training/"
+        },
+        {
+          "name": "NexBench HRIS",
+          "path": "3-operations/nexbench-hris/"
+        },
+        {
+          "name": "Advisor Alignment Package",
+          "path": "3-operations/nexbench-hris/advisor-alignment-package.md"
+        }
+      ]
+    }
+  },
+  "commandCentral": {
+    "systemsOnline": [
+      {
+        "name": "NexMail",
+        "type": "Email Automation",
+        "status": "operational",
+        "users": 2,
+        "jobs": 25
+      },
+      {
+        "name": "NexHub",
+        "type": "CRM",
+        "status": "operational",
+        "platform": "Flask + PostgreSQL",
+        "mcpConnected": true
+      },
+      {
+        "name": "NexBench",
+        "type": "HRIS",
+        "status": "operational",
+        "activeOnboarding": "Courtney Uhrig"
+      },
+      {
+        "name": "NexOS",
+        "type": "Operating System",
+        "status": "operational",
+        "projects": 75
+      },
+      {
+        "name": "Nexus 365",
+        "type": "M365 Integration",
+        "status": "operational",
+        "services": ["Outlook", "Calendar", "SharePoint", "OneDrive", "Teams"]
+      },
+      {
+        "name": "Nexus Website",
+        "type": "Public Website",
+        "status": "operational",
+        "platform": "Replit (React/TS/Vite)",
+        "needsRebuild": true
+      },
+      {
+        "name": "Claude Code Terminal",
+        "type": "AI Development",
+        "status": "operational",
+        "subscription": "Team",
+        "sessions": "Auto-named + summarized daily"
+      },
+      {
+        "name": "Obsidian Vault",
+        "type": "Knowledge Base",
+        "status": "operational",
+        "files": "668+ reference archive",
+        "backup": "Every 15 min to iCloud"
+      },
+      {
+        "name": "Vault Maintenance",
+        "type": "Automation",
+        "status": "operational",
+        "schedule": "Daily 5 AM scan + weekly arch review + monthly audit"
+      },
+      {
+        "name": "Dashboard Emails",
+        "type": "Automation",
+        "status": "operational",
+        "cadences": 8,
+        "includes": "Morning priorities, EOD log, weekly/monthly/quarterly open+close"
+      },
+      {
+        "name": "Command Scanner",
+        "type": "Automation",
+        "status": "operational",
+        "schedule": "Every 15 min",
+        "description": "Reply to Command Central emails to trigger actions"
+      },
+      {
+        "name": "Session Namer",
+        "type": "Automation",
+        "status": "operational",
+        "schedule": "Daily 12:30 AM"
+      },
+      {
+        "name": "Session Summarizer",
+        "type": "Automation",
+        "status": "operational",
+        "schedule": "Daily 12:15 AM"
+      }
+    ],
+    "recentActivity": [
+      {
+        "date": "2026-03-14",
+        "description": "Session namer cleanup phase added — deletes empty/trivial sessions. NexMail full system audit. Leadership dashboard scoped."
+      },
+      {
+        "date": "2026-03-13",
+        "description": "Dashboard email system (8 cadences) deployed. Command Scanner LIVE. NexMail digest V12 redesigned. COBRA outreach (4 letters). Griffin Beverage CRM setup."
+      },
+      {
+        "date": "2026-03-12",
+        "description": "Feb 2026 commissions CLOSED. Commission Entry SOP created. Ken inbox cleaned (10,321→0). S-Corp tax filed."
+      },
+      {
+        "date": "2026-03-11",
+        "description": "Command Central naming finalized. NexMail digest expanded + reply commands. Ken email automation (6 jobs). System blueprint + 13 memory files."
+      },
+      {
+        "date": "2026-03-10",
+        "description": "Monday briefing. Quick Note system built. Project priority tagging (63+ projects). Client folder sync DEPLOYED (865 attachments)."
+      }
+    ],
+    "domainSummaries": [
+      {
+        "domain": "Sales",
+        "icon": "briefcase",
+        "color": "orange",
+        "headline": "7 active clients, 100% retention. Nexus Health Plus Phase 2 — Howard meeting Mar 21.",
+        "activeProjects": 5,
+        "urgentItems": 1
+      },
+      {
+        "domain": "Finance",
+        "icon": "dollar-sign",
+        "color": "yellow",
+        "headline": "Feb closed ($17,842.70). Tax filed. March workbook needs starting.",
+        "activeProjects": 2,
+        "urgentItems": 0
+      },
+      {
+        "domain": "Marketing",
+        "icon": "megaphone",
+        "color": "blue",
+        "headline": "1/4 March posts live. ACG panel Apr 28. Social media ramp started.",
+        "activeProjects": 2,
+        "urgentItems": 1
+      },
+      {
+        "domain": "Operations",
+        "icon": "cog",
+        "color": "gray",
+        "headline": "Team onboarding accelerating. Legal docs need attorney review. 10 past-due projects.",
+        "activeProjects": 8,
+        "urgentItems": 2
+      },
+      {
+        "domain": "Technology",
+        "icon": "cpu",
+        "color": "green",
+        "headline": "32 automation jobs live. NexMail mature. CRM sub-projects need date review.",
+        "activeProjects": 10,
+        "urgentItems": 1
+      },
+      {
+        "domain": "Talent & Training",
+        "icon": "users",
+        "color": "purple",
+        "headline": "5 advisors + 4 contractors. Courtney onboarding active. All training programs past due.",
+        "activeProjects": 8,
+        "urgentItems": 3
+      }
+    ]
+  }
+}
