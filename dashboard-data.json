@@ -453,6 +453,20 @@
           "type": "event"
         }
       ],
+      "todos": [
+        {
+          "name": "Connect with indemnity carriers before Howard follow-up Mar 21",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-20"
+        },
+        {
+          "name": "Bob Griffin follow-up",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-18"
+        }
+      ],
       "resources": [
         {
           "name": "Client Folders",
@@ -510,6 +524,26 @@
         "taxStatus": "S-Corp return filed Mar 12 (ahead of Mar 15 deadline)",
         "commissionReconciliationGap": 0
       },
+      "todos": [
+        {
+          "name": "Start March 2026 commission workbook",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-21"
+        },
+        {
+          "name": "Move March PH statement to OneDrive",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-17"
+        },
+        {
+          "name": "Viper Industrial Feb Beam commission — add to Tom's next pay",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-21"
+        }
+      ],
       "resources": [
         {
           "name": "Commission Tracker",
@@ -586,6 +620,44 @@
         "upcomingEvents": 1,
         "socialMediaStatus": "Grace Morris onboarded — LinkedIn company page setup pending"
       },
+      "todos": [
+        {
+          "name": "ACG panel blog post — 'Practical AI for Business Owners'",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-14"
+        },
+        {
+          "name": "Review & edit 3 remaining March blog posts",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-21"
+        },
+        {
+          "name": "Send Ken & Brenda interview questions",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-21"
+        },
+        {
+          "name": "Audit/set up Nexus LinkedIn company page",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-21"
+        },
+        {
+          "name": "All team member website pages (Ellen, Grace, Wendi, Sheya, Courtney)",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-21"
+        },
+        {
+          "name": "Ellen: photo + profile on Nexus website",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-21"
+        }
+      ],
       "resources": [
         {
           "name": "Blog Strategy",
@@ -685,6 +757,44 @@
         "pastDueProjects": 10,
         "projectsNeedingDates": 30
       },
+      "todos": [
+        {
+          "name": "Ellen: carrier portal access + Loom videos (13 carriers)",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-31"
+        },
+        {
+          "name": "Ellen: logins + system access (email, OneDrive, portals)",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-21"
+        },
+        {
+          "name": "Finalize onboarding docs (NDA, contractor agreement, W-9, advisor agreement)",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-16"
+        },
+        {
+          "name": "Courtney onboarding checklist — finalize docs and get signed",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-17"
+        },
+        {
+          "name": "Donald Koop personal email for COBRA letter",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-17"
+        },
+        {
+          "name": "Order business cards",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-16"
+        }
+      ],
       "resources": [
         {
           "name": "NexBench HRIS",
@@ -822,6 +932,20 @@
           "namer": "Daily 12:30 AM"
         }
       },
+      "todos": [
+        {
+          "name": "Fix Ken missing folder IDs for digest reply scanner",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
+        },
+        {
+          "name": "Fix meeting_sync.py hardcoded API key",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
+        }
+      ],
       "resources": [
         {
           "name": "System Blueprint",
@@ -915,6 +1039,14 @@
         "trainingModulesTotal": 7,
         "talentPipeline": ["Racquel Paulis (Traverse City, 25-yr veteran)", "Wendi Uhrig (future advisor transition)"]
       },
+      "todos": [
+        {
+          "name": "Enneagram assessments — remind team",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-16"
+        }
+      ],
       "resources": [
         {
           "name": "Training Programs",
