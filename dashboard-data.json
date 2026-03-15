@@ -2,7 +2,7 @@
   "meta": {
     "lastUpdated": "2026-03-15T22:00:00Z",
     "updatedBy": "Claude Code",
-    "version": "1.1",
+    "version": "1.2",
     "dataSource": "Obsidian Vault"
   },
   "eos": {
@@ -1238,20 +1238,166 @@
       }
     ],
     "systemsOnline": [
-      { "name": "NexMail", "type": "Email Automation", "status": "operational", "users": 2, "jobs": 32 },
-      { "name": "NexHub CRM", "type": "CRM", "status": "operational", "platform": "Flask + PostgreSQL on Replit" },
-      { "name": "NexBench HRIS", "type": "HRIS / Onboarding", "status": "operational", "notes": "Mockup live. 13 docs final. Portal build next." },
-      { "name": "NexOS", "type": "Project Management", "status": "operational", "notes": "8-domain vault structure. 75 projects tracked." },
-      { "name": "Nexus 365", "type": "M365 (Email, Calendar, OneDrive)", "status": "operational", "notes": "Full Graph API integration. 25 MCP tools." },
-      { "name": "Nexus Website", "type": "Public Website", "status": "operational", "notes": "Live on Replit. Leadership dashboard pages in build." },
-      { "name": "Commission Tracker", "type": "Financial", "status": "operational", "notes": "PostgreSQL + Excel dual-tracking. Feb CLOSED." },
-      { "name": "Claude Code Terminal", "type": "AI Interface", "status": "operational", "notes": "Opus 4.6, 12 skills, 11 hooks, 3 agents. Backdoor session live." },
-      { "name": "Obsidian Vault", "type": "Knowledge Base", "status": "operational", "notes": "1,143 files across 8 domains. iCloud synced." },
-      { "name": "Vault Maintenance", "type": "Automation", "status": "operational", "notes": "Daily 5 AM scan. Weekly arch review. Monthly audit." },
-      { "name": "Dashboard Email System", "type": "Automation", "status": "operational", "notes": "8 cadences: morning, EOD, weekly, monthly, quarterly." },
-      { "name": "Command Scanner", "type": "Automation", "status": "operational", "notes": "Reply-to-act from phone. Every 15 min." },
-      { "name": "OneDrive Indexer", "type": "Automation", "status": "operational", "notes": "6,971 files indexed. Real-time fswatch + scheduled fallback." },
-      { "name": "Advisor Metrics", "type": "Analytics", "status": "operational", "notes": "Daily email + calendar collection. 30-day backfill complete." }
+      {
+        "name": "NexMail",
+        "type": "Email Automation",
+        "status": "operational",
+        "category": "core",
+        "users": 2,
+        "jobs": 32,
+        "uptime": "99.9%",
+        "lastAudit": "2026-03-14",
+        "schedule": "25 Jason jobs + 7 Ken jobs, various cadences (2x/day to 1x/week)",
+        "details": "Digest V12, command scanner, reply commands, advisor metrics, follow-up monitor, client folder sync, calendar sync, contact scraping, feature requests, rotating tips, scheduled sends.",
+        "knownIssues": [
+          "Ken missing folder IDs for digest reply scanner",
+          "meeting_sync.py has hardcoded NexBench API key",
+          "monthly_unum_request.py not multi-user ready"
+        ]
+      },
+      {
+        "name": "NexHub CRM",
+        "type": "CRM",
+        "status": "degraded",
+        "category": "core",
+        "platform": "Flask + PostgreSQL on Replit",
+        "subProjects": 15,
+        "subProjectsComplete": 2,
+        "subProjectsPastDue": 5,
+        "details": "Commission module live. Code cleanup + data access control complete. 10 sub-projects past due need new dates.",
+        "knownIssues": [
+          "Former advisors retain data access — security blocker",
+          "Org API leaks data across access boundaries",
+          "5 sub-projects past due (Data Integrity, AI CRM Access, Teams Bot, Performance Foundation, Claude Team)"
+        ]
+      },
+      {
+        "name": "NexBench HRIS",
+        "type": "HRIS / Onboarding",
+        "status": "operational",
+        "category": "core",
+        "platform": "GitHub Pages (mockup) → Replit (production)",
+        "details": "HTML mockup live. 13 onboarding docs FINAL (6 revision passes, 4 AI reviews). IC classification hardened. Portal build next on Replit.",
+        "knownIssues": []
+      },
+      {
+        "name": "NexOS",
+        "type": "Project Management",
+        "status": "operational",
+        "category": "core",
+        "details": "8-domain Obsidian vault structure. 75 projects tracked across 6 domains. PROJECTS.md as canonical index.",
+        "metrics": { "totalProjects": 75, "needDates": 30, "pastDue": 10, "complete": 4 },
+        "knownIssues": ["~30 projects without target dates"]
+      },
+      {
+        "name": "Nexus 365",
+        "type": "M365 (Email, Calendar, OneDrive, SharePoint)",
+        "status": "operational",
+        "category": "core",
+        "mcpTools": 25,
+        "details": "Full Graph API integration. Delegated auth (Jason) + app-level auth (Ken, org-wide). Calendars.ReadWrite granted. SharePoint/OneDrive read access.",
+        "knownIssues": []
+      },
+      {
+        "name": "Nexus Website",
+        "type": "Public Website",
+        "status": "operational",
+        "category": "core",
+        "platform": "Replit (React/TS/Vite + shadcn/ui)",
+        "details": "Live at nexusbenefitsolutions.com. Leadership dashboard section in build. Blog Post #1 live.",
+        "knownIssues": ["Website rebuild past due (was Feb 28)", "Leadership dashboard pages pending"]
+      },
+      {
+        "name": "Commission Tracker",
+        "type": "Financial System",
+        "status": "operational",
+        "category": "core",
+        "platform": "PostgreSQL (Neon) + Excel (OneDrive) dual-tracking",
+        "details": "Feb 2026 CLOSED — $17,842.70, 12 carriers, $0 gap. API + MCP server + web dashboard at /tracker. Cash basis accounting.",
+        "metrics": { "carriersTracked": 12, "lastMonthClosed": "Feb 2026", "reconciliationGap": 0 },
+        "knownIssues": ["March workbook not started yet"]
+      },
+      {
+        "name": "Claude Code Terminal",
+        "type": "AI Interface",
+        "status": "operational",
+        "category": "infrastructure",
+        "details": "Opus 4.6 (1M context). 8 rules files, 12 skills, 3 agents, 11 hooks. Persistent memory system. Backdoor session live (tmux + launchd). Remote Control enabled.",
+        "metrics": { "skills": 12, "hooks": 11, "agents": 3, "rulesFiles": 8, "mcpServers": 6 },
+        "knownIssues": []
+      },
+      {
+        "name": "Obsidian Vault",
+        "type": "Knowledge Base",
+        "status": "operational",
+        "category": "infrastructure",
+        "details": "1,143 files across 8 domains. Wiki-linked. iCloud synced to iPhone. Foam + Markdown All in One in VS Code.",
+        "metrics": { "totalFiles": 1143, "kbFiles": 668, "projectFiles": 475, "domains": 8 },
+        "knownIssues": ["3,398 issues identified in last health scan (832 missing domain, 776 broken links, 589 orphans)"]
+      },
+      {
+        "name": "Vault Maintenance",
+        "type": "Automation",
+        "status": "operational",
+        "category": "automation",
+        "schedule": "Daily 5 AM scan + Sunday 6 AM arch review + 1st of month full audit",
+        "details": "Auto-scan, Haiku digest, frontmatter fixes, wiki-link enforcement. 20 frontmatter fixes prepared. iCloud backup every 15 min.",
+        "knownIssues": []
+      },
+      {
+        "name": "Dashboard Email System",
+        "type": "Automation",
+        "status": "operational",
+        "category": "automation",
+        "schedule": "8 cadences: morning priorities, EOD log, weekly close/open, monthly close/open, quarterly close/open",
+        "details": "Pulls live calendar via Graph API. Calendar noise filtered. Session summaries abbreviated. Monthly/quarterly as executive summaries.",
+        "knownIssues": []
+      },
+      {
+        "name": "Command Scanner",
+        "type": "Automation",
+        "status": "operational",
+        "category": "automation",
+        "schedule": "Every 15 minutes",
+        "details": "Reply to any Command Central email from phone → Haiku classifies intent → drafts emails, updates projects, creates reminders/tasks.",
+        "knownIssues": []
+      },
+      {
+        "name": "OneDrive Indexer",
+        "type": "Automation",
+        "status": "operational",
+        "category": "automation",
+        "schedule": "Real-time (fswatch daemon) + fallback 6:15 AM + 4:00 PM",
+        "details": "6,971 files indexed across 18 top-level folders. Wiki-linked Obsidian index. Client/prospect folders separated. New files flagged. Commission statements tracked individually.",
+        "metrics": { "filesIndexed": 6971, "topLevelFolders": 18 },
+        "knownIssues": []
+      },
+      {
+        "name": "Advisor Metrics",
+        "type": "Analytics",
+        "status": "operational",
+        "category": "automation",
+        "schedule": "Daily 6:30 AM (Jason), 6:45 AM (Ken)",
+        "details": "Email + calendar aggregation per advisor. 30 days backfilled. March snapshot: Jason 200 sent / 886 received / 39 meetings; Ken 84 sent / 709 received / 24 meetings.",
+        "knownIssues": []
+      },
+      {
+        "name": "System Maintenance Briefings",
+        "type": "Automation",
+        "status": "operational",
+        "category": "automation",
+        "schedule": "Daily 6:45 AM pulse, Sunday 7 AM weekly review, 1st of month 7 AM monthly audit",
+        "details": "13 scanners: job health, token expiry, stale jobs, pending amendments, follow-ups, contact queue, feature requests, vault digest, skill report, arch drift, known issues, backup, marketing rules.",
+        "knownIssues": []
+      },
+      {
+        "name": "QuickBooks MCP",
+        "type": "Accounting Integration",
+        "status": "partial",
+        "category": "core",
+        "details": "55 tools installed (CRUD + search for 11 entities). Sandbox credentials configured. Development/sandbox ready to test.",
+        "knownIssues": ["Production access blocked on Intuit approval (MFA required, can't automate)"]
+      }
     ],
     "recentActivity": [
       {
