@@ -1,9 +1,9 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-15T23:47:48.421307+00:00",
-    "updatedBy": "Domain Agents",
-    "version": "2.0",
-    "dataSource": "Agent State Files"
+    "lastUpdated": "2026-03-16T12:00:00Z",
+    "updatedBy": "Claude Code",
+    "version": "2.1",
+    "dataSource": "Agent State Files + Manual Curation"
   },
   "eos": {
     "scorecard": [
@@ -13,7 +13,8 @@
         "actual": 0.0,
         "unit": "USD",
         "period": "2026-03",
-        "status": "behind"
+        "status": "in_progress",
+        "notes": "March collection in progress. Feb closed at $17,842.70."
       },
       {
         "name": "Active Group Clients",
@@ -21,7 +22,8 @@
         "actual": 40,
         "unit": "count",
         "period": "Mar 2026",
-        "status": "on_track"
+        "status": "on_track",
+        "notes": "40 total orgs in CRM, 7 active group clients"
       },
       {
         "name": "Active Advisors",
@@ -56,13 +58,81 @@
         "status": "at_risk"
       }
     ],
-    "rocks": [],
+    "rocks": [
+      {
+        "name": "Domain Agents - Full Deployment",
+        "owner": "Jason Bearup",
+        "status": "on_track",
+        "quarter": "Q1/Q2 2026",
+        "notes": "v1 DEPLOYED - 6 agents live. Next: Replit webhooks for instant response, Claude Code skills, dashboard JSON builder."
+      },
+      {
+        "name": "NexHub CRM - Security + Admin CLI + MCP Apps",
+        "owner": "Jason Bearup",
+        "status": "on_track",
+        "quarter": "Q1/Q2 2026",
+        "notes": "CLI built on CRM side. MCP Apps UI coded, deploy pending. Security fixes (former advisor access, org API leaks) still blocking advisor scaling."
+      },
+      {
+        "name": "NexBench HRIS - Onboarding Portal & Signatures",
+        "owner": "Jason Bearup",
+        "status": "on_track",
+        "quarter": "Q1/Q2 2026",
+        "notes": "13 docs FINAL. Next: collect signatures (Courtney first), build portal on Replit, contractor agreements for staff."
+      },
+      {
+        "name": "Nexus Health Plus - Phase 2 Partnership",
+        "owner": "Jason Bearup",
+        "status": "on_track",
+        "quarter": "Q1/Q2 2026",
+        "notes": "Met Howard Lancaster (Insight Benefits) Mar 13. Follow-up Mar 21. Carrier outreach for indemnity insurance is critical path."
+      },
+      {
+        "name": "Commission Tracker - VA-Ready",
+        "owner": "Jason Bearup",
+        "status": "on_track",
+        "quarter": "Q1/Q2 2026",
+        "notes": "Feb CLOSED. SOP created. Ellen incoming for statement gathering. Cam in 3-month trial."
+      },
+      {
+        "name": "Leadership Dashboard - Pages Live",
+        "owner": "Jason Bearup",
+        "status": "on_track",
+        "quarter": "Q1/Q2 2026",
+        "notes": "Data v2.1 on GitHub. Replit agent building 8 pages. Domain Agents feed data automatically."
+      },
+      {
+        "name": "Blog Strategy - Content Engine Running",
+        "owner": "Jason Bearup",
+        "status": "on_track",
+        "quarter": "Q1/Q2 2026",
+        "notes": "38 drafts written. 3 posts published. March posts #2-4 ready for final review. ACG panel Apr 28."
+      }
+    ],
     "issues": [
       {
-        "title": "4 blog posts ready for Jason's review",
-        "priority": "medium",
+        "title": "CRM security: former advisors retain data access",
+        "priority": "high",
         "owner": "Jason Bearup",
-        "category": "marketing"
+        "category": "technology"
+      },
+      {
+        "title": "No signed legal agreements for any team member",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "operations"
+      },
+      {
+        "title": "Agency E&O insurance gap",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "finance"
+      },
+      {
+        "title": "1928 job log errors in 24 hours",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
       },
       {
         "title": "12 projects past due",
@@ -71,156 +141,210 @@
         "category": "operations"
       },
       {
-        "title": "Job failed (exit 1): com.jasonsmac.architecture-review",
+        "title": "4 blog posts ready for review",
+        "priority": "medium",
+        "owner": "Jason Bearup",
+        "category": "marketing"
+      },
+      {
+        "title": "0/7 training modules complete",
+        "priority": "medium",
+        "owner": "Jason Bearup",
+        "category": "talent"
+      },
+      {
+        "title": "Ken missing NexMail folder IDs",
         "priority": "medium",
         "owner": "Jason Bearup",
         "category": "technology"
       },
       {
-        "title": "1928 errors in job logs in the last 24 hours",
+        "title": "Job failed: architecture-review",
         "priority": "medium",
         "owner": "Jason Bearup",
         "category": "technology"
-      },
-      {
-        "title": "0 of 7 training modules complete \u2014 all past due",
-        "priority": "medium",
-        "owner": "Jason Bearup",
-        "category": "talent"
-      },
-      {
-        "title": "Unsigned docs: CRM Client Audit \u2014 onboarding & compliance docs** \u2014 For each client, confirm onboarding docs (signed agreements, BAA, etc.) and compliance docs (POP, SBC, wrap doc, ERISA notices) are complete and filed. Flag gaps. **Due: Mar 21.**",
-        "priority": "medium",
-        "owner": "Jason Bearup",
-        "category": "talent"
-      },
-      {
-        "title": "Unsigned docs: Courtney onboarding checklist** \u2014 finalize docs, get her signed and rolling",
-        "priority": "medium",
-        "owner": "Jason Bearup",
-        "category": "talent"
       }
     ],
     "todos": [
       {
-        "name": "[[nexus-health-plus|Nexus Health Plus]]: Connect with indemnity carriers** \u2014 Need carrier conversations started before [[Howard]] follow-up meeting Fri Mar 21. Top targets: Crum & Forster (Michael Vaccaro), [[Clear Spring]] Health, AXIS Group Benefits.",
-        "done": false
+        "name": "Nexus Health Plus: Connect with indemnity carriers before Howard follow-up Mar 21",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-21"
       },
       {
-        "name": "Review 1,202 scraped contacts** \u2014 Clean personal/junk contacts, then approve CRM import. Jason 502, Ken 700. File: `~/.config/[[M365|m365]]-mcp/contact_review_jason.json`. Import job paused until review complete.",
-        "done": false
+        "name": "Review 1,202 scraped contacts - clean personal/junk, approve CRM import (Jason 502, Ken 700)",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "Contact sync architecture** \u2014 Decide: CRM \u2192 Outlook/Exchange \u2192 phones. Three categories: client contacts (per-advisor), shared resources (carrier reps, GAs, team \u2014 curated master list pushed to everyone), prospect contacts. Needs [[Graph API]] Contacts write permissions. Project: `5-technology/crm-contact-sync/`.",
-        "done": false
+        "name": "Contact sync architecture - decide CRM to Outlook/Exchange to phones flow",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "CRM Client Audit \u2014 policies & renewals** \u2014 Review every client org in [[NexHub CRM]]. Verify all policies are entered with correct carrier, plan type, effective/renewal dates. Flag missing or stale records. **Due: Mar 21.**",
-        "done": false
+        "name": "CRM Client Audit - policies & renewals: verify all policies entered with correct carrier, plan type, dates",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-21"
       },
       {
-        "name": "CRM Client Audit \u2014 onboarding & compliance docs** \u2014 For each client, confirm onboarding docs (signed agreements, BAA, etc.) and compliance docs (POP, SBC, wrap doc, ERISA notices) are complete and filed. Flag gaps. **Due: Mar 21.**",
-        "done": false
+        "name": "CRM Client Audit - onboarding & compliance docs: confirm signed agreements, BAA, POP, SBC filed",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-21"
       },
       {
-        "name": "Bob Griffin follow-up** \u2014 ping again Wed Mar 18 if no response",
-        "done": false
+        "name": "Bob Griffin follow-up - ping again Wed Mar 18 if no response",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-18"
       },
       {
-        "name": "[[nexus-health-plus|Nexus Health Plus]] Phase 2** \u2014 [[Howard]] meeting logged, carrier research updated (6 carriers), outreach brief emailed, Mar 21 follow-up on calendar",
-        "done": true
+        "name": "Review & edit remaining 3 March blog posts - Church ERISA, Church Insurance Options, ICHRA Marketplace Exodus",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "Griffin Beverage** \u2014 CRM setup (org, contacts, deal $75K), prospect folder, follow-up email sent to Bob (cc Tom)",
-        "done": true
+        "name": "Start March 2026 commission workbook",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "[[cobra-notice-requirements-and-penalties|COBRA]] outreach \u2014 Media Place Partners** \u2014 4 branded COBRA letters + emails drafted for terminated employees (Gathen, Koop, Kraft, Oliver). Full cost breakdowns with 2% admin. Project at `1-sales/[1] clients/media-place-partners-adtegrity/`",
-        "done": true
+        "name": "Ellen: carrier portal access + Loom videos (13 carriers)",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-31"
       },
       {
-        "name": "Pay agents** ($5,736.97 total) \u2014 PAID, statements sent Mar 13",
-        "done": true
+        "name": "Ellen: logins + system access - email, OneDrive, carrier portals",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "[[nexus-health-plus|Nexus Health Plus]]: Connect with indemnity carriers** \u2014 Need carrier conversations started before [[Howard]] follow-up meeting Fri Mar 21. Top targets: Crum & Forster (Michael Vaccaro), [[Clear Spring]] Health, AXIS Group Benefits.",
-        "done": false
+        "name": "QuickBooks Online - 2025 backlog cleanup and close out books",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-31"
       },
       {
-        "name": "Review & edit remaining 3 March posts** \u2014 Church ERISA, Church Insurance Options, [[ichra-expertise|ICHRA]] Marketplace Exodus",
-        "done": false
+        "name": "QuickBooks Online - 2026 categories, recurring transactions, monthly close setup",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": "2026-03-31"
       },
       {
-        "name": "Start March 2026 commission workbook**",
-        "done": false
+        "name": "Ken's individual commissions - look up old individual policy data",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "Ellen: carrier portal access + Loom videos** \u2014 13 carriers, target Mar 31",
-        "done": false
+        "name": "Move March PH statement to OneDrive Commission_Statements",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "Ellen: logins + system access** \u2014 email, [[OneDrive]], carrier portals, etc.",
-        "done": false
+        "name": "Viper Industrial Feb Beam commission - missed during Feb entry, add to Tom's next pay",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "Contact sync architecture** \u2014 Decide: CRM \u2192 Outlook/Exchange \u2192 phones. Three categories: client contacts (per-advisor), shared resources (carrier reps, GAs, team \u2014 curated master list pushed to everyone), prospect contacts. Needs [[Graph API]] Contacts write permissions. Project: `5-technology/crm-contact-sync/`.",
-        "done": false
+        "name": "ACG panel blog post - Practical AI for Business Owners companion resource",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "CRM Client Audit \u2014 policies & renewals** \u2014 Review every client org in [[NexHub CRM]]. Verify all policies are entered with correct carrier, plan type, effective/renewal dates. Flag missing or stale records. **Due: Mar 21.**",
-        "done": false
+        "name": "Send Ken & Brenda interview questions for team content program",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "[[QuickBooks]] Online \u2014 2025 backlog cleanup** \u2014 Reconcile all 2025 transactions, categorize uncategorized items, verify commission income entries match tracker, close out 2025 books. **Due: Mar 31.**",
-        "done": false
+        "name": "Audit/set up Nexus LinkedIn company page",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "QuickBooks Online \u2014 2026 running smooth** \u2014 Set up 2026 categories, recurring transactions, agent pay tracking, ensure monthly close process is clean going forward. **Due: Mar 31.**",
-        "done": false
+        "name": "Ellen: photo + profile on Nexus website",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "Ken's individual commissions** \u2014 look up old individual policy data for Ken",
-        "done": false
+        "name": "All team member website pages - build profiles (Ellen, Grace, Wendi, Sheya, Courtney)",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "Branded HTML Commission Processing SOP** \u2014 stored on website + MD file, will refine as process evolves",
-        "done": true
+        "name": "Courtney onboarding checklist - finalize docs, get signed",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "Move March PH statement** \u2014 `Priority_Health_03_2026.csv` from ~/Downloads \u2192 [[OneDrive]] Commission_Statements/Group_2026/ as `PriorityHealth_2026-03.csv`",
-        "done": false
+        "name": "Enneagram assessments - remind team this weekend",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "Viper Industrial Feb [[Beam]] commission** \u2014 missed during Feb data entry, needs added to Tom's next pay",
-        "done": false
+        "name": "Order business cards",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "Feb 2026 commissions CLOSED** \u2014 all 12 carriers entered, $17,842.70 verified, statements generated",
-        "done": true
+        "name": "Courtney training plan - scope next 2 weeks",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "3 commission statement draft emails** in Outlook \u2014 HTML attachments, correct signature (Ken $1,316.44, Cam $2,495.82, Tom $1,924.71)",
-        "done": true
+        "name": "Donald Koop personal email - need personal contact for COBRA letter",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "Commission Entry SOP created** \u2014 10-step process, 18-item checklist",
-        "done": true
+        "name": "OneDrive file monitoring - auto-detect new commission statements",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "[[s-corp-election-2025|S-Corp]] tax return filed** (Mar 15 deadline met early)",
-        "done": true
+        "name": "Marketing keep/kill rules config",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "[[nexus-health-plus|Nexus Health Plus]] Phase 2** \u2014 [[Howard]] meeting logged, carrier research updated (6 carriers), outreach brief emailed, Mar 21 follow-up on calendar",
-        "done": true
+        "name": "Blocked senders list config",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "[[Tom Snikkers]] commission reply** \u2014 8 groups addressed with March PH data, Tom told to follow up with PH himself on missing groups",
-        "done": true
+        "name": "launchd job health - check logs for errors",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       },
       {
-        "name": "Cam Manning commission reply** \u2014 MOO Feb explained (Steel 21 only, GLL has no MOO products), March PH confirmed (Steel 21, GLL, Insight Benefits present; Cutting Edge not on statement)",
-        "done": true
+        "name": "March blog posts - finalize and get to website agent (Posts #2, #3, #4)",
+        "owner": "Jason Bearup",
+        "done": false,
+        "dueDate": null
       }
     ],
     "accountability": [
@@ -330,7 +454,7 @@
   },
   "domains": {
     "sales": {
-      "summary": "Last scan: 2026-03-15T22:58:47.474023+00:00. 6 projects tracked. 0 alerts.",
+      "summary": "7 active group clients, 100% retention. $75K pipeline (Griffin Beverage). Nexus Health Plus Phase 2 active - Howard meeting Mar 21. Builders Exchange partnership developing through Ken.",
       "metrics": {
         "totalPipelineValue": 75000.0,
         "activeDeals": 1,
@@ -342,77 +466,87 @@
       "projects": [
         {
           "name": "builders-exchange",
-          "status": "ACTIVE - Hot referral relationship, second meeting complete, pilot strategy defined",
+          "status": "active",
+          "priority": "high",
+          "rock": false,
+          "nextAction": "Follow up on pilot strategy after second meeting",
           "path": "1-sales/builders-exchange/"
         },
         {
           "name": "griffin-beverage",
-          "status": "unknown",
+          "status": "active",
+          "priority": "high",
+          "rock": false,
+          "nextAction": "Bob Griffin follow-up Mar 18 if no response",
           "path": "1-sales/griffin-beverage/"
         },
         {
           "name": "michigan-prospect-pipeline",
-          "status": "unknown",
+          "status": "active",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "Review and clean 1,202 scraped contacts for CRM import",
           "path": "1-sales/michigan-prospect-pipeline/"
         },
         {
           "name": "nexus-health-plus",
-          "status": "PHASE 2 ACTIVE \u2014 Met with [[Howard]] Mar 13. Follow-up Mar 21. Carrier outreach for indemnity insurance is the critical path.",
+          "status": "active",
+          "priority": "high",
+          "rock": true,
+          "nextAction": "Carrier outreach for indemnity insurance before Mar 21 Howard follow-up",
           "path": "1-sales/nexus-health-plus/"
         },
         {
           "name": "presentations",
-          "status": "unknown",
+          "status": "active",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "Update pitch deck with latest metrics",
           "path": "1-sales/presentations/"
-        },
-        {
-          "name": "[1] clients",
-          "status": "unknown",
-          "path": "1-sales/[1] clients/"
         }
       ],
       "todos": [
         {
-          "name": "[[nexus-health-plus|Nexus Health Plus]]: Connect with indemnity carriers** \u2014 Need carrier conversations started before [[Howard]] follow-up meeting Fri Mar 21. Top targets: Crum & Forster (Michael Vaccaro), [[Clear Spring]] Health, AXIS Group Benefits.",
-          "done": false
+          "name": "Nexus Health Plus: Connect with indemnity carriers before Howard follow-up Mar 21",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-21"
         },
         {
-          "name": "Review 1,202 scraped contacts** \u2014 Clean personal/junk contacts, then approve CRM import. Jason 502, Ken 700. File: `~/.config/[[M365|m365]]-mcp/contact_review_jason.json`. Import job paused until review complete.",
-          "done": false
+          "name": "Review 1,202 scraped contacts - clean personal/junk, approve CRM import",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
-          "name": "Contact sync architecture** \u2014 Decide: CRM \u2192 Outlook/Exchange \u2192 phones. Three categories: client contacts (per-advisor), shared resources (carrier reps, GAs, team \u2014 curated master list pushed to everyone), prospect contacts. Needs [[Graph API]] Contacts write permissions. Project: `5-technology/crm-contact-sync/`.",
-          "done": false
+          "name": "CRM Client Audit - policies & renewals: verify all policies entered correctly",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-21"
         },
         {
-          "name": "CRM Client Audit \u2014 policies & renewals** \u2014 Review every client org in [[NexHub CRM]]. Verify all policies are entered with correct carrier, plan type, effective/renewal dates. Flag missing or stale records. **Due: Mar 21.**",
-          "done": false
+          "name": "CRM Client Audit - onboarding & compliance docs: confirm all filed",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-21"
         },
         {
-          "name": "CRM Client Audit \u2014 onboarding & compliance docs** \u2014 For each client, confirm onboarding docs (signed agreements, BAA, etc.) and compliance docs (POP, SBC, wrap doc, ERISA notices) are complete and filed. Flag gaps. **Due: Mar 21.**",
-          "done": false
+          "name": "Bob Griffin follow-up - ping again Wed Mar 18 if no response",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-18"
         },
         {
-          "name": "Bob Griffin follow-up** \u2014 ping again Wed Mar 18 if no response",
-          "done": false
-        },
-        {
-          "name": "[[nexus-health-plus|Nexus Health Plus]] Phase 2** \u2014 [[Howard]] meeting logged, carrier research updated (6 carriers), outreach brief emailed, Mar 21 follow-up on calendar",
-          "done": true
-        },
-        {
-          "name": "Griffin Beverage** \u2014 CRM setup (org, contacts, deal $75K), prospect folder, follow-up email sent to Bob (cc Tom)",
-          "done": true
-        },
-        {
-          "name": "[[cobra-notice-requirements-and-penalties|COBRA]] outreach \u2014 Media Place Partners** \u2014 4 branded COBRA letters + emails drafted for terminated employees (Gathen, Koop, Kraft, Oliver). Full cost breakdowns with 2% admin. Project at `1-sales/[1] clients/media-place-partners-adtegrity/`",
-          "done": true
+          "name": "Donald Koop personal email - need personal contact for COBRA letter",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         }
       ],
       "resources": []
     },
     "finance": {
-      "summary": "Last scan: 2026-03-15T22:58:52.319727+00:00. 3 projects tracked. 0 alerts.",
+      "summary": "Feb 2026 closed at $17,842.70 revenue, $0 reconciliation gap. March collection starting. Agency E&O is #1 risk gap. QuickBooks 2025 backlog cleanup needed.",
       "metrics": {
         "currentPeriod": "2026-03",
         "totalCommissions": 0.0,
@@ -427,114 +561,77 @@
       "projects": [
         {
           "name": "commission-tracker",
-          "status": "unknown",
+          "status": "ongoing",
+          "priority": "high",
+          "rock": true,
+          "nextAction": "Start March 2026 commission workbook, onboard Ellen for statement gathering",
           "path": "2-finance/commission-tracker/"
         },
         {
           "name": "risk-management",
           "status": "active",
+          "priority": "high",
+          "rock": false,
+          "nextAction": "Resolve agency E&O insurance gap",
           "path": "2-finance/risk-management/"
         },
         {
           "name": "financial-cleanup",
-          "status": "unknown",
+          "status": "active",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "QuickBooks 2025 backlog reconciliation by Mar 31",
           "path": "2-finance/financial-cleanup/"
         }
       ],
       "todos": [
         {
-          "name": "Pay agents** ($5,736.97 total) \u2014 PAID, statements sent Mar 13",
-          "done": true
+          "name": "Start March 2026 commission workbook",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
-          "name": "[[nexus-health-plus|Nexus Health Plus]]: Connect with indemnity carriers** \u2014 Need carrier conversations started before [[Howard]] follow-up meeting Fri Mar 21. Top targets: Crum & Forster (Michael Vaccaro), [[Clear Spring]] Health, AXIS Group Benefits.",
-          "done": false
+          "name": "Move March PH statement to OneDrive Commission_Statements",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
-          "name": "Review & edit remaining 3 March posts** \u2014 Church ERISA, Church Insurance Options, [[ichra-expertise|ICHRA]] Marketplace Exodus",
-          "done": false
+          "name": "Viper Industrial Feb Beam commission - add to Tom's next pay",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
-          "name": "Start March 2026 commission workbook**",
-          "done": false
+          "name": "Ken's individual commissions - look up old individual policy data",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
-          "name": "Ellen: carrier portal access + Loom videos** \u2014 13 carriers, target Mar 31",
-          "done": false
+          "name": "QuickBooks Online - 2025 backlog cleanup and close out books",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-31"
         },
         {
-          "name": "Ellen: logins + system access** \u2014 email, [[OneDrive]], carrier portals, etc.",
-          "done": false
+          "name": "QuickBooks Online - 2026 categories, recurring transactions, monthly close setup",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-31"
         },
         {
-          "name": "Contact sync architecture** \u2014 Decide: CRM \u2192 Outlook/Exchange \u2192 phones. Three categories: client contacts (per-advisor), shared resources (carrier reps, GAs, team \u2014 curated master list pushed to everyone), prospect contacts. Needs [[Graph API]] Contacts write permissions. Project: `5-technology/crm-contact-sync/`.",
-          "done": false
-        },
-        {
-          "name": "CRM Client Audit \u2014 policies & renewals** \u2014 Review every client org in [[NexHub CRM]]. Verify all policies are entered with correct carrier, plan type, effective/renewal dates. Flag missing or stale records. **Due: Mar 21.**",
-          "done": false
-        },
-        {
-          "name": "[[QuickBooks]] Online \u2014 2025 backlog cleanup** \u2014 Reconcile all 2025 transactions, categorize uncategorized items, verify commission income entries match tracker, close out 2025 books. **Due: Mar 31.**",
-          "done": false
-        },
-        {
-          "name": "QuickBooks Online \u2014 2026 running smooth** \u2014 Set up 2026 categories, recurring transactions, agent pay tracking, ensure monthly close process is clean going forward. **Due: Mar 31.**",
-          "done": false
-        },
-        {
-          "name": "Ken's individual commissions** \u2014 look up old individual policy data for Ken",
-          "done": false
-        },
-        {
-          "name": "Branded HTML Commission Processing SOP** \u2014 stored on website + MD file, will refine as process evolves",
-          "done": true
-        },
-        {
-          "name": "Move March PH statement** \u2014 `Priority_Health_03_2026.csv` from ~/Downloads \u2192 [[OneDrive]] Commission_Statements/Group_2026/ as `PriorityHealth_2026-03.csv`",
-          "done": false
-        },
-        {
-          "name": "Viper Industrial Feb [[Beam]] commission** \u2014 missed during Feb data entry, needs added to Tom's next pay",
-          "done": false
-        },
-        {
-          "name": "Feb 2026 commissions CLOSED** \u2014 all 12 carriers entered, $17,842.70 verified, statements generated",
-          "done": true
-        },
-        {
-          "name": "3 commission statement draft emails** in Outlook \u2014 HTML attachments, correct signature (Ken $1,316.44, Cam $2,495.82, Tom $1,924.71)",
-          "done": true
-        },
-        {
-          "name": "Commission Entry SOP created** \u2014 10-step process, 18-item checklist",
-          "done": true
-        },
-        {
-          "name": "[[s-corp-election-2025|S-Corp]] tax return filed** (Mar 15 deadline met early)",
-          "done": true
-        },
-        {
-          "name": "[[nexus-health-plus|Nexus Health Plus]] Phase 2** \u2014 [[Howard]] meeting logged, carrier research updated (6 carriers), outreach brief emailed, Mar 21 follow-up on calendar",
-          "done": true
-        },
-        {
-          "name": "[[Tom Snikkers]] commission reply** \u2014 8 groups addressed with March PH data, Tom told to follow up with PH himself on missing groups",
-          "done": true
-        },
-        {
-          "name": "Cam Manning commission reply** \u2014 MOO Feb explained (Steel 21 only, GLL has no MOO products), March PH confirmed (Steel 21, GLL, Insight Benefits present; Cutting Edge not on statement)",
-          "done": true
-        },
-        {
-          "name": "[[OneDrive]] file monitoring** \u2014 auto-detect new [[commission-statements|commission statements]] (manual for now)",
-          "done": false
+          "name": "OneDrive file monitoring - auto-detect new commission statements",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         }
       ],
       "resources": []
     },
     "marketing": {
-      "summary": "Last scan: 2026-03-15T22:58:53.378920+00:00. 7 projects tracked. 1 alerts.",
+      "summary": "38 blog drafts written, 3 published. March posts #2-4 ready for review. ACG AI Panel Apr 28. Grace Morris starting LinkedIn/social media ramp.",
       "metrics": {
         "totalDrafts": 38,
         "published": 3,
@@ -543,107 +640,104 @@
       },
       "projects": [
         {
-          "name": "advisor-hub",
-          "status": "unknown",
-          "path": "4-marketing/advisor-hub/"
-        },
-        {
-          "name": "sbbmi-resource-hub",
-          "status": "unknown",
-          "path": "4-marketing/sbbmi-resource-hub/"
-        },
-        {
-          "name": "nexus-website",
-          "status": "unknown",
-          "path": "4-marketing/nexus-website/"
+          "name": "blog-strategy-2026",
+          "status": "active",
+          "priority": "high",
+          "rock": true,
+          "nextAction": "Finalize March posts #2-4 and publish",
+          "path": "4-marketing/blog-strategy-2026/"
         },
         {
           "name": "acg-ai-panel",
           "status": "active",
+          "priority": "high",
+          "rock": false,
+          "nextAction": "Write companion blog post: Practical AI for Business Owners",
           "path": "4-marketing/acg-ai-panel/"
         },
         {
-          "name": "marketing-assets",
-          "status": "Medium | Status: Not started.",
-          "path": "4-marketing/marketing-assets/"
+          "name": "nexus-website",
+          "status": "active",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "Build team member pages for new hires",
+          "path": "4-marketing/nexus-website/"
         },
         {
-          "name": "blog-strategy-2026",
-          "status": "unknown",
-          "path": "4-marketing/blog-strategy-2026/"
+          "name": "advisor-hub",
+          "status": "parked",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "Define scope and content requirements",
+          "path": "4-marketing/advisor-hub/"
+        },
+        {
+          "name": "sbbmi-resource-hub",
+          "status": "parked",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "Plan resource hub structure",
+          "path": "4-marketing/sbbmi-resource-hub/"
         },
         {
           "name": "newsletter",
-          "status": "unknown",
+          "status": "parked",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "Define newsletter strategy after blog engine running",
           "path": "4-marketing/newsletter/"
+        },
+        {
+          "name": "marketing-assets",
+          "status": "parked",
+          "priority": "low",
+          "rock": false,
+          "nextAction": "Create brand asset library",
+          "path": "4-marketing/marketing-assets/"
         }
       ],
       "todos": [
         {
-          "name": "Send bio + headshot for ACG panel** to Denise",
-          "done": true
+          "name": "ACG panel blog post - Practical AI for Business Owners companion resource",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
-          "name": "[[acg-ai-panel|ACG panel]] blog post** \u2014 \"Practical AI for Business Owners\" companion resource",
-          "done": false
+          "name": "Review & edit remaining 3 March posts - Church ERISA, Church Insurance Options, ICHRA Marketplace Exodus",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
-          "name": "Review & edit remaining 3 March posts** \u2014 Church ERISA, Church Insurance Options, [[ichra-expertise|ICHRA]] Marketplace Exodus",
-          "done": false
-        },
-        {
-          "name": "Send [[Ken Fortier|Ken]] & [[Brenda]] interview questions** \u2014 templates in `team-content-program.md`",
-          "done": false
+          "name": "Send Ken & Brenda interview questions for team content program",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
           "name": "Audit/set up Nexus LinkedIn company page",
-          "done": false
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
-          "name": "Ellen: photo + profile on [[nexus-website|Nexus website]]** \u2014 new team member page",
-          "done": false
+          "name": "March blog posts - finalize and get to website agent (Posts #2, #3, #4)",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
-          "name": "[[Grace Morris]]: social media project email sent** \u2014 LinkedIn company page ownership, 3-month ramp plan, 10-15 hrs/month",
-          "done": true
-        },
-        {
-          "name": "Onboarding docs COMPLETE** \u2014 13 documents, all final. Copied to `4-marketing/nexus-website/onboarding-docs/` for the website builder.",
-          "done": true
-        },
-        {
-          "name": "All team member website pages** \u2014 build out profiles for onboarding (Ellen, Grace, Wendi, Sheya, Courtney)",
-          "done": false
-        },
-        {
-          "name": "Enneagram assessments** \u2014 remind everyone this weekend (Ken, Cam, Tom, Courtney, Ellen, Grace, Wendi, Sheya)",
-          "done": false
-        },
-        {
-          "name": "March blog posts** \u2014 finalize and get to website agent (Posts #2, #3, #4 reviewed and ready)",
-          "done": false
-        },
-        {
-          "name": "Branded HTML Commission Processing SOP** \u2014 stored on website + MD file, will refine as process evolves",
-          "done": true
-        },
-        {
-          "name": "Ken blog coaching project** instructions finalized + emailed to Ken",
-          "done": true
-        },
-        {
-          "name": "[[Grace Morris]] social media** project email sent (3-month ramp plan)",
-          "done": true
-        },
-        {
-          "name": "Marketing keep/kill rules (`~/.config/[[M365|m365]]-mcp/marketing_rules.json`)",
-          "done": false
+          "name": "Marketing keep/kill rules config",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         }
       ],
       "resources": []
     },
     "operations": {
-      "summary": "Last scan: 2026-03-15T22:58:53.823983+00:00. 18 projects tracked. 1 alerts.",
+      "summary": "13 onboarding docs FINAL. VA trial active (Cam). Leadership dashboard building on Replit. 12 past-due projects need date review. 44 automation jobs running.",
       "metrics": {
         "totalProjects": 101,
         "pastDue": 12,
@@ -662,199 +756,127 @@
           "untagged": 147
         },
         "filesChanged24h": 82,
-        "automationJobs": 0,
-        "onboardingCount": 0
+        "automationJobs": 44,
+        "onboardingCount": 1
       },
       "projects": [
         {
-          "name": "cobra-fsa-hra-setup",
-          "status": "unknown",
-          "path": "3-operations/cobra-fsa-hra-setup/"
-        },
-        {
-          "name": "onedrive-file-org",
-          "status": "unknown",
-          "path": "3-operations/onedrive-file-org/"
-        },
-        {
-          "name": "personal-org-system",
-          "status": "unknown",
-          "path": "3-operations/personal-org-system/"
-        },
-        {
-          "name": "email-ops-automation",
-          "status": "active",
-          "path": "3-operations/email-ops-automation/"
-        },
-        {
-          "name": "nexos",
-          "status": "unknown",
-          "path": "3-operations/nexos/"
-        },
-        {
-          "name": "vendor-directory",
-          "status": "unknown",
-          "path": "3-operations/vendor-directory/"
-        },
-        {
-          "name": "va-onboarding",
-          "status": "ACTIVE - 3-month trial in progress, commission training complete",
-          "path": "3-operations/va-onboarding/"
-        },
-        {
-          "name": "nexus-leadership-dashboard",
-          "status": "unknown",
-          "path": "3-operations/nexus-leadership-dashboard/"
-        },
-        {
-          "name": "compliance-audit",
-          "status": "unknown",
-          "path": "3-operations/compliance-audit/"
-        },
-        {
-          "name": "vault-maintenance",
-          "status": "unknown",
-          "path": "3-operations/vault-maintenance/"
-        },
-        {
-          "name": "business-process-docs",
-          "status": "unknown",
-          "path": "3-operations/business-process-docs/"
-        },
-        {
-          "name": "renewal-process",
-          "status": "IN PROGRESS - Started: Dec 26, 2025",
-          "path": "3-operations/renewal-process/"
-        },
-        {
           "name": "nexbench-hris",
-          "status": "in-progress",
+          "status": "active",
+          "priority": "high",
+          "rock": true,
+          "nextAction": "Collect signatures (Courtney first), build onboarding portal on Replit",
           "path": "3-operations/nexbench-hris/"
         },
         {
-          "name": "business-strategy",
-          "status": "unknown",
-          "path": "3-operations/business-strategy/"
+          "name": "va-onboarding",
+          "status": "active",
+          "priority": "high",
+          "rock": true,
+          "nextAction": "Continue Cam 3-month trial, onboard Ellen for commission processing",
+          "path": "3-operations/va-onboarding/"
         },
         {
-          "name": "new-client-onboarding",
-          "status": "unknown",
-          "path": "3-operations/new-client-onboarding/"
+          "name": "leadership-dashboard",
+          "status": "active",
+          "priority": "high",
+          "rock": true,
+          "nextAction": "Replit agent building 8 pages from v2.1 JSON data",
+          "path": "3-operations/nexus-leadership-dashboard/"
         },
         {
-          "name": "file-organization",
-          "status": "unknown",
-          "path": "3-operations/file-organization/"
+          "name": "business-process-docs",
+          "status": "active",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "Document remaining key workflows",
+          "path": "3-operations/business-process-docs/"
         },
         {
-          "name": "onedrive-index",
-          "status": "unknown",
-          "path": "3-operations/onedrive-index/"
+          "name": "vault-maintenance",
+          "status": "ongoing",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "Address 3,398 vault issues (broken links, missing frontmatter)",
+          "path": "3-operations/vault-maintenance/"
         },
         {
-          "name": "compliance-doc-process",
-          "status": "unknown",
-          "path": "3-operations/compliance-doc-process/"
+          "name": "nexos",
+          "status": "ongoing",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "Maintain domain structure and project organization",
+          "path": "3-operations/nexos/"
+        },
+        {
+          "name": "renewal-process",
+          "status": "active",
+          "priority": "high",
+          "rock": false,
+          "nextAction": "Complete renewal workflow documentation",
+          "path": "3-operations/renewal-process/"
+        },
+        {
+          "name": "compliance-audit",
+          "status": "parked",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "Full group client compliance doc review",
+          "path": "3-operations/compliance-audit/"
+        },
+        {
+          "name": "cobra-fsa-hra-setup",
+          "status": "parked",
+          "priority": "low",
+          "rock": false,
+          "nextAction": "New group implementation templates",
+          "path": "3-operations/cobra-fsa-hra-setup/"
+        },
+        {
+          "name": "personal-org-system",
+          "status": "ongoing",
+          "priority": "low",
+          "rock": false,
+          "nextAction": "Maintain personal organization system",
+          "path": "3-operations/personal-org-system/"
         }
       ],
       "todos": [
         {
-          "name": "Ellen: carrier portal access + Loom videos** \u2014 13 carriers, target Mar 31",
-          "done": false
+          "name": "Courtney onboarding checklist - finalize docs, get signed",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
-          "name": "Ellen: photo + profile on [[nexus-website|Nexus website]]** \u2014 new team member page",
-          "done": false
+          "name": "Courtney training plan - scope next 2 weeks",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
-          "name": "Ellen: logins + system access** \u2014 email, [[OneDrive]], carrier portals, etc.",
-          "done": false
+          "name": "Order business cards",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
-          "name": "[[Grace Morris]]: social media project email sent** \u2014 LinkedIn company page ownership, 3-month ramp plan, 10-15 hrs/month",
-          "done": true
+          "name": "Enneagram assessments - remind team this weekend",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
-          "name": "Contact sync architecture** \u2014 Decide: CRM \u2192 Outlook/Exchange \u2192 phones. Three categories: client contacts (per-advisor), shared resources (carrier reps, GAs, team \u2014 curated master list pushed to everyone), prospect contacts. Needs [[Graph API]] Contacts write permissions. Project: `5-technology/crm-contact-sync/`.",
-          "done": false
-        },
-        {
-          "name": "CRM Client Audit \u2014 onboarding & compliance docs** \u2014 For each client, confirm onboarding docs (signed agreements, BAA, etc.) and compliance docs (POP, SBC, wrap doc, ERISA notices) are complete and filed. Flag gaps. **Due: Mar 21.**",
-          "done": false
-        },
-        {
-          "name": "QuickBooks Online \u2014 2026 running smooth** \u2014 Set up 2026 categories, recurring transactions, agent pay tracking, ensure monthly close process is clean going forward. **Due: Mar 31.**",
-          "done": false
-        },
-        {
-          "name": "Onboarding docs COMPLETE** \u2014 13 documents, all final. Copied to `4-marketing/nexus-website/onboarding-docs/` for the website builder.",
-          "done": true
-        },
-        {
-          "name": "Courtney onboarding checklist** \u2014 finalize docs, get her signed and rolling",
-          "done": false
-        },
-        {
-          "name": "All team member website pages** \u2014 build out profiles for onboarding (Ellen, Grace, Wendi, Sheya, Courtney)",
-          "done": false
-        },
-        {
-          "name": "Enneagram assessments** \u2014 remind everyone this weekend (Ken, Cam, Tom, Courtney, Ellen, Grace, Wendi, Sheya)",
-          "done": false
-        },
-        {
-          "name": "Order business cards** \u2014 get this done this weekend",
-          "done": false
-        },
-        {
-          "name": "Courtney training plan** \u2014 scope out what she can start working on next 2 weeks",
-          "done": false
-        },
-        {
-          "name": "Branded HTML Commission Processing SOP** \u2014 stored on website + MD file, will refine as process evolves",
-          "done": true
-        },
-        {
-          "name": "Donald Koop personal email** \u2014 work email may be dead (involuntary term). Need personal email or phone outreach (616-848-1170) for [[cobra-notice-requirements-and-penalties|COBRA]] letter",
-          "done": false
-        },
-        {
-          "name": "Commission Entry SOP created** \u2014 10-step process, 18-item checklist",
-          "done": true
-        },
-        {
-          "name": "Ken inbox cleaned** \u2014 10,321 emails processed to zero, 35 business emails rescued",
-          "done": true
-        },
-        {
-          "name": "Dashboard + Projects cleaned up** \u2014 session logging overhaul, PROJECTS.md rewritten",
-          "done": true
-        },
-        {
-          "name": "Command Scanner LIVE** \u2014 reply to any Command Central email \u2192 Haiku classifies \u2192 drafts emails, updates projects, creates reminders/tasks. Every 15 min.",
-          "done": true
-        },
-        {
-          "name": "Ken blog coaching project** instructions finalized + emailed to Ken",
-          "done": true
-        },
-        {
-          "name": "[[Grace Morris]] social media** project email sent (3-month ramp plan)",
-          "done": true
-        },
-        {
-          "name": "[[cobra-notice-requirements-and-penalties|COBRA]] outreach \u2014 Media Place Partners** \u2014 4 branded COBRA letters + emails drafted for terminated employees (Gathen, Koop, Kraft, Oliver). Full cost breakdowns with 2% admin. Project at `1-sales/[1] clients/media-place-partners-adtegrity/`",
-          "done": true
-        },
-        {
-          "name": "Dashboard health \u2014 auto-checked by vault-maintenance (daily 5am)",
-          "done": true
+          "name": "All team member website pages - build profiles (Ellen, Grace, Wendi, Sheya, Courtney)",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         }
       ],
       "resources": []
     },
     "technology": {
-      "summary": "Last scan: 2026-03-15T22:58:53.845991+00:00. 27 projects tracked. 2 alerts.",
+      "summary": "Domain Agents v1 LIVE - 6 AI agents running daily scans, email, Teams. NexHub CRM CLI built. MCP Apps UI coded. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
         "totalJobs": 44,
         "failedJobs": 1,
@@ -864,229 +886,104 @@
         "openFeatureRequests": 0,
         "plists": 0,
         "mcpServers": 2,
-        "hooks": 10,
-        "skills": 15,
-        "openKnownIssues": 0
+        "hooks": 11,
+        "claudeCodeSkills": 17,
+        "agents": 3,
+        "openKnownIssues": 0,
+        "automationJobsTotal": 44,
+        "systemsOnline": 16,
+        "mcpToolsTotal": 102
       },
       "projects": [
         {
-          "name": "email-automation-basic",
-          "status": "unknown",
-          "path": "5-technology/email-automation-basic/"
-        },
-        {
-          "name": "claude-code-setup",
-          "status": "unknown",
-          "path": "5-technology/claude-code-setup/"
-        },
-        {
-          "name": "rocktship-crm",
-          "status": "unknown",
-          "path": "5-technology/rocktship-crm/"
-        },
-        {
-          "name": "crm-contact-sync",
-          "status": "unknown",
-          "path": "5-technology/crm-contact-sync/"
-        },
-        {
-          "name": "email-migration",
-          "status": "unknown",
-          "path": "5-technology/email-migration/"
-        },
-        {
-          "name": "compliance-doc-creator",
-          "status": "unknown",
-          "path": "5-technology/compliance-doc-creator/"
-        },
-        {
-          "name": "ai-agent-strategy",
-          "status": "PHASE 1 COMPLETE - 8-day sprint finished. Infrastructure operational, moving to Phase 2.",
-          "path": "5-technology/ai-agent-strategy/"
-        },
-        {
-          "name": "mcp-vs-cli-research",
-          "status": "unknown",
-          "path": "5-technology/mcp-vs-cli-research/"
-        },
-        {
-          "name": "delegate-agent-stack",
-          "status": "unknown",
-          "path": "5-technology/delegate-agent-stack/"
-        },
-        {
-          "name": "mcp-vs-cli-evaluation",
-          "status": "unknown",
-          "path": "5-technology/mcp-vs-cli-evaluation/"
-        },
-        {
-          "name": "nexmail",
-          "status": "active",
-          "path": "5-technology/nexmail/"
-        },
-        {
-          "name": "infrastructure-evolution",
-          "status": "unknown",
-          "path": "5-technology/infrastructure-evolution/"
-        },
-        {
-          "name": "system-blueprint",
-          "status": "unknown",
-          "path": "5-technology/system-blueprint/"
-        },
-        {
-          "name": "local-rag",
-          "status": "Medium | Status: In progress.",
-          "path": "5-technology/local-rag/"
-        },
-        {
-          "name": "benefit-guide-creator",
-          "status": "unknown",
-          "path": "5-technology/benefit-guide-creator/"
-        },
-        {
           "name": "domain-agents",
-          "status": "active",
+          "status": "ongoing",
+          "priority": "high",
+          "rock": true,
+          "nextAction": "Replit webhooks for instant response, Claude Code skills, dashboard JSON builder",
           "path": "5-technology/domain-agents/"
         },
         {
-          "name": "notion-command-center",
-          "status": "unknown",
-          "path": "5-technology/notion-command-center/"
+          "name": "nexhub-crm",
+          "status": "active",
+          "priority": "high",
+          "rock": true,
+          "nextAction": "Deploy MCP Apps UI, fix security (former advisor access, org API leaks)",
+          "path": "5-technology/rocktship-crm/"
+        },
+        {
+          "name": "nexmail",
+          "status": "ongoing",
+          "priority": "high",
+          "rock": false,
+          "nextAction": "Monitor 44 jobs, expand to additional users",
+          "path": "5-technology/nexmail/"
         },
         {
           "name": "claude-code-optimization",
-          "status": "unknown",
+          "status": "ongoing",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "Continue refining hooks, skills, and agent configurations",
           "path": "5-technology/claude-code-optimization/"
         },
         {
-          "name": "quote-presentation",
-          "status": "unknown",
-          "path": "5-technology/quote-presentation/"
-        },
-        {
-          "name": "quickbooks-api-research",
-          "status": "research",
+          "name": "quickbooks-mcp",
+          "status": "active",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "Blocked on Intuit OAuth/API access approval",
           "path": "5-technology/quickbooks-api-research/"
         },
         {
-          "name": "claude-code-workspace",
-          "status": "unknown",
-          "path": "5-technology/claude-code-workspace/"
+          "name": "system-blueprint",
+          "status": "ongoing",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "Keep architecture docs current with system changes",
+          "path": "5-technology/system-blueprint/"
         },
         {
-          "name": "tech-stack-kb",
-          "status": "unknown",
-          "path": "5-technology/tech-stack-kb/"
+          "name": "openclaw",
+          "status": "parked",
+          "priority": "low",
+          "rock": false,
+          "nextAction": "Back burner - agent framework for future development",
+          "path": "5-technology/delegate-agent-stack/"
         },
         {
-          "name": "skill-improvement",
-          "status": "unknown",
-          "path": "5-technology/skill-improvement/"
-        },
-        {
-          "name": "sophie",
-          "status": "unknown",
-          "path": "5-technology/sophie/"
-        },
-        {
-          "name": "icra-calculator",
-          "status": "unknown",
-          "path": "5-technology/icra-calculator/"
-        },
-        {
-          "name": "claude-team",
-          "status": "IN PROGRESS - Claude Team active, Projects setup complete, MCP connections next",
-          "path": "5-technology/claude-team/"
-        },
-        {
-          "name": "client-work-packager",
-          "status": "unknown",
-          "path": "5-technology/client-work-packager/"
+          "name": "crm-contact-sync",
+          "status": "parked",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "Design CRM to Outlook/Exchange to phones sync architecture",
+          "path": "5-technology/crm-contact-sync/"
         }
       ],
       "todos": [
         {
-          "name": "Review 1,202 scraped contacts** \u2014 Clean personal/junk contacts, then approve CRM import. Jason 502, Ken 700. File: `~/.config/[[M365|m365]]-mcp/contact_review_jason.json`. Import job paused until review complete.",
-          "done": false
+          "name": "Contact sync architecture - decide CRM to Outlook/Exchange to phones flow",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
-          "name": "Contact sync architecture** \u2014 Decide: CRM \u2192 Outlook/Exchange \u2192 phones. Three categories: client contacts (per-advisor), shared resources (carrier reps, GAs, team \u2014 curated master list pushed to everyone), prospect contacts. Needs [[Graph API]] Contacts write permissions. Project: `5-technology/crm-contact-sync/`.",
-          "done": false
+          "name": "Blocked senders list config",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
-          "name": "CRM Client Audit \u2014 policies & renewals** \u2014 Review every client org in [[NexHub CRM]]. Verify all policies are entered with correct carrier, plan type, effective/renewal dates. Flag missing or stale records. **Due: Mar 21.**",
-          "done": false
-        },
-        {
-          "name": "CRM Client Audit \u2014 onboarding & compliance docs** \u2014 For each client, confirm onboarding docs (signed agreements, BAA, etc.) and compliance docs (POP, SBC, wrap doc, ERISA notices) are complete and filed. Flag gaps. **Due: Mar 21.**",
-          "done": false
-        },
-        {
-          "name": "[[QuickBooks]] Online \u2014 2025 backlog cleanup** \u2014 Reconcile all 2025 transactions, categorize uncategorized items, verify commission income entries match tracker, close out 2025 books. **Due: Mar 31.**",
-          "done": false
-        },
-        {
-          "name": "QuickBooks Online \u2014 2026 running smooth** \u2014 Set up 2026 categories, recurring transactions, agent pay tracking, ensure monthly close process is clean going forward. **Due: Mar 31.**",
-          "done": false
-        },
-        {
-          "name": "[[Command Central]] naming finalized** \u2014 [[nexmail|NexMail]], [[nexos|NexOS]], [[Nexus 365]]",
-          "done": true
-        },
-        {
-          "name": "NexMail digest expanded** + reply commands built + deployed",
-          "done": true
-        },
-        {
-          "name": "NexMail: 6 features built** (Mar 12-13):",
-          "done": true
-        },
-        {
-          "name": "NexMail Digest V12 redesigned** \u2014 card-based layout, Nexus brand colors, nav bar, rounded corners, teaching sections (Behind the Scenes, Did You Know), Reply Commands card. Follow-up monitor filters calendar noise. Live for Jason + Ken.",
-          "done": true
-        },
-        {
-          "name": "Griffin Beverage** \u2014 CRM setup (org, contacts, deal $75K), prospect folder, follow-up email sent to Bob (cc Tom)",
-          "done": true
-        },
-        {
-          "name": "Outlook Email** \u2014 connected via [[nexmail|M365 MCP]] (claude.ai integration)",
-          "done": true
-        },
-        {
-          "name": "Calendar** \u2014 connected via [[nexmail|M365 MCP]]",
-          "done": true
-        },
-        {
-          "name": "[[SharePoint]]/[[OneDrive]]** \u2014 connected via [[nexmail|M365 MCP]]",
-          "done": true
-        },
-        {
-          "name": "Teams Chat** \u2014 connected via [[nexmail|M365 MCP]]",
-          "done": true
-        },
-        {
-          "name": "[[NexHub CRM]]** \u2014 connected via [[NexHub CRM]] MCP (not yet used for briefings)",
-          "done": true
-        },
-        {
-          "name": "Marketing keep/kill rules (`~/.config/[[M365|m365]]-mcp/marketing_rules.json`)",
-          "done": false
-        },
-        {
-          "name": "Blocked senders list (`~/.config/[[M365|m365]]-mcp/blocked_senders.json`)",
-          "done": false
-        },
-        {
-          "name": "launchd job health \u2014 check logs at `~/.config/[[nexmail]]/job_logs/`",
-          "done": false
+          "name": "launchd job health - check logs for errors",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         }
       ],
       "resources": []
     },
     "talent": {
-      "summary": "Last scan: 2026-03-15T22:58:54.548489+00:00. 8 projects tracked. 3 alerts.",
+      "summary": "Team at 10: 5 advisors, 4 contractors, 1 onboarding. Courtney 90-day plan active. Ellen and Sheya incoming. 0/7 training modules complete - all parked until ready.",
       "metrics": {
         "activeAdvisors": 5,
         "activeContractors": 2,
@@ -1099,98 +996,130 @@
       },
       "projects": [
         {
-          "name": "kens-modules",
-          "status": "unknown",
-          "path": "6-talent-training/kens-modules/"
+          "name": "courtney-onboarding",
+          "status": "active",
+          "priority": "high",
+          "rock": false,
+          "nextAction": "Finalize onboarding docs, get signatures, start training plan",
+          "path": "3-operations/nexbench-hris/"
         },
         {
-          "name": "ai-crm-client-folders",
-          "status": "unknown",
-          "path": "6-talent-training/ai-crm-client-folders/"
+          "name": "ellen-onboarding",
+          "status": "active",
+          "priority": "high",
+          "rock": false,
+          "nextAction": "Carrier portal access, Loom videos, system logins",
+          "path": "3-operations/nexbench-hris/"
+        },
+        {
+          "name": "sheya-onboarding",
+          "status": "queued",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "Prepare contractor agreement and PM onboarding",
+          "path": "3-operations/nexbench-hris/"
+        },
+        {
+          "name": "grace-social-media",
+          "status": "active",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "LinkedIn company page ownership, 3-month ramp plan execution",
+          "path": "4-marketing/nexus-website/"
+        },
+        {
+          "name": "ai-tools-training",
+          "status": "parked",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "Build AI tools training module",
+          "path": "6-talent-training/ai-tools-training/"
         },
         {
           "name": "ai-notion-mastery",
-          "status": "unknown",
+          "status": "parked",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "Build Notion mastery module",
           "path": "6-talent-training/ai-notion-mastery/"
         },
         {
+          "name": "ai-crm-client-folders",
+          "status": "parked",
+          "priority": "medium",
+          "rock": false,
+          "nextAction": "Build CRM client folders module",
+          "path": "6-talent-training/ai-crm-client-folders/"
+        },
+        {
           "name": "crm-mastery",
-          "status": "unknown",
+          "status": "parked",
+          "priority": "low",
+          "rock": false,
+          "nextAction": "Build CRM mastery module",
           "path": "6-talent-training/crm-mastery/"
         },
         {
           "name": "sales-training",
-          "status": "unknown",
+          "status": "parked",
+          "priority": "low",
+          "rock": false,
+          "nextAction": "Build sales training module",
           "path": "6-talent-training/sales-training/"
         },
         {
+          "name": "kens-modules",
+          "status": "parked",
+          "priority": "low",
+          "rock": false,
+          "nextAction": "Build Ken-specific training modules",
+          "path": "6-talent-training/kens-modules/"
+        },
+        {
           "name": "brendas-modules",
-          "status": "unknown",
+          "status": "parked",
+          "priority": "low",
+          "rock": false,
+          "nextAction": "Build Brenda-specific training modules",
           "path": "6-talent-training/brendas-modules/"
-        },
-        {
-          "name": "ai-tools-training",
-          "status": "unknown",
-          "path": "6-talent-training/ai-tools-training/"
-        },
-        {
-          "name": "nexbench-hris",
-          "status": "active",
-          "path": "3-operations/nexbench-hris"
         }
       ],
       "todos": [
         {
-          "name": "Ellen: carrier portal access + Loom videos** \u2014 13 carriers, target Mar 31",
-          "done": false
+          "name": "Ellen: carrier portal access + Loom videos (13 carriers)",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": "2026-03-31"
         },
         {
-          "name": "Ellen: photo + profile on [[nexus-website|Nexus website]]** \u2014 new team member page",
-          "done": false
+          "name": "Ellen: photo + profile on Nexus website",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
-          "name": "Ellen: logins + system access** \u2014 email, [[OneDrive]], carrier portals, etc.",
-          "done": false
+          "name": "Ellen: logins + system access - email, OneDrive, carrier portals",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
-          "name": "[[Grace Morris]]: social media project email sent** \u2014 LinkedIn company page ownership, 3-month ramp plan, 10-15 hrs/month",
-          "done": true
+          "name": "Courtney onboarding checklist - finalize docs, get signed",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
-          "name": "CRM Client Audit \u2014 onboarding & compliance docs** \u2014 For each client, confirm onboarding docs (signed agreements, BAA, etc.) and compliance docs (POP, SBC, wrap doc, ERISA notices) are complete and filed. Flag gaps. **Due: Mar 21.**",
-          "done": false
+          "name": "Courtney training plan - scope next 2 weeks",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         },
         {
-          "name": "Onboarding docs COMPLETE** \u2014 13 documents, all final. Copied to `4-marketing/nexus-website/onboarding-docs/` for the website builder.",
-          "done": true
-        },
-        {
-          "name": "Courtney onboarding checklist** \u2014 finalize docs, get her signed and rolling",
-          "done": false
-        },
-        {
-          "name": "All team member website pages** \u2014 build out profiles for onboarding (Ellen, Grace, Wendi, Sheya, Courtney)",
-          "done": false
-        },
-        {
-          "name": "Enneagram assessments** \u2014 remind everyone this weekend (Ken, Cam, Tom, Courtney, Ellen, Grace, Wendi, Sheya)",
-          "done": false
-        },
-        {
-          "name": "Order business cards** \u2014 get this done this weekend",
-          "done": false
-        },
-        {
-          "name": "Courtney training plan** \u2014 scope out what she can start working on next 2 weeks",
-          "done": false
-        },
-        {
-          "name": "NexMail Digest V12 redesigned** \u2014 card-based layout, Nexus brand colors, nav bar, rounded corners, teaching sections (Behind the Scenes, Did You Know), Reply Commands card. Follow-up monitor filters calendar noise. Live for Jason + Ken.",
-          "done": true
-        },
-        {
-          "name": "[[Grace Morris]] social media** project email sent (3-month ramp plan)",
-          "done": true
+          "name": "Enneagram assessments - remind team this weekend",
+          "owner": "Jason Bearup",
+          "done": false,
+          "dueDate": null
         }
       ],
       "resources": []
@@ -1202,49 +1131,49 @@
         "domain": "Sales",
         "icon": "briefcase",
         "color": "orange",
-        "headline": "6 projects, 0 alerts",
-        "activeProjects": 0,
-        "urgentItems": 0
+        "headline": "7 active group clients, 100% retention. $75K pipeline.",
+        "activeProjects": 5,
+        "urgentItems": 2
       },
       {
         "domain": "Finance",
         "icon": "dollar-sign",
         "color": "green",
-        "headline": "3 projects, 0 alerts",
-        "activeProjects": 1,
-        "urgentItems": 0
+        "headline": "Feb closed $17,842.70. March collection starting. E&O gap.",
+        "activeProjects": 3,
+        "urgentItems": 1
       },
       {
         "domain": "Marketing",
         "icon": "megaphone",
         "color": "blue",
-        "headline": "7 projects, 1 alerts",
-        "activeProjects": 1,
+        "headline": "38 drafts, 3 published. March posts ready for review.",
+        "activeProjects": 3,
         "urgentItems": 1
       },
       {
         "domain": "Operations",
         "icon": "settings",
         "color": "gray",
-        "headline": "18 projects, 1 alerts",
-        "activeProjects": 2,
+        "headline": "13 onboarding docs FINAL. VA trial active. 12 past-due projects.",
+        "activeProjects": 5,
         "urgentItems": 1
       },
       {
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "27 projects, 2 alerts",
-        "activeProjects": 2,
+        "headline": "Domain Agents v1 LIVE. 6 agents, 44 jobs, 17 skills, 102 MCP tools.",
+        "activeProjects": 4,
         "urgentItems": 2
       },
       {
         "domain": "Talent & Training",
         "icon": "users",
         "color": "purple",
-        "headline": "8 projects, 3 alerts",
-        "activeProjects": 1,
-        "urgentItems": 3
+        "headline": "Team at 10. Courtney onboarding. Ellen & Sheya incoming.",
+        "activeProjects": 4,
+        "urgentItems": 1
       }
     ],
     "systemsOnline": [
@@ -1269,8 +1198,45 @@
         "name": "Vault Maintenance",
         "type": "Automation",
         "status": "operational"
+      },
+      {
+        "name": "NexBench HRIS",
+        "type": "HR Information System",
+        "status": "operational"
+      },
+      {
+        "name": "NexOS",
+        "type": "Operating System",
+        "status": "operational"
+      },
+      {
+        "name": "Nexus Website",
+        "type": "Website",
+        "status": "operational"
+      },
+      {
+        "name": "Leadership Dashboard",
+        "type": "Analytics",
+        "status": "building"
       }
     ],
-    "recentActivity": []
+    "recentActivity": [
+      {
+        "timestamp": "2026-03-15T23:00:00Z",
+        "description": "Domain Agents v1 deployed - 6 agents live"
+      },
+      {
+        "timestamp": "2026-03-15T22:00:00Z",
+        "description": "NexHub CRM CLI built on server"
+      },
+      {
+        "timestamp": "2026-03-15T21:00:00Z",
+        "description": "MCP Apps UI coded with Nexus branding"
+      },
+      {
+        "timestamp": "2026-03-15T20:00:00Z",
+        "description": "M365 infrastructure created - 6 mailboxes, Teams team + channels"
+      }
+    ]
   }
 }
