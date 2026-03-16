@@ -1222,21 +1222,145 @@
     ],
     "recentActivity": [
       {
-        "timestamp": "2026-03-15T23:00:00Z",
-        "description": "Domain Agents v1 deployed - 6 agents live"
+        "timestamp": "2026-03-16T12:00:00Z",
+        "description": "Dashboard JSON v2.1 - EOS strategic overlay, 7 rocks, clean domain data"
       },
       {
-        "timestamp": "2026-03-15T22:00:00Z",
-        "description": "NexHub CRM CLI built on server"
+        "timestamp": "2026-03-16T10:00:00Z",
+        "description": "NexHub CRM Admin CLI built and deployed on Replit"
       },
       {
-        "timestamp": "2026-03-15T21:00:00Z",
-        "description": "MCP Apps UI coded with Nexus branding"
+        "timestamp": "2026-03-16T08:00:00Z",
+        "description": "Domain Agents v1 COMPLETE - 6 agents, skills, dashboard builder, all daemons"
       },
       {
-        "timestamp": "2026-03-15T20:00:00Z",
-        "description": "M365 infrastructure created - 6 mailboxes, Teams team + channels"
+        "timestamp": "2026-03-16T06:00:00Z",
+        "description": "MCP Apps UI coded - 5 branded cards for Claude Desktop advisors"
       }
-    ]
+    ],
+    "adminTools": {
+      "crmCli": {
+        "name": "NexHub CRM Admin CLI",
+        "location": "Replit (flask nexhub)",
+        "access": "Direct database - no API overhead",
+        "commands": [
+          {"group": "orgs", "description": "List, search, profile, create, update organizations", "examples": ["flask nexhub orgs list --status CUSTOMER", "flask nexhub orgs profile 123"]},
+          {"group": "deals", "description": "Pipeline, create, update, status changes", "examples": ["flask nexhub deals pipeline", "flask nexhub deals status 789 WON"]},
+          {"group": "contacts", "description": "List, search, create, update contacts", "examples": ["flask nexhub contacts list --org 123"]},
+          {"group": "activities", "description": "List, create, complete, cancel activities", "examples": ["flask nexhub activities list --overdue", "flask nexhub activities complete 100"]},
+          {"group": "policies", "description": "List policies, renewal calendar", "examples": ["flask nexhub policies renewals --month 4"]},
+          {"group": "audit", "description": "Data quality checks, onboarding status, agent dashboards", "examples": ["flask nexhub audit orgs --status CUSTOMER"]},
+          {"group": "bulk", "description": "Mass status changes, ownership transfers, CSV imports", "examples": ["flask nexhub bulk deal-status LOST --stage 'On Radar' --older-than 90 --confirm", "flask nexhub bulk transfer --from 14 --to 18 --all-orgs --confirm"]},
+          {"group": "export", "description": "CSV/JSON exports of any data set", "examples": ["flask nexhub export orgs --status CUSTOMER --csv"]}
+        ]
+      },
+      "crmRestApi": {
+        "name": "NexHub CRM REST API",
+        "location": "Claude Code (curl via /mcp/execute)",
+        "access": "38 MCP tools via X-API-Key auth",
+        "description": "All CRM operations available from Command Central terminal. Used by Claude Code skill and Domain Agents."
+      },
+      "commissionApi": {
+        "name": "Commission Tracker API",
+        "location": "Claude Code (curl via /api/commission)",
+        "access": "12 REST endpoints via X-API-Key auth",
+        "description": "Query entries, create/update, summaries, bulk approve, carry forward, close months."
+      },
+      "domainAgentSkills": {
+        "name": "Domain Agent Skills",
+        "location": "Claude Code terminal",
+        "access": "6 slash commands",
+        "commands": [
+          {"skill": "/chase-sales", "agent": "Chase", "description": "Pipeline, clients, prospects, deals, meetings"},
+          {"skill": "/penny-finance", "agent": "Penny", "description": "Commissions, revenue, agent pay, carriers, QuickBooks"},
+          {"skill": "/story-marketing", "agent": "Story", "description": "Blog content, social media, website, content calendar"},
+          {"skill": "/forge-operations", "agent": "Forge", "description": "Projects, onboarding, vault health, processes"},
+          {"skill": "/cipher-technology", "agent": "Cipher", "description": "System health, jobs, tokens, errors, CRM dev"},
+          {"skill": "/coach-talent", "agent": "Coach", "description": "Team metrics, onboarding, training, recruiting"}
+        ]
+      }
+    },
+    "scheduledJobs": {
+      "summary": "48 total scheduled jobs across 5 systems",
+      "systems": [
+        {
+          "name": "NexMail",
+          "jobCount": 32,
+          "users": ["Jason Bearup (25 jobs)", "Ken Fortier (7 jobs)"],
+          "keyJobs": [
+            {"name": "Daily Email Digest", "schedule": "6:45 AM (Jason), 7:00 AM (Ken)", "description": "AI-curated email summary with action items"},
+            {"name": "Command Scanner", "schedule": "Every 15 min", "description": "Monitors digest replies for commands (dismiss, snooze, handle, draft)"},
+            {"name": "Follow-up Monitor", "schedule": "Every 15 min", "description": "Auto-resolves follow-ups when replies detected"},
+            {"name": "Advisor Metrics", "schedule": "6:30 AM (Jason), 6:45 AM (Ken)", "description": "Collects email + calendar activity per advisor"},
+            {"name": "Contact Scraper", "schedule": "Daily", "description": "Extracts contacts from email signatures"},
+            {"name": "Client Folder Sync", "schedule": "Daily", "description": "Syncs Outlook folders with CRM client list"}
+          ]
+        },
+        {
+          "name": "Domain Agents",
+          "jobCount": 4,
+          "keyJobs": [
+            {"name": "Daily Scan", "schedule": "5:45 AM", "description": "All 6 agents scan their domain, send briefs, update dashboard JSON"},
+            {"name": "Weekly Scan", "schedule": "Monday 6:00 AM", "description": "Deep analysis with marketing + talent (run less frequently)"},
+            {"name": "Teams Daemon", "schedule": "KeepAlive (polls 15s)", "description": "Monitors 6 Teams channels for messages from Jason"},
+            {"name": "Email Daemon", "schedule": "KeepAlive (polls 60s)", "description": "Monitors 6 agent mailboxes for incoming messages"}
+          ]
+        },
+        {
+          "name": "Vault Maintenance",
+          "jobCount": 4,
+          "keyJobs": [
+            {"name": "Daily Scan", "schedule": "5:00 AM", "description": "Health scan + Haiku digest + frontmatter fixes"},
+            {"name": "Architecture Review", "schedule": "Sunday 6:00 AM", "description": "Drift detection across system components"},
+            {"name": "Monthly Audit", "schedule": "1st of month 6:00 AM", "description": "Full system audit with Opus"},
+            {"name": "iCloud Backup", "schedule": "Every 15 min", "description": "Vault backup to iCloud"}
+          ]
+        },
+        {
+          "name": "System Maintenance",
+          "jobCount": 3,
+          "keyJobs": [
+            {"name": "Daily Pulse", "schedule": "6:45 AM", "description": "System health email (only if issues)"},
+            {"name": "Weekly Review", "schedule": "Sunday 7:00 AM", "description": "Vault + skills + arch drift + job reliability"},
+            {"name": "Monthly Audit", "schedule": "1st of month 7:00 AM", "description": "Full inventory + config staleness + 30-day errors"}
+          ]
+        },
+        {
+          "name": "Other",
+          "jobCount": 5,
+          "keyJobs": [
+            {"name": "OneDrive Indexer", "schedule": "6:15 AM + 4:00 PM + fswatch realtime", "description": "Indexes 6,971 files for Obsidian vault"},
+            {"name": "Session Namer", "schedule": "12:30 AM", "description": "Names unnamed Claude Code sessions via Haiku"},
+            {"name": "Skill Health Scan", "schedule": "Sunday 5:30 AM", "description": "Analyzes skill execution logs, proposes improvements"},
+            {"name": "Backdoor Session", "schedule": "KeepAlive (login)", "description": "Persistent Claude Code session in tmux, accessible via phone"},
+            {"name": "Scheduled Sends", "schedule": "As needed", "description": "One-shot email sends with reply-check cancel"}
+          ]
+        }
+      ]
+    },
+    "technologyMetrics": {
+      "claudeCode": {
+        "skills": 17,
+        "hooks": 11,
+        "agents": 3,
+        "rules": 8
+      },
+      "mcpTools": {
+        "total": 102,
+        "crmTools": 38,
+        "commissionTools": 12,
+        "notionTools": 20,
+        "canvaTools": 15,
+        "m365Tools": 10,
+        "gammaTools": 7
+      },
+      "infrastructure": {
+        "totalJobs": 48,
+        "systemsOnline": 16,
+        "domainAgents": 6,
+        "emailUsers": 2,
+        "vaultFiles": 1143
+      }
+    }
   }
 }
