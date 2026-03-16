@@ -110,7 +110,7 @@
     "issues": [
       {
         "title": "CRM pipeline query failed: The read operation timed out",
-        "priority": "medium",
+        "priority": "high",
         "owner": "Jason Bearup",
         "category": "sales"
       },
@@ -122,161 +122,130 @@
       },
       {
         "title": "12 projects past due",
-        "priority": "medium",
+        "priority": "high",
         "owner": "Jason Bearup",
         "category": "operations"
       },
       {
         "title": "Job failed (exit 1): com.jasonsmac.architecture-review",
-        "priority": "medium",
+        "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
       },
       {
         "title": "1936 errors in job logs in the last 24 hours",
-        "priority": "medium",
+        "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
       },
       {
         "title": "0 of 7 training modules complete \u2014 all past due",
-        "priority": "medium",
+        "priority": "high",
         "owner": "Jason Bearup",
         "category": "talent"
       },
       {
         "title": "Unsigned docs: CRM Client Audit \u2014 onboarding & compliance docs \u2014 For each client, confirm onboarding docs (signed agreements, BAA, etc.) and compliance docs (POP, SBC, wrap doc, ERISA notices) are complete and filed. Flag gaps. Due: Mar 21.",
-        "priority": "medium",
+        "priority": "high",
         "owner": "Jason Bearup",
         "category": "talent"
       },
       {
         "title": "Unsigned docs: Courtney onboarding checklist \u2014 finalize docs, get her signed and rolling",
-        "priority": "medium",
+        "priority": "high",
         "owner": "Jason Bearup",
         "category": "talent"
       }
     ],
     "todos": [
       {
-        "name": "Nexus Health Plus: Connect with indemnity carriers \u2014 Need carrier conversations started before Howard follow-up meeting Fri Mar 21. Top targets: Crum & Forster (Michael Vaccaro), Clear Spring Health, AXIS Group Benefits.",
-        "done": false
-      },
-      {
-        "name": "Review 1,202 scraped contacts \u2014 Clean personal/junk contacts, then approve CRM import. Jason 502, Ken 700. File: ~/.config/m365-mcp/contact_review_jason.json. Import job paused until review complete.",
-        "done": false
-      },
-      {
-        "name": "Contact sync architecture \u2014 Decide: CRM \u2192 Outlook/Exchange \u2192 phones. Three categories: client contacts (per-advisor), shared resources (carrier reps, GAs, team \u2014 curated master list pushed to everyone), prospect contacts. Needs Graph API Contacts write permissions. Project: 5-technology/crm-contact-sync/.",
-        "done": false
-      },
-      {
-        "name": "CRM Client Audit \u2014 policies & renewals \u2014 Review every client org in NexHub CRM. Verify all policies are entered with correct carrier, plan type, effective/renewal dates. Flag missing or stale records. Due: Mar 21.",
-        "done": false
-      },
-      {
-        "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 For each client, confirm onboarding docs (signed agreements, BAA, etc.) and compliance docs (POP, SBC, wrap doc, ERISA notices) are complete and filed. Flag gaps. Due: Mar 21.",
-        "done": false
-      },
-      {
         "name": "Bob Griffin follow-up \u2014 ping again Wed Mar 18 if no response",
-        "done": false
-      },
-      {
-        "name": "Nexus Health Plus Phase 2 \u2014 Howard meeting logged, carrier research updated (6 carriers), outreach brief emailed, Mar 21 follow-up on calendar",
-        "done": true
-      },
-      {
-        "name": "Griffin Beverage \u2014 CRM setup (org, contacts, deal $75K), prospect folder, follow-up email sent to Bob (cc Tom)",
-        "done": true
-      },
-      {
-        "name": "COBRA outreach \u2014 Media Place Partners \u2014 4 branded COBRA letters + emails drafted for terminated employees (Gathen, Koop, Kraft, Oliver). Full cost breakdowns with 2% admin. Project at 1-sales/[1] clients/media-place-partners-adtegrity/",
-        "done": true
-      },
-      {
-        "name": "Pay agents ($5,736.97 total) \u2014 PAID, statements sent Mar 13",
-        "done": true
-      },
-      {
-        "name": "Nexus Health Plus: Connect with indemnity carriers \u2014 Need carrier conversations started before Howard follow-up meeting Fri Mar 21. Top targets: Crum & Forster (Michael Vaccaro), Clear Spring Health, AXIS Group Benefits.",
-        "done": false
-      },
-      {
-        "name": "Review & edit remaining 3 March posts \u2014 Church ERISA, Church Insurance Options, ICHRA Marketplace Exodus",
-        "done": false
-      },
-      {
-        "name": "Start March 2026 commission workbook",
-        "done": false
-      },
-      {
-        "name": "Ellen: carrier portal access + Loom videos \u2014 13 carriers, target Mar 31",
-        "done": false
-      },
-      {
-        "name": "Ellen: logins + system access \u2014 email, OneDrive, carrier portals, etc.",
-        "done": false
-      },
-      {
-        "name": "Contact sync architecture \u2014 Decide: CRM \u2192 Outlook/Exchange \u2192 phones. Three categories: client contacts (per-advisor), shared resources (carrier reps, GAs, team \u2014 curated master list pushed to everyone), prospect contacts. Needs Graph API Contacts write permissions. Project: 5-technology/crm-contact-sync/.",
-        "done": false
-      },
-      {
-        "name": "CRM Client Audit \u2014 policies & renewals \u2014 Review every client org in NexHub CRM. Verify all policies are entered with correct carrier, plan type, effective/renewal dates. Flag missing or stale records. Due: Mar 21.",
-        "done": false
-      },
-      {
-        "name": "QuickBooks Online \u2014 2025 backlog cleanup \u2014 Reconcile all 2025 transactions, categorize uncategorized items, verify commission income entries match tracker, close out 2025 books. Due: Mar 31.",
-        "done": false
-      },
-      {
-        "name": "QuickBooks Online \u2014 2026 running smooth \u2014 Set up 2026 categories, recurring transactions, agent pay tracking, ensure monthly close process is clean going forward. Due: Mar 31.",
-        "done": false
-      },
-      {
-        "name": "Ken's individual commissions \u2014 look up old individual policy data for Ken",
-        "done": false
-      },
-      {
-        "name": "Branded HTML Commission Processing SOP \u2014 stored on website + MD file, will refine as process evolves",
-        "done": true
+        "done": false,
+        "priority": "high",
+        "dueDate": "2026-03-18"
       },
       {
         "name": "Move March PH statement \u2014 Priority_Health_03_2026.csv from ~/Downloads \u2192 OneDrive Commission_Statements/Group_2026/ as PriorityHealth_2026-03.csv",
-        "done": false
+        "done": false,
+        "priority": "high",
+        "dueDate": "2026-03-17"
+      },
+      {
+        "name": "Nexus Health Plus: Connect with indemnity carriers \u2014 Need carrier conversations started before Howard follow-up meeting Fri Mar 21. Top targets: Crum & Forster (Michael Vaccaro), Clear Spring Health, AXIS Group Benefits.",
+        "done": false,
+        "priority": "medium",
+        "dueDate": "2026-03-21"
+      },
+      {
+        "name": "Review 1,202 scraped contacts \u2014 Clean personal/junk contacts, then approve CRM import. Jason 502, Ken 700. File: ~/.config/m365-mcp/contact_review_jason.json. Import job paused until review complete.",
+        "done": false,
+        "priority": "medium",
+        "dueDate": "2026-03-21"
+      },
+      {
+        "name": "Contact sync architecture \u2014 Decide: CRM \u2192 Outlook/Exchange \u2192 phones. Three categories: client contacts (per-advisor), shared resources (carrier reps, GAs, team \u2014 curated master list pushed to everyone), prospect contacts. Needs Graph API Contacts write permissions. Project: 5-technology/crm-contact-sync/.",
+        "done": false,
+        "priority": "medium"
+      },
+      {
+        "name": "CRM Client Audit \u2014 policies & renewals \u2014 Review every client org in NexHub CRM. Verify all policies are entered with correct carrier, plan type, effective/renewal dates. Flag missing or stale records. Due: Mar 21.",
+        "done": false,
+        "priority": "medium",
+        "dueDate": "2026-03-21"
+      },
+      {
+        "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 For each client, confirm onboarding docs (signed agreements, BAA, etc.) and compliance docs (POP, SBC, wrap doc, ERISA notices) are complete and filed. Flag gaps. Due: Mar 21.",
+        "done": false,
+        "priority": "medium",
+        "dueDate": "2026-03-21"
+      },
+      {
+        "name": "Review & edit remaining 3 March posts \u2014 Church ERISA, Church Insurance Options, ICHRA Marketplace Exodus",
+        "done": false,
+        "priority": "medium",
+        "dueDate": "2026-03-21"
+      },
+      {
+        "name": "Start March 2026 commission workbook",
+        "done": false,
+        "priority": "low",
+        "dueDate": "2026-03-31"
+      },
+      {
+        "name": "Ellen: carrier portal access + Loom videos \u2014 13 carriers, target Mar 31",
+        "done": false,
+        "priority": "low",
+        "dueDate": "2026-03-31"
+      },
+      {
+        "name": "Ellen: logins + system access \u2014 email, OneDrive, carrier portals, etc.",
+        "done": false,
+        "priority": "low",
+        "dueDate": "2026-03-31"
+      },
+      {
+        "name": "QuickBooks Online \u2014 2025 backlog cleanup \u2014 Reconcile all 2025 transactions, categorize uncategorized items, verify commission income entries match tracker, close out 2025 books. Due: Mar 31.",
+        "done": false,
+        "priority": "low",
+        "dueDate": "2026-03-31"
+      },
+      {
+        "name": "QuickBooks Online \u2014 2026 running smooth \u2014 Set up 2026 categories, recurring transactions, agent pay tracking, ensure monthly close process is clean going forward. Due: Mar 31.",
+        "done": false,
+        "priority": "low",
+        "dueDate": "2026-03-31"
+      },
+      {
+        "name": "Ken's individual commissions \u2014 look up old individual policy data for Ken",
+        "done": false,
+        "priority": "low",
+        "dueDate": "2026-03-31"
       },
       {
         "name": "Viper Industrial Feb Beam commission \u2014 missed during Feb data entry, needs added to Tom's next pay",
-        "done": false
-      },
-      {
-        "name": "Feb 2026 commissions CLOSED \u2014 all 12 carriers entered, $17,842.70 verified, statements generated",
-        "done": true
-      },
-      {
-        "name": "3 commission statement draft emails in Outlook \u2014 HTML attachments, correct signature (Ken $1,316.44, Cam $2,495.82, Tom $1,924.71)",
-        "done": true
-      },
-      {
-        "name": "Commission Entry SOP created \u2014 10-step process, 18-item checklist",
-        "done": true
-      },
-      {
-        "name": "S-Corp tax return filed (Mar 15 deadline met early)",
-        "done": true
-      },
-      {
-        "name": "Nexus Health Plus Phase 2 \u2014 Howard meeting logged, carrier research updated (6 carriers), outreach brief emailed, Mar 21 follow-up on calendar",
-        "done": true
-      },
-      {
-        "name": "Tom Snikkers commission reply \u2014 8 groups addressed with March PH data, Tom told to follow up with PH himself on missing groups",
-        "done": true
-      },
-      {
-        "name": "Cam Manning commission reply \u2014 MOO Feb explained (Steel 21 only, GLL has no MOO products), March PH confirmed (Steel 21, GLL, Insight Benefits present; Cutting Edge not on statement)",
-        "done": true
+        "done": false,
+        "priority": "low",
+        "dueDate": "2026-03-31"
       }
     ],
     "accountability": [
@@ -445,39 +414,53 @@
       "todos": [
         {
           "name": "Nexus Health Plus: Connect with indemnity carriers \u2014 Need carrier conversations started before Howard follow-up meeting Fri Mar 21. Top targets: Crum & Forster (Michael Vaccaro), Clear Spring Health, AXIS Group Benefits.",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "Review 1,202 scraped contacts \u2014 Clean personal/junk contacts, then approve CRM import. Jason 502, Ken 700. File: ~/.config/m365-mcp/contact_review_jason.json. Import job paused until review complete.",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "Contact sync architecture \u2014 Decide: CRM \u2192 Outlook/Exchange \u2192 phones. Three categories: client contacts (per-advisor), shared resources (carrier reps, GAs, team \u2014 curated master list pushed to everyone), prospect contacts. Needs Graph API Contacts write permissions. Project: 5-technology/crm-contact-sync/.",
-          "done": false
+          "done": false,
+          "priority": "medium"
         },
         {
           "name": "CRM Client Audit \u2014 policies & renewals \u2014 Review every client org in NexHub CRM. Verify all policies are entered with correct carrier, plan type, effective/renewal dates. Flag missing or stale records. Due: Mar 21.",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 For each client, confirm onboarding docs (signed agreements, BAA, etc.) and compliance docs (POP, SBC, wrap doc, ERISA notices) are complete and filed. Flag gaps. Due: Mar 21.",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "Bob Griffin follow-up \u2014 ping again Wed Mar 18 if no response",
-          "done": false
+          "done": false,
+          "priority": "high",
+          "dueDate": "2026-03-18"
         },
         {
           "name": "Nexus Health Plus Phase 2 \u2014 Howard meeting logged, carrier research updated (6 carriers), outreach brief emailed, Mar 21 follow-up on calendar",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Griffin Beverage \u2014 CRM setup (org, contacts, deal $75K), prospect folder, follow-up email sent to Bob (cc Tom)",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "COBRA outreach \u2014 Media Place Partners \u2014 4 branded COBRA letters + emails drafted for terminated employees (Gathen, Koop, Kraft, Oliver). Full cost breakdowns with 2% admin. Project at 1-sales/[1] clients/media-place-partners-adtegrity/",
-          "done": true
+          "done": true,
+          "priority": "medium"
         }
       ],
       "resources": []
@@ -524,91 +507,124 @@
       "todos": [
         {
           "name": "Pay agents ($5,736.97 total) \u2014 PAID, statements sent Mar 13",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Nexus Health Plus: Connect with indemnity carriers \u2014 Need carrier conversations started before Howard follow-up meeting Fri Mar 21. Top targets: Crum & Forster (Michael Vaccaro), Clear Spring Health, AXIS Group Benefits.",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "Review & edit remaining 3 March posts \u2014 Church ERISA, Church Insurance Options, ICHRA Marketplace Exodus",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "Start March 2026 commission workbook",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Ellen: carrier portal access + Loom videos \u2014 13 carriers, target Mar 31",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Ellen: logins + system access \u2014 email, OneDrive, carrier portals, etc.",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Contact sync architecture \u2014 Decide: CRM \u2192 Outlook/Exchange \u2192 phones. Three categories: client contacts (per-advisor), shared resources (carrier reps, GAs, team \u2014 curated master list pushed to everyone), prospect contacts. Needs Graph API Contacts write permissions. Project: 5-technology/crm-contact-sync/.",
-          "done": false
+          "done": false,
+          "priority": "medium"
         },
         {
           "name": "CRM Client Audit \u2014 policies & renewals \u2014 Review every client org in NexHub CRM. Verify all policies are entered with correct carrier, plan type, effective/renewal dates. Flag missing or stale records. Due: Mar 21.",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "QuickBooks Online \u2014 2025 backlog cleanup \u2014 Reconcile all 2025 transactions, categorize uncategorized items, verify commission income entries match tracker, close out 2025 books. Due: Mar 31.",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "QuickBooks Online \u2014 2026 running smooth \u2014 Set up 2026 categories, recurring transactions, agent pay tracking, ensure monthly close process is clean going forward. Due: Mar 31.",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Ken's individual commissions \u2014 look up old individual policy data for Ken",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Branded HTML Commission Processing SOP \u2014 stored on website + MD file, will refine as process evolves",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Move March PH statement \u2014 Priority_Health_03_2026.csv from ~/Downloads \u2192 OneDrive Commission_Statements/Group_2026/ as PriorityHealth_2026-03.csv",
-          "done": false
+          "done": false,
+          "priority": "high",
+          "dueDate": "2026-03-17"
         },
         {
           "name": "Viper Industrial Feb Beam commission \u2014 missed during Feb data entry, needs added to Tom's next pay",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Feb 2026 commissions CLOSED \u2014 all 12 carriers entered, $17,842.70 verified, statements generated",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "3 commission statement draft emails in Outlook \u2014 HTML attachments, correct signature (Ken $1,316.44, Cam $2,495.82, Tom $1,924.71)",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Commission Entry SOP created \u2014 10-step process, 18-item checklist",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "S-Corp tax return filed (Mar 15 deadline met early)",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Nexus Health Plus Phase 2 \u2014 Howard meeting logged, carrier research updated (6 carriers), outreach brief emailed, Mar 21 follow-up on calendar",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Tom Snikkers commission reply \u2014 8 groups addressed with March PH data, Tom told to follow up with PH himself on missing groups",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Cam Manning commission reply \u2014 MOO Feb explained (Steel 21 only, GLL has no MOO products), March PH confirmed (Steel 21, GLL, Insight Benefits present; Cutting Edge not on statement)",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "OneDrive file monitoring \u2014 auto-detect new commission statements (manual for now)",
-          "done": false
+          "done": false,
+          "priority": "medium"
         }
       ],
       "resources": []
@@ -682,63 +698,87 @@
       "todos": [
         {
           "name": "Send bio + headshot for ACG panel to Denise",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "ACG panel blog post \u2014 \"Practical AI for Business Owners\" companion resource",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "Review & edit remaining 3 March posts \u2014 Church ERISA, Church Insurance Options, ICHRA Marketplace Exodus",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "Send Ken & Brenda interview questions \u2014 templates in team-content-program.md",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "Audit/set up Nexus LinkedIn company page",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Ellen: photo + profile on Nexus website \u2014 new team member page",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Grace Morris: social media project email sent \u2014 LinkedIn company page ownership, 3-month ramp plan, 10-15 hrs/month",
-          "done": true
+          "done": true,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Onboarding docs COMPLETE \u2014 13 documents, all final. Copied to 4-marketing/nexus-website/onboarding-docs/ for the website builder.",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "All team member website pages \u2014 build out profiles for onboarding (Ellen, Grace, Wendi, Sheya, Courtney)",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Enneagram assessments \u2014 remind everyone this weekend (Ken, Cam, Tom, Courtney, Ellen, Grace, Wendi, Sheya)",
-          "done": false
+          "done": false,
+          "priority": "high",
+          "dueDate": "2026-03-17"
         },
         {
           "name": "March blog posts \u2014 finalize and get to website agent (Posts #2, #3, #4 reviewed and ready)",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "Branded HTML Commission Processing SOP \u2014 stored on website + MD file, will refine as process evolves",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Ken blog coaching project instructions finalized + emailed to Ken",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Grace Morris social media project email sent (3-month ramp plan)",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Marketing keep/kill rules (~/.config/m365-mcp/marketing_rules.json)",
-          "done": false
+          "done": false,
+          "priority": "medium"
         }
       ],
       "resources": []
@@ -888,95 +928,130 @@
       "todos": [
         {
           "name": "Ellen: carrier portal access + Loom videos \u2014 13 carriers, target Mar 31",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Ellen: photo + profile on Nexus website \u2014 new team member page",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Ellen: logins + system access \u2014 email, OneDrive, carrier portals, etc.",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Grace Morris: social media project email sent \u2014 LinkedIn company page ownership, 3-month ramp plan, 10-15 hrs/month",
-          "done": true
+          "done": true,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Contact sync architecture \u2014 Decide: CRM \u2192 Outlook/Exchange \u2192 phones. Three categories: client contacts (per-advisor), shared resources (carrier reps, GAs, team \u2014 curated master list pushed to everyone), prospect contacts. Needs Graph API Contacts write permissions. Project: 5-technology/crm-contact-sync/.",
-          "done": false
+          "done": false,
+          "priority": "medium"
         },
         {
           "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 For each client, confirm onboarding docs (signed agreements, BAA, etc.) and compliance docs (POP, SBC, wrap doc, ERISA notices) are complete and filed. Flag gaps. Due: Mar 21.",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "QuickBooks Online \u2014 2026 running smooth \u2014 Set up 2026 categories, recurring transactions, agent pay tracking, ensure monthly close process is clean going forward. Due: Mar 31.",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Onboarding docs COMPLETE \u2014 13 documents, all final. Copied to 4-marketing/nexus-website/onboarding-docs/ for the website builder.",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Courtney onboarding checklist \u2014 finalize docs, get her signed and rolling",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "All team member website pages \u2014 build out profiles for onboarding (Ellen, Grace, Wendi, Sheya, Courtney)",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Enneagram assessments \u2014 remind everyone this weekend (Ken, Cam, Tom, Courtney, Ellen, Grace, Wendi, Sheya)",
-          "done": false
+          "done": false,
+          "priority": "high",
+          "dueDate": "2026-03-17"
         },
         {
           "name": "Order business cards \u2014 get this done this weekend",
-          "done": false
+          "done": false,
+          "priority": "high",
+          "dueDate": "2026-03-17"
         },
         {
           "name": "Courtney training plan \u2014 scope out what she can start working on next 2 weeks",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "Branded HTML Commission Processing SOP \u2014 stored on website + MD file, will refine as process evolves",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Donald Koop personal email \u2014 work email may be dead (involuntary term). Need personal email or phone outreach (616-848-1170) for COBRA letter",
-          "done": false
+          "done": false,
+          "priority": "high",
+          "dueDate": "2026-03-17"
         },
         {
           "name": "Commission Entry SOP created \u2014 10-step process, 18-item checklist",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Ken inbox cleaned \u2014 10,321 emails processed to zero, 35 business emails rescued",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Dashboard + Projects cleaned up \u2014 session logging overhaul, PROJECTS.md rewritten",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Command Scanner LIVE \u2014 reply to any Command Central email \u2192 Haiku classifies \u2192 drafts emails, updates projects, creates reminders/tasks. Every 15 min.",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Ken blog coaching project instructions finalized + emailed to Ken",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Grace Morris social media project email sent (3-month ramp plan)",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "COBRA outreach \u2014 Media Place Partners \u2014 4 branded COBRA letters + emails drafted for terminated employees (Gathen, Koop, Kraft, Oliver). Full cost breakdowns with 2% admin. Project at 1-sales/[1] clients/media-place-partners-adtegrity/",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Dashboard health \u2014 auto-checked by vault-maintenance (daily 5am)",
-          "done": true
+          "done": true,
+          "priority": "medium"
         }
       ],
       "resources": []
@@ -1151,79 +1226,103 @@
       "todos": [
         {
           "name": "Review 1,202 scraped contacts \u2014 Clean personal/junk contacts, then approve CRM import. Jason 502, Ken 700. File: ~/.config/m365-mcp/contact_review_jason.json. Import job paused until review complete.",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "Contact sync architecture \u2014 Decide: CRM \u2192 Outlook/Exchange \u2192 phones. Three categories: client contacts (per-advisor), shared resources (carrier reps, GAs, team \u2014 curated master list pushed to everyone), prospect contacts. Needs Graph API Contacts write permissions. Project: 5-technology/crm-contact-sync/.",
-          "done": false
+          "done": false,
+          "priority": "medium"
         },
         {
           "name": "CRM Client Audit \u2014 policies & renewals \u2014 Review every client org in NexHub CRM. Verify all policies are entered with correct carrier, plan type, effective/renewal dates. Flag missing or stale records. Due: Mar 21.",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 For each client, confirm onboarding docs (signed agreements, BAA, etc.) and compliance docs (POP, SBC, wrap doc, ERISA notices) are complete and filed. Flag gaps. Due: Mar 21.",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "QuickBooks Online \u2014 2025 backlog cleanup \u2014 Reconcile all 2025 transactions, categorize uncategorized items, verify commission income entries match tracker, close out 2025 books. Due: Mar 31.",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "QuickBooks Online \u2014 2026 running smooth \u2014 Set up 2026 categories, recurring transactions, agent pay tracking, ensure monthly close process is clean going forward. Due: Mar 31.",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Command Central naming finalized \u2014 NexMail, NexOS, Nexus 365",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "NexMail digest expanded + reply commands built + deployed",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "NexMail: 6 features built (Mar 12-13):",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "NexMail Digest V12 redesigned \u2014 card-based layout, Nexus brand colors, nav bar, rounded corners, teaching sections (Behind the Scenes, Did You Know), Reply Commands card. Follow-up monitor filters calendar noise. Live for Jason + Ken.",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Griffin Beverage \u2014 CRM setup (org, contacts, deal $75K), prospect folder, follow-up email sent to Bob (cc Tom)",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Outlook Email \u2014 connected via M365 MCP (claude.ai integration)",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Calendar \u2014 connected via M365 MCP",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "SharePoint/OneDrive \u2014 connected via M365 MCP",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Teams Chat \u2014 connected via M365 MCP",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "NexHub CRM \u2014 connected via NexHub CRM MCP (not yet used for briefings)",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Marketing keep/kill rules (~/.config/m365-mcp/marketing_rules.json)",
-          "done": false
+          "done": false,
+          "priority": "medium"
         },
         {
           "name": "Blocked senders list (~/.config/m365-mcp/blocked_senders.json)",
-          "done": false
+          "done": false,
+          "priority": "medium"
         },
         {
           "name": "launchd job health \u2014 check logs at ~/.config/nexmail/job_logs/",
-          "done": false
+          "done": false,
+          "priority": "medium"
         }
       ],
       "resources": []
@@ -1306,55 +1405,78 @@
       "todos": [
         {
           "name": "Ellen: carrier portal access + Loom videos \u2014 13 carriers, target Mar 31",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Ellen: photo + profile on Nexus website \u2014 new team member page",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Ellen: logins + system access \u2014 email, OneDrive, carrier portals, etc.",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Grace Morris: social media project email sent \u2014 LinkedIn company page ownership, 3-month ramp plan, 10-15 hrs/month",
-          "done": true
+          "done": true,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 For each client, confirm onboarding docs (signed agreements, BAA, etc.) and compliance docs (POP, SBC, wrap doc, ERISA notices) are complete and filed. Flag gaps. Due: Mar 21.",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "Onboarding docs COMPLETE \u2014 13 documents, all final. Copied to 4-marketing/nexus-website/onboarding-docs/ for the website builder.",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Courtney onboarding checklist \u2014 finalize docs, get her signed and rolling",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "All team member website pages \u2014 build out profiles for onboarding (Ellen, Grace, Wendi, Sheya, Courtney)",
-          "done": false
+          "done": false,
+          "priority": "low",
+          "dueDate": "2026-03-31"
         },
         {
           "name": "Enneagram assessments \u2014 remind everyone this weekend (Ken, Cam, Tom, Courtney, Ellen, Grace, Wendi, Sheya)",
-          "done": false
+          "done": false,
+          "priority": "high",
+          "dueDate": "2026-03-17"
         },
         {
           "name": "Order business cards \u2014 get this done this weekend",
-          "done": false
+          "done": false,
+          "priority": "high",
+          "dueDate": "2026-03-17"
         },
         {
           "name": "Courtney training plan \u2014 scope out what she can start working on next 2 weeks",
-          "done": false
+          "done": false,
+          "priority": "medium",
+          "dueDate": "2026-03-21"
         },
         {
           "name": "NexMail Digest V12 redesigned \u2014 card-based layout, Nexus brand colors, nav bar, rounded corners, teaching sections (Behind the Scenes, Did You Know), Reply Commands card. Follow-up monitor filters calendar noise. Live for Jason + Ken.",
-          "done": true
+          "done": true,
+          "priority": "medium"
         },
         {
           "name": "Grace Morris social media project email sent (3-month ramp plan)",
-          "done": true
+          "done": true,
+          "priority": "medium"
         }
       ],
       "resources": []
