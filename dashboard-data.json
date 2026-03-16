@@ -1,8 +1,8 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-16T18:00:00Z",
+    "lastUpdated": "2026-03-16T23:00:00Z",
     "updatedBy": "Claude Code",
-    "version": "2.2",
+    "version": "2.3",
     "dataSource": "Agent State Files + Vault CLAUDE.md Enrichment"
   },
   "eos": {
@@ -62,16 +62,16 @@
       {
         "name": "Domain Agents - Full Deployment",
         "owner": "Jason Bearup",
-        "status": "on_track",
+        "status": "complete",
         "quarter": "Q1/Q2 2026",
-        "notes": "v1 DEPLOYED - 6 agents live. Next: Replit webhooks for instant response, Claude Code skills, dashboard JSON builder."
+        "notes": "v1 COMPLETE - 6 agents live with mailboxes, Teams channels, 6 Claude Code skills, dashboard JSON builder with curated section preservation. Mia (Tier 2) built. Next: Replit webhooks for instant response."
       },
       {
         "name": "NexHub CRM - Security + Admin CLI + MCP Apps",
         "owner": "Jason Bearup",
         "status": "on_track",
         "quarter": "Q1/Q2 2026",
-        "notes": "CLI built on CRM side. MCP Apps UI coded, deploy pending. Security fixes (former advisor access, org API leaks) still blocking advisor scaling."
+        "notes": "MCP Apps UI LIVE on Replit. Admin CLI (`flask nexhub`) LIVE with 8 command groups. CLI skill tested. Security fixes (former advisor access, org API leaks) still blocking advisor scaling."
       },
       {
         "name": "NexBench HRIS - Onboarding Portal & Signatures",
@@ -99,7 +99,7 @@
         "owner": "Jason Bearup",
         "status": "on_track",
         "quarter": "Q1/Q2 2026",
-        "notes": "Data v2.1 on GitHub. Replit agent building 8 pages. Domain Agents feed data automatically."
+        "notes": "Data v2.3 on GitHub. v2.2 with enriched projects, admin tools, scheduled jobs. Domain Agents auto-feed data with curated section preservation."
       },
       {
         "name": "Blog Strategy - Content Engine Running",
@@ -1468,10 +1468,10 @@
           "status": "active",
           "priority": "high",
           "rock": true,
-          "nextAction": "Replit agent building 8 pages from v2.1 JSON data",
+          "nextAction": "Test 8 pages on desktop + phone, wire up data refresh automation",
           "path": "3-operations/nexus-leadership-dashboard/",
           "displayName": "Leadership Dashboard",
-          "summary": "Private 8-page leadership dashboard on Nexus website powered by JSON data from GitHub. EOS framework (scorecard, rocks, issues, todos) plus 6 domain pages. Data v2.1 live. Replit agent building the pages.",
+          "summary": "Private 8-page leadership dashboard on Nexus website powered by JSON data from GitHub. EOS framework (scorecard, rocks, issues, todos) plus 6 domain pages. v2.2 with enriched projects, admin tools section, scheduled jobs inventory. Domain Agents auto-feed data via dashboard builder.",
           "owner": "Jason Bearup",
           "targetDate": "2026-04-01",
           "startDate": "2026-03-14",
@@ -1482,7 +1482,12 @@
               "date": "2026-03-14"
             },
             {
-              "name": "JSON data file v2.1 built",
+              "name": "JSON data file v2.1 built with EOS overlay",
+              "status": "complete",
+              "date": "2026-03-16"
+            },
+            {
+              "name": "JSON data v2.2 - enriched projects, admin tools, scheduled jobs",
               "status": "complete",
               "date": "2026-03-16"
             },
@@ -1508,12 +1513,11 @@
             }
           ],
           "openItems": [
-            "Hand off to Replit agent for page build",
             "Test on desktop + phone after build",
             "Wire up data refresh (session wrapup hook or nightly job)",
             "Financial data sources beyond commissions (QuickBooks?)"
           ],
-          "recentWork": "Mar 16: Dashboard JSON v2.1 rebuilt with EOS strategic overlay. 7 rocks, 9 issues, 30 active todos. Pushed to GitHub.",
+          "recentWork": "Mar 16: v2.2 data with enriched projects (displayName, summary, milestones, openItems for every project), admin tools section (CRM CLI, REST API, commission API, domain agent skills), scheduled jobs inventory (48 jobs across 5 systems). Domain Agents dashboard builder now preserves curated sections across runs.",
           "knownIssues": [
             "Refresh automation not wired up yet",
             "Repo is public -- consider private if data becomes sensitive"
@@ -1522,7 +1526,8 @@
             "pages": 8,
             "rocks": 7,
             "issues": 9,
-            "todos": 30
+            "todos": 30,
+            "dataVersion": "2.3"
           }
         },
         {
@@ -1840,7 +1845,7 @@
       "resources": []
     },
     "technology": {
-      "summary": "Domain Agents v1 LIVE - 6 AI agents running daily scans, email, Teams. NexHub CRM CLI built. MCP Apps UI coded. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
+      "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
         "totalJobs": 44,
         "failedJobs": 1,
@@ -1861,13 +1866,13 @@
       "projects": [
         {
           "name": "domain-agents",
-          "status": "ongoing",
+          "status": "complete",
           "priority": "high",
           "rock": true,
-          "nextAction": "Replit webhooks for instant response, Claude Code skills, dashboard JSON builder",
+          "nextAction": "Replit webhooks for instant response, Mia mailbox creation",
           "path": "5-technology/domain-agents/",
           "displayName": "Domain Agents",
-          "summary": "Six autonomous AI domain agents (Chase, Penny, Story, Forge, Cipher, Coach) running as executive assistants. v1 deployed with 4 launchd daemons, 6 Claude Code skills, dashboard JSON auto-builder. ~$3.65/mo total cost. Replit webhooks for instant email/Teams responses spec'd but not yet deployed.",
+          "summary": "Six autonomous AI domain agents (Chase, Penny, Story, Forge, Cipher, Coach) v1 COMPLETE. 4 launchd daemons, 6 Claude Code skills, dashboard JSON auto-builder with curated section preservation. ~$3.65/mo total cost. Mia (Tier 2, advisor-facing NexMail automation) built but mailbox pending. Replit webhooks spec'd for instant response.",
           "owner": "Jason Bearup",
           "targetDate": null,
           "startDate": "2026-03-15",
@@ -1893,7 +1898,12 @@
               "date": "2026-03-16"
             },
             {
-              "name": "Dashboard JSON builder",
+              "name": "Dashboard JSON builder with curated section preservation",
+              "status": "complete",
+              "date": "2026-03-16"
+            },
+            {
+              "name": "Mia (Tier 2 agent) built for advisor-facing NexMail automation",
               "status": "complete",
               "date": "2026-03-16"
             },
@@ -1910,19 +1920,19 @@
           ],
           "openItems": [
             "Deploy Replit webhook endpoints for instant email/Teams responses",
+            "Mia mailbox creation pending (needs M365 shared mailbox)",
             "Agent state sync to PostgreSQL (currently local JSON only)",
             "Agent profile photos/avatars for Teams and email",
-            "Research engine (RSS, anomaly detection, competitor tracking)",
-            "Advisor-facing agents (Tier 2)"
+            "Research engine (RSS, anomaly detection, competitor tracking)"
           ],
-          "recentWork": "Mar 16: v1 COMPLETE. All 6 agents, 4 daemons, 6 skills, dashboard builder, EOS assembler. Replit webhook spec written.",
+          "recentWork": "Mar 16: v1 COMPLETE. All 6 Tier 1 agents live with mailboxes, Teams channels, Claude Code skills, dashboard JSON builder with curated section preservation. Mia (Tier 2) built for advisor-facing NexMail automation. Downloads folder cleaned (309 files sorted, 0 in root).",
           "knownIssues": [
             "Replit webhooks not deployed -- agents operate on scheduled scans only (no real-time interaction)",
             "Agent state files are local JSON only, not synced to PostgreSQL",
             "Graph API subscription renewal untested"
           ],
           "metrics": {
-            "agents": 6,
+            "agents": 7,
             "skills": 6,
             "daemons": 4,
             "monthlyCost": "$3.65"
@@ -1933,10 +1943,10 @@
           "status": "active",
           "priority": "high",
           "rock": true,
-          "nextAction": "Deploy MCP Apps UI, fix security (former advisor access, org API leaks)",
+          "nextAction": "Fix security (former advisor access, org API leaks), refactor MCP server",
           "path": "5-technology/rocktship-crm/",
           "displayName": "NexHub CRM",
-          "summary": "Custom AI-first CRM on Flask + PostgreSQL. 30 data models, 27 route files, 38 MCP tools. Security gaps need fixing before adding advisors. Major code cleanup completed Feb 20. MCP server is primary advisor interface (80% of interaction).",
+          "summary": "Custom AI-first CRM on Flask + PostgreSQL. 30 data models, 27 route files, 38 MCP tools. MCP Apps UI LIVE on Replit with 5 branded cards for Claude Desktop advisors. Admin CLI (`flask nexhub`) deployed with 8 command groups. Security gaps still need fixing before adding advisors.",
           "owner": "Jason Bearup",
           "targetDate": null,
           "startDate": "2025-06-01",
@@ -1962,6 +1972,21 @@
               "date": "2026-02-15"
             },
             {
+              "name": "MCP Apps UI deployed on Replit",
+              "status": "complete",
+              "date": "2026-03-16"
+            },
+            {
+              "name": "Admin CLI (flask nexhub) with 8 command groups",
+              "status": "complete",
+              "date": "2026-03-16"
+            },
+            {
+              "name": "CLI skill tested in Claude Code",
+              "status": "complete",
+              "date": "2026-03-16"
+            },
+            {
               "name": "Security fixes (access control)",
               "status": "in_progress",
               "date": null
@@ -1980,7 +2005,7 @@
             "8 missing database indexes",
             "Dead root files and archive cleanup"
           ],
-          "recentWork": "Mar 15: Full codebase assessment. 30 models, 27 routes, 11 services, 38 MCP tools. Cleanup plan documented (4 phases).",
+          "recentWork": "Mar 16: MCP Apps UI LIVE on Replit -- 5 branded cards for Claude Desktop advisors, deployed and tested. Admin CLI (`flask nexhub`) built with 8 command groups (orgs, deals, contacts, activities, policies, audit, bulk, export). CLI skill tested in Claude Code terminal.",
           "knownIssues": [
             "Security: former advisors retain data access",
             "Organization API leaks cross-advisor data",
@@ -1991,7 +2016,8 @@
             "models": 30,
             "routes": 27,
             "mcpTools": 38,
-            "services": 11
+            "services": 11,
+            "cliCommandGroups": 8
           }
         },
         {
@@ -2041,9 +2067,10 @@
           "openItems": [
             "Advisor metrics collector for dashboard",
             "Courtney + future team member job deployments",
-            "Dashboard email cadences (8 types)"
+            "Dashboard email cadences (8 types)",
+            "Mia agent (Tier 2) built for advisor-facing NexMail automation -- mailbox pending"
           ],
-          "recentWork": "Mar 12: Client folder sync upgraded with Haiku thread summaries, communication logs, full pagination for backfill mode.",
+          "recentWork": "Mar 16: Mia (Tier 2 Domain Agent) built for advisor-facing NexMail automation -- handles onboarding emails, follow-up sequences, meeting prep. Mailbox creation pending. Mar 12: Client folder sync upgraded with Haiku thread summaries, communication logs, full pagination for backfill mode.",
           "knownIssues": [],
           "metrics": {
             "mcpTools": 25,
@@ -2759,7 +2786,7 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "Domain Agents v1 LIVE. 6 agents, 44 jobs, 17 skills, 102 MCP tools.",
+        "headline": "Domain Agents v1 COMPLETE. MCP Apps + Admin CLI LIVE. 44 jobs, 17 skills.",
         "activeProjects": 4,
         "urgentItems": 2
       },
@@ -2818,20 +2845,24 @@
     ],
     "recentActivity": [
       {
+        "timestamp": "2026-03-16T23:00:00Z",
+        "description": "Dashboard JSON v2.3 - enriched projects, admin tools, scheduled jobs, today's completions"
+      },
+      {
+        "timestamp": "2026-03-16T18:00:00Z",
+        "description": "MCP Apps UI LIVE on Replit - deployed and tested"
+      },
+      {
+        "timestamp": "2026-03-16T16:00:00Z",
+        "description": "CRM Admin CLI LIVE - flask nexhub with 8 command groups, CLI skill tested"
+      },
+      {
         "timestamp": "2026-03-16T12:00:00Z",
-        "description": "Dashboard JSON v2.1 - EOS strategic overlay, 7 rocks, clean domain data"
+        "description": "Domain Agents v1 COMPLETE - 6 agents, 6 skills, dashboard builder with curated section preservation, Mia (Tier 2) built"
       },
       {
         "timestamp": "2026-03-16T10:00:00Z",
-        "description": "NexHub CRM Admin CLI built and deployed on Replit"
-      },
-      {
-        "timestamp": "2026-03-16T08:00:00Z",
-        "description": "Domain Agents v1 COMPLETE - 6 agents, skills, dashboard builder, all daemons"
-      },
-      {
-        "timestamp": "2026-03-16T06:00:00Z",
-        "description": "MCP Apps UI coded - 5 branded cards for Claude Desktop advisors"
+        "description": "Downloads folder cleaned - 309 files sorted, 0 in root"
       }
     ],
     "adminTools": {
