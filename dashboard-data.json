@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-17T09:45:42.113579+00:00",
+    "lastUpdated": "2026-03-18T09:45:47.213307+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -34,7 +34,7 @@
       {
         "name": "Automation Jobs",
         "goal": 30,
-        "actual": 48,
+        "actual": 50,
         "unit": "count",
         "period": "Mar 2026",
         "status": "complete"
@@ -121,7 +121,7 @@
         "category": "operations"
       },
       {
-        "title": "19969 errors in job logs in the last 24 hours",
+        "title": "2492 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -440,32 +440,10 @@
         "activeDeals": 1,
         "wonDeals": 0,
         "customers": 40,
-        "prospects": 10151,
+        "prospects": 10267,
         "hotProspects": 99
       },
       "projects": [
-        {
-          "name": "builders-exchange",
-          "displayName": "Builders Exchange",
-          "summary": "Hot referral partnership with Ken Fortier. Strategy is to pilot 2-3 clients from top 10 list, then use as testimonials for ~200 potential accounts in the Builders Exchange network.",
-          "status": "ACTIVE - Hot referral relationship, second meeting complete, pilot strategy defined",
-          "path": "1-sales/builders-exchange/",
-          "priority": "high",
-          "owner": "Jason Bearup",
-          "rock": false,
-          "nextAction": "Follow up on pilot strategy after second meeting"
-        },
-        {
-          "name": "griffin-beverage",
-          "displayName": "Griffin Beverage",
-          "summary": "Win the Griffin Beverage group health plan (~$1M annual spend, ~200 employees). Self-funded on BCBSM. Also advising on ACA compliance for Bob's NAPA auto parts store acquisitions.",
-          "status": "active",
-          "path": "1-sales/griffin-beverage/",
-          "priority": "high",
-          "owner": "Jason Bearup",
-          "rock": false,
-          "nextAction": "Bob Griffin follow-up Mar 18 if no response"
-        },
         {
           "name": "michigan-prospect-pipeline",
           "displayName": "Michigan Prospect Pipeline",
@@ -506,6 +484,28 @@
           "owner": "Jason Bearup",
           "priority": "medium",
           "rock": false
+        },
+        {
+          "name": "builders-exchange",
+          "displayName": "Builders Exchange",
+          "summary": "Hot referral partnership with Ken Fortier. Strategy is to pilot 2-3 clients from top 10 list, then use as testimonials for ~200 potential accounts in the Builders Exchange network.",
+          "status": "ACTIVE - Hot referral relationship, second meeting complete, pilot strategy defined",
+          "path": "1-sales/builders-exchange/",
+          "priority": "high",
+          "owner": "Jason Bearup",
+          "rock": false,
+          "nextAction": "Follow up on pilot strategy after second meeting"
+        },
+        {
+          "name": "griffin-beverage",
+          "displayName": "Griffin Beverage",
+          "summary": "Win the Griffin Beverage group health plan (~$1M annual spend, ~200 employees). Self-funded on BCBSM. Also advising on ACA compliance for Bob's NAPA auto parts store acquisitions.",
+          "status": "active",
+          "path": "1-sales/griffin-beverage/",
+          "priority": "high",
+          "owner": "Jason Bearup",
+          "rock": false,
+          "nextAction": "Bob Griffin follow-up Mar 18 if no response"
         }
       ],
       "todos": [
@@ -830,23 +830,31 @@
         "pastDue": 12,
         "needsDate": 23,
         "complete": 5,
-        "vaultFiles": 1436,
-        "withFrontmatter": 1055,
-        "vaultIssues": 4340,
+        "vaultFiles": 1495,
+        "withFrontmatter": 1118,
+        "vaultIssues": 4491,
         "issuesByType": {
-          "broken_links": 838,
-          "duplicate_title": 707,
-          "incomplete_frontmatter": 383,
-          "missing_domain": 1051,
-          "missing_frontmatter": 381,
-          "orphan": 833,
+          "broken_links": 861,
+          "duplicate_title": 729,
+          "incomplete_frontmatter": 433,
+          "missing_domain": 1093,
+          "missing_frontmatter": 377,
+          "orphan": 851,
           "untagged": 147
         },
-        "filesChanged24h": 89,
+        "filesChanged24h": 149,
         "automationJobs": 0,
         "onboardingCount": 0
       },
       "projects": [
+        {
+          "name": "icloud-cleanup",
+          "status": "unknown",
+          "path": "3-operations/icloud-cleanup/",
+          "owner": "Jason Bearup",
+          "priority": "medium",
+          "rock": false
+        },
         {
           "name": "cobra-fsa-hra-setup",
           "displayName": "COBRA/FSA/HRA Setup",
@@ -1125,10 +1133,10 @@
     "technology": {
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
-        "totalJobs": 48,
+        "totalJobs": 50,
         "failedJobs": 0,
         "tokenStatus": "healthy",
-        "errorsLast24h": 19969,
+        "errorsLast24h": 2492,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1260,6 +1268,14 @@
           "nextAction": "Monitor 44 jobs, expand to additional users"
         },
         {
+          "name": "obsidian-ai-integration",
+          "status": "unknown",
+          "path": "5-technology/obsidian-ai-integration/",
+          "owner": "Jason Bearup",
+          "priority": "medium",
+          "rock": false
+        },
+        {
           "name": "infrastructure-evolution",
           "displayName": "Infrastructure Evolution",
           "summary": "Strategic roadmap for Nexus tech infrastructure as business scales from $650K to $1M+ ARR. Hardware (MacBook \u2192 Mac Studio), database architecture, automation, redundancy.",
@@ -1302,6 +1318,14 @@
           "owner": "Jason Bearup",
           "rock": false,
           "nextAction": "Collect sample benefit guides and define template structure"
+        },
+        {
+          "name": "claude-ai-skills",
+          "status": "unknown",
+          "path": "5-technology/claude-ai-skills/",
+          "owner": "Jason Bearup",
+          "priority": "medium",
+          "rock": false
         },
         {
           "name": "domain-agents",
@@ -1417,7 +1441,7 @@
           "name": "claude-team",
           "displayName": "Claude Team",
           "summary": "5-seat Claude Team subscription ($150/month). 4 shared Projects for advisors: document generation, compliance Q&A, client research, onboarding/training. MCP connections next.",
-          "status": "IN PROGRESS - Claude Team active, Projects setup complete, MCP connections next",
+          "status": "IN PROGRESS \u2014 Projects + Skills built, deployment to claude.ai pending",
           "path": "5-technology/claude-team/",
           "priority": "medium",
           "owner": "Jason Bearup",
@@ -1658,7 +1682,7 @@
         "domain": "Sales",
         "icon": "briefcase",
         "color": "orange",
-        "headline": "6 projects, 0 alerts",
+        "headline": "4 projects, 0 alerts",
         "activeProjects": 0,
         "urgentItems": 0
       },
@@ -1682,7 +1706,7 @@
         "domain": "Operations",
         "icon": "settings",
         "color": "gray",
-        "headline": "18 projects, 1 alerts",
+        "headline": "19 projects, 1 alerts",
         "activeProjects": 2,
         "urgentItems": 1
       },
@@ -1690,7 +1714,7 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "27 projects, 1 alerts",
+        "headline": "29 projects, 1 alerts",
         "activeProjects": 2,
         "urgentItems": 1
       },
@@ -1749,20 +1773,24 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-03-17",
-        "description": "[Sales] [2026-03-17 05:45] Sent daily briefing email"
+        "date": "2026-03-18",
+        "description": "[Finance] [2026-03-18 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-17",
-        "description": "[Finance] [2026-03-17 05:45] Sent daily briefing email"
-      },
-      {
-        "date": "2026-03-17",
+        "date": "2026-03-18",
         "description": "[Operations] [2026-03-17 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-17",
+        "date": "2026-03-18",
+        "description": "[Operations] [2026-03-18 05:45] Sent daily briefing email"
+      },
+      {
+        "date": "2026-03-18",
         "description": "[Technology] [2026-03-17 05:45] Sent daily briefing email"
+      },
+      {
+        "date": "2026-03-18",
+        "description": "[Technology] [2026-03-18 05:45] Sent daily briefing email"
       }
     ],
     "adminTools": {
