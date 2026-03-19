@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-18T09:45:47.213307+00:00",
+    "lastUpdated": "2026-03-19T11:22:47.519998+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -34,7 +34,7 @@
       {
         "name": "Automation Jobs",
         "goal": 30,
-        "actual": 50,
+        "actual": 53,
         "unit": "count",
         "period": "Mar 2026",
         "status": "complete"
@@ -121,7 +121,7 @@
         "category": "operations"
       },
       {
-        "title": "2492 errors in job logs in the last 24 hours",
+        "title": "2960 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -830,19 +830,19 @@
         "pastDue": 12,
         "needsDate": 23,
         "complete": 5,
-        "vaultFiles": 1495,
-        "withFrontmatter": 1118,
-        "vaultIssues": 4491,
+        "vaultFiles": 1505,
+        "withFrontmatter": 1124,
+        "vaultIssues": 4621,
         "issuesByType": {
-          "broken_links": 861,
-          "duplicate_title": 729,
-          "incomplete_frontmatter": 433,
-          "missing_domain": 1093,
-          "missing_frontmatter": 377,
-          "orphan": 851,
+          "broken_links": 896,
+          "duplicate_title": 816,
+          "incomplete_frontmatter": 439,
+          "missing_domain": 1099,
+          "missing_frontmatter": 381,
+          "orphan": 843,
           "untagged": 147
         },
-        "filesChanged24h": 149,
+        "filesChanged24h": 14,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1133,10 +1133,10 @@
     "technology": {
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
-        "totalJobs": 50,
+        "totalJobs": 53,
         "failedJobs": 0,
         "tokenStatus": "healthy",
-        "errorsLast24h": 2492,
+        "errorsLast24h": 2960,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1383,6 +1383,14 @@
           "nextAction": "Build OAuth flow when QBO cleanup is complete"
         },
         {
+          "name": "pdf-ninja",
+          "status": "unknown",
+          "path": "5-technology/pdf-ninja/",
+          "owner": "Jason Bearup",
+          "priority": "medium",
+          "rock": false
+        },
+        {
           "name": "claude-code-workspace",
           "displayName": "Claude Code Workspace",
           "summary": "Domain-based Claude Code terminal workspace architecture. Every project has a home, every session documented, future sessions can pick up where last left off. 66 business projects organized.",
@@ -1425,6 +1433,14 @@
           "owner": "Jason Bearup",
           "rock": false,
           "nextAction": "Decide Sophie's future role vs Claude Code capabilities"
+        },
+        {
+          "name": "browser-automation",
+          "status": "unknown",
+          "path": "5-technology/browser-automation/",
+          "owner": "Jason Bearup",
+          "priority": "medium",
+          "rock": false
         },
         {
           "name": "icra-calculator",
@@ -1714,7 +1730,7 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "29 projects, 1 alerts",
+        "headline": "31 projects, 1 alerts",
         "activeProjects": 2,
         "urgentItems": 1
       },
@@ -1773,23 +1789,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-03-18",
-        "description": "[Finance] [2026-03-18 05:45] Sent daily briefing email"
+        "date": "2026-03-19",
+        "description": "[Finance] [2026-03-19 07:22] Sent daily briefing email"
       },
       {
-        "date": "2026-03-18",
-        "description": "[Operations] [2026-03-17 05:45] Sent daily briefing email"
-      },
-      {
-        "date": "2026-03-18",
+        "date": "2026-03-19",
         "description": "[Operations] [2026-03-18 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-18",
+        "date": "2026-03-19",
+        "description": "[Operations] [2026-03-19 07:22] Sent daily briefing email"
+      },
+      {
+        "date": "2026-03-19",
         "description": "[Technology] [2026-03-17 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-18",
+        "date": "2026-03-19",
         "description": "[Technology] [2026-03-18 05:45] Sent daily briefing email"
       }
     ],
