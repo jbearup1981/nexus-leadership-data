@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-19T11:22:47.519998+00:00",
+    "lastUpdated": "2026-03-20T10:22:53.098058+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -109,6 +109,12 @@
     ],
     "issues": [
       {
+        "title": "CRM pipeline query failed: The read operation timed out",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "sales"
+      },
+      {
         "title": "4 blog posts ready for Jason's review",
         "priority": "medium",
         "owner": "Jason Bearup",
@@ -121,7 +127,25 @@
         "category": "operations"
       },
       {
-        "title": "2960 errors in job logs in the last 24 hours",
+        "title": "Job failed (exit 78): com.jasonsmac.action-tracker",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
+        "title": "Job failed (exit 78): com.jasonsmac.email-intelligence",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
+        "title": "Job failed (exit 78): com.jasonsmac.crm-contact-import",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
+        "title": "3348 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -830,19 +854,20 @@
         "pastDue": 12,
         "needsDate": 23,
         "complete": 5,
-        "vaultFiles": 1505,
-        "withFrontmatter": 1124,
-        "vaultIssues": 4621,
+        "vaultFiles": 1515,
+        "withFrontmatter": 1132,
+        "vaultIssues": 4733,
         "issuesByType": {
-          "broken_links": 896,
-          "duplicate_title": 816,
-          "incomplete_frontmatter": 439,
-          "missing_domain": 1099,
-          "missing_frontmatter": 381,
-          "orphan": 843,
+          "broken_links": 899,
+          "duplicate_title": 865,
+          "incomplete_frontmatter": 447,
+          "missing_domain": 1107,
+          "missing_frontmatter": 383,
+          "orphan": 851,
+          "stale_project": 34,
           "untagged": 147
         },
-        "filesChanged24h": 14,
+        "filesChanged24h": 27,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1134,16 +1159,16 @@
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
         "totalJobs": 53,
-        "failedJobs": 0,
+        "failedJobs": 3,
         "tokenStatus": "healthy",
-        "errorsLast24h": 2960,
+        "errorsLast24h": 3348,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
         "mcpServers": 2,
         "hooks": 10,
         "skills": 15,
-        "openKnownIssues": 0
+        "openKnownIssues": 20
       },
       "projects": [
         {
@@ -1211,6 +1236,14 @@
           "owner": "Jason Bearup",
           "rock": false,
           "nextAction": "Collect document templates and build Claude Project"
+        },
+        {
+          "name": "nexos-ops-agent",
+          "status": "unknown",
+          "path": "5-technology/nexos-ops-agent/",
+          "owner": "Jason Bearup",
+          "priority": "medium",
+          "rock": false
         },
         {
           "name": "ai-agent-strategy",
@@ -1698,9 +1731,9 @@
         "domain": "Sales",
         "icon": "briefcase",
         "color": "orange",
-        "headline": "4 projects, 0 alerts",
+        "headline": "4 projects, 1 alerts",
         "activeProjects": 0,
-        "urgentItems": 0
+        "urgentItems": 1
       },
       {
         "domain": "Finance",
@@ -1730,9 +1763,9 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "31 projects, 1 alerts",
+        "headline": "32 projects, 4 alerts",
         "activeProjects": 2,
-        "urgentItems": 1
+        "urgentItems": 4
       },
       {
         "domain": "Talent & Training",
@@ -1789,24 +1822,24 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-03-19",
-        "description": "[Finance] [2026-03-19 07:22] Sent daily briefing email"
+        "date": "2026-03-20",
+        "description": "[Finance] [2026-03-20 06:22] Sent daily briefing email"
       },
       {
-        "date": "2026-03-19",
-        "description": "[Operations] [2026-03-18 05:45] Sent daily briefing email"
-      },
-      {
-        "date": "2026-03-19",
+        "date": "2026-03-20",
         "description": "[Operations] [2026-03-19 07:22] Sent daily briefing email"
       },
       {
-        "date": "2026-03-19",
-        "description": "[Technology] [2026-03-17 05:45] Sent daily briefing email"
+        "date": "2026-03-20",
+        "description": "[Operations] [2026-03-20 06:22] Sent daily briefing email"
       },
       {
-        "date": "2026-03-19",
+        "date": "2026-03-20",
         "description": "[Technology] [2026-03-18 05:45] Sent daily briefing email"
+      },
+      {
+        "date": "2026-03-20",
+        "description": "[Technology] [2026-03-20 05:46] Sent daily briefing email"
       }
     ],
     "adminTools": {
