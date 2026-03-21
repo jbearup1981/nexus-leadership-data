@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-20T10:22:53.098058+00:00",
+    "lastUpdated": "2026-03-21T09:45:46.931133+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -109,12 +109,6 @@
     ],
     "issues": [
       {
-        "title": "CRM pipeline query failed: The read operation timed out",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "sales"
-      },
-      {
         "title": "4 blog posts ready for Jason's review",
         "priority": "medium",
         "owner": "Jason Bearup",
@@ -145,7 +139,7 @@
         "category": "technology"
       },
       {
-        "title": "3348 errors in job logs in the last 24 hours",
+        "title": "3846 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -854,20 +848,20 @@
         "pastDue": 12,
         "needsDate": 23,
         "complete": 5,
-        "vaultFiles": 1515,
-        "withFrontmatter": 1132,
-        "vaultIssues": 4733,
+        "vaultFiles": 1517,
+        "withFrontmatter": 1133,
+        "vaultIssues": 4750,
         "issuesByType": {
-          "broken_links": 899,
-          "duplicate_title": 865,
-          "incomplete_frontmatter": 447,
-          "missing_domain": 1107,
-          "missing_frontmatter": 383,
-          "orphan": 851,
+          "broken_links": 904,
+          "duplicate_title": 878,
+          "incomplete_frontmatter": 448,
+          "missing_domain": 1108,
+          "missing_frontmatter": 384,
+          "orphan": 847,
           "stale_project": 34,
           "untagged": 147
         },
-        "filesChanged24h": 27,
+        "filesChanged24h": 23,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1161,7 +1155,7 @@
         "totalJobs": 53,
         "failedJobs": 3,
         "tokenStatus": "healthy",
-        "errorsLast24h": 3348,
+        "errorsLast24h": 3846,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1731,9 +1725,9 @@
         "domain": "Sales",
         "icon": "briefcase",
         "color": "orange",
-        "headline": "4 projects, 1 alerts",
+        "headline": "4 projects, 0 alerts",
         "activeProjects": 0,
-        "urgentItems": 1
+        "urgentItems": 0
       },
       {
         "domain": "Finance",
@@ -1822,24 +1816,24 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-03-20",
-        "description": "[Finance] [2026-03-20 06:22] Sent daily briefing email"
+        "date": "2026-03-21",
+        "description": "[Finance] [2026-03-21 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-20",
-        "description": "[Operations] [2026-03-19 07:22] Sent daily briefing email"
-      },
-      {
-        "date": "2026-03-20",
+        "date": "2026-03-21",
         "description": "[Operations] [2026-03-20 06:22] Sent daily briefing email"
       },
       {
-        "date": "2026-03-20",
-        "description": "[Technology] [2026-03-18 05:45] Sent daily briefing email"
+        "date": "2026-03-21",
+        "description": "[Operations] [2026-03-21 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-20",
+        "date": "2026-03-21",
         "description": "[Technology] [2026-03-20 05:46] Sent daily briefing email"
+      },
+      {
+        "date": "2026-03-21",
+        "description": "[Technology] [2026-03-21 05:45] Sent daily briefing email"
       }
     ],
     "adminTools": {
