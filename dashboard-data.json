@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-21T09:45:46.931133+00:00",
+    "lastUpdated": "2026-03-22T09:45:42.758992+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -139,7 +139,7 @@
         "category": "technology"
       },
       {
-        "title": "3846 errors in job logs in the last 24 hours",
+        "title": "4315 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -848,20 +848,21 @@
         "pastDue": 12,
         "needsDate": 23,
         "complete": 5,
-        "vaultFiles": 1517,
-        "withFrontmatter": 1133,
-        "vaultIssues": 4750,
+        "vaultFiles": 1526,
+        "withFrontmatter": 1139,
+        "vaultIssues": 4833,
         "issuesByType": {
-          "broken_links": 904,
-          "duplicate_title": 878,
-          "incomplete_frontmatter": 448,
-          "missing_domain": 1108,
-          "missing_frontmatter": 384,
-          "orphan": 847,
+          "broken_links": 909,
+          "dashboard_stale_week": 1,
+          "duplicate_title": 936,
+          "incomplete_frontmatter": 453,
+          "missing_domain": 1114,
+          "missing_frontmatter": 387,
+          "orphan": 852,
           "stale_project": 34,
           "untagged": 147
         },
-        "filesChanged24h": 23,
+        "filesChanged24h": 26,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1155,7 +1156,7 @@
         "totalJobs": 53,
         "failedJobs": 3,
         "tokenStatus": "healthy",
-        "errorsLast24h": 3846,
+        "errorsLast24h": 4315,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1165,6 +1166,14 @@
         "openKnownIssues": 20
       },
       "projects": [
+        {
+          "name": "system-setup-improvements",
+          "status": "active",
+          "path": "5-technology/system-setup-improvements/",
+          "owner": "Jason Bearup",
+          "priority": "medium",
+          "rock": false
+        },
         {
           "name": "email-automation-basic",
           "displayName": "NexMail (Legacy)",
@@ -1757,8 +1766,8 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "32 projects, 4 alerts",
-        "activeProjects": 2,
+        "headline": "33 projects, 4 alerts",
+        "activeProjects": 3,
         "urgentItems": 4
       },
       {
@@ -1816,24 +1825,24 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-03-21",
-        "description": "[Finance] [2026-03-21 05:45] Sent daily briefing email"
+        "date": "2026-03-22",
+        "description": "[Finance] [2026-03-22 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-21",
-        "description": "[Operations] [2026-03-20 06:22] Sent daily briefing email"
-      },
-      {
-        "date": "2026-03-21",
+        "date": "2026-03-22",
         "description": "[Operations] [2026-03-21 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-21",
-        "description": "[Technology] [2026-03-20 05:46] Sent daily briefing email"
+        "date": "2026-03-22",
+        "description": "[Operations] [2026-03-22 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-21",
+        "date": "2026-03-22",
         "description": "[Technology] [2026-03-21 05:45] Sent daily briefing email"
+      },
+      {
+        "date": "2026-03-22",
+        "description": "[Technology] [2026-03-22 05:45] Sent daily briefing email"
       }
     ],
     "adminTools": {
