@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-22T09:45:42.758992+00:00",
+    "lastUpdated": "2026-03-23T09:45:42.287720+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -139,7 +139,7 @@
         "category": "technology"
       },
       {
-        "title": "4315 errors in job logs in the last 24 hours",
+        "title": "4795 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -201,7 +201,7 @@
         "priority": "medium"
       },
       {
-        "name": "Review & edit remaining 3 March posts \u2014 Church ERISA, Church Insurance Options, ICHRA Marketplace Exodus",
+        "name": "March posts \u2014 4 posts in website DB as drafts. Jason to publish from admin panel once Replit image pipeline confirmed working.",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
@@ -262,6 +262,12 @@
       },
       {
         "name": "ACG panel blog post \u2014 \"Practical AI for Business Owners\" companion resource",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
+      },
+      {
+        "name": "Review & edit remaining 3 March posts \u2014 Church ERISA, Church Insurance Options, ICHRA Marketplace Exodus",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
@@ -334,12 +340,6 @@
       },
       {
         "name": "Blocked senders list (~/.config/m365-mcp/blocked_senders.json)",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "launchd job health \u2014 check logs at ~/.config/nexmail/job_logs/",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
@@ -496,6 +496,14 @@
           "nextAction": "Expand component library (compliance, voluntary benefits, ICHRA, level-funded)"
         },
         {
+          "name": "courtney-prospect-list",
+          "status": "Enrichment complete \u2014 ready for CRM upload",
+          "path": "1-sales/courtney-prospect-list/",
+          "owner": "Jason Bearup",
+          "priority": "low",
+          "rock": false
+        },
+        {
           "name": "[1] clients",
           "status": "unknown",
           "path": "1-sales/[1] clients/",
@@ -562,6 +570,18 @@
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
+        },
+        {
+          "name": "March posts \u2014 4 posts in website DB as drafts. Jason to publish from admin panel once Replit image pipeline confirmed working.",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
+        },
+        {
+          "name": "March posts \u2014 4 posts in website DB as drafts. Jason to publish from admin panel once Replit image pipeline confirmed working.",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
         }
       ],
       "resources": []
@@ -617,12 +637,6 @@
       "todos": [
         {
           "name": "Nexus Health Plus: Connect with indemnity carriers \u2014 Need carrier conversations started before Howard follow-up meeting Fri Mar 21. Top targets: Crum & Forster (Michael Vaccaro), Clear Spring Health, AXIS Group Benefits.",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
-          "name": "Review & edit remaining 3 March posts \u2014 Church ERISA, Church Insurance Options, ICHRA Marketplace Exodus",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -848,21 +862,20 @@
         "pastDue": 12,
         "needsDate": 23,
         "complete": 5,
-        "vaultFiles": 1526,
-        "withFrontmatter": 1139,
-        "vaultIssues": 4833,
+        "vaultFiles": 1553,
+        "withFrontmatter": 1148,
+        "vaultIssues": 5028,
         "issuesByType": {
-          "broken_links": 909,
-          "dashboard_stale_week": 1,
-          "duplicate_title": 936,
-          "incomplete_frontmatter": 453,
-          "missing_domain": 1114,
-          "missing_frontmatter": 387,
-          "orphan": 852,
+          "broken_links": 921,
+          "duplicate_title": 1066,
+          "incomplete_frontmatter": 461,
+          "missing_domain": 1123,
+          "missing_frontmatter": 405,
+          "orphan": 871,
           "stale_project": 34,
           "untagged": 147
         },
-        "filesChanged24h": 26,
+        "filesChanged24h": 51,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1156,13 +1169,13 @@
         "totalJobs": 53,
         "failedJobs": 3,
         "tokenStatus": "healthy",
-        "errorsLast24h": 4315,
+        "errorsLast24h": 4795,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
         "mcpServers": 2,
-        "hooks": 10,
-        "skills": 15,
+        "hooks": 11,
+        "skills": 36,
         "openKnownIssues": 20
       },
       "projects": [
@@ -1449,6 +1462,14 @@
           "nextAction": "Create full inventory of all technology platforms"
         },
         {
+          "name": "automation-skills",
+          "status": "unknown",
+          "path": "5-technology/automation-skills/",
+          "owner": "Jason Bearup",
+          "priority": "medium",
+          "rock": false
+        },
+        {
           "name": "skill-improvement",
           "displayName": "Skill Improvement System",
           "summary": "Self-improving skills for Claude Code. Observes execution patterns, analyzes via Haiku, proposes amendments for human review. Weekly health scan at Sunday 5:30 AM.",
@@ -1545,6 +1566,18 @@
         },
         {
           "name": "QuickBooks Online \u2014 2026 running smooth \u2014 Set up 2026 categories, recurring transactions, agent pay tracking, ensure monthly close process is clean going forward. Due: Mar 31.",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
+        },
+        {
+          "name": "March posts \u2014 4 posts in website DB as drafts. Jason to publish from admin panel once Replit image pipeline confirmed working.",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
+        },
+        {
+          "name": "March posts \u2014 4 posts in website DB as drafts. Jason to publish from admin panel once Replit image pipeline confirmed working.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -1734,7 +1767,7 @@
         "domain": "Sales",
         "icon": "briefcase",
         "color": "orange",
-        "headline": "4 projects, 0 alerts",
+        "headline": "5 projects, 0 alerts",
         "activeProjects": 0,
         "urgentItems": 0
       },
@@ -1766,7 +1799,7 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "33 projects, 4 alerts",
+        "headline": "34 projects, 4 alerts",
         "activeProjects": 3,
         "urgentItems": 4
       },
@@ -1825,24 +1858,24 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-03-22",
-        "description": "[Finance] [2026-03-22 05:45] Sent daily briefing email"
+        "date": "2026-03-23",
+        "description": "[Finance] [2026-03-23 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-22",
-        "description": "[Operations] [2026-03-21 05:45] Sent daily briefing email"
-      },
-      {
-        "date": "2026-03-22",
+        "date": "2026-03-23",
         "description": "[Operations] [2026-03-22 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-22",
-        "description": "[Technology] [2026-03-21 05:45] Sent daily briefing email"
+        "date": "2026-03-23",
+        "description": "[Operations] [2026-03-23 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-22",
+        "date": "2026-03-23",
         "description": "[Technology] [2026-03-22 05:45] Sent daily briefing email"
+      },
+      {
+        "date": "2026-03-23",
+        "description": "[Technology] [2026-03-23 05:45] Sent daily briefing email"
       }
     ],
     "adminTools": {
