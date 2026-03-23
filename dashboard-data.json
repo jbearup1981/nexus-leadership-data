@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-23T09:45:42.287720+00:00",
+    "lastUpdated": "2026-03-23T10:00:20.904829+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -42,7 +42,7 @@
       {
         "name": "Blog Posts Published",
         "goal": 4,
-        "actual": 3,
+        "actual": 2,
         "unit": "count",
         "period": "Mar 2026",
         "status": "on_track"
@@ -108,12 +108,6 @@
       }
     ],
     "issues": [
-      {
-        "title": "4 blog posts ready for Jason's review",
-        "priority": "medium",
-        "owner": "Jason Bearup",
-        "category": "marketing"
-      },
       {
         "title": "12 projects past due",
         "priority": "high",
@@ -261,18 +255,6 @@
         "priority": "medium"
       },
       {
-        "name": "ACG panel blog post \u2014 \"Practical AI for Business Owners\" companion resource",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "Review & edit remaining 3 March posts \u2014 Church ERISA, Church Insurance Options, ICHRA Marketplace Exodus",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
         "name": "Send Ken & Brenda interview questions \u2014 templates in team-content-program.md",
         "done": false,
         "owner": "Jason Bearup",
@@ -303,7 +285,7 @@
         "priority": "medium"
       },
       {
-        "name": "March blog posts \u2014 finalize and get to website agent (Posts #2, #3, #4 reviewed and ready)",
+        "name": "April posts (05-08) \u2014 Need to locate drafts, run Sonnet editorial review, email Jason batch for approval via Mia",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
@@ -340,6 +322,12 @@
       },
       {
         "name": "Blocked senders list (~/.config/m365-mcp/blocked_senders.json)",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
+      },
+      {
+        "name": "launchd job health \u2014 check logs at ~/.config/nexmail/job_logs/",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
@@ -714,8 +702,8 @@
       "summary": "38 blog drafts written, 3 published. March posts #2-4 ready for review. ACG AI Panel Apr 28. Grace Morris starting LinkedIn/social media ramp.",
       "metrics": {
         "totalDrafts": 38,
-        "published": 3,
-        "readyForReview": 4,
+        "published": 2,
+        "readyForReview": 0,
         "websiteStatus": "up"
       },
       "projects": [
@@ -799,18 +787,6 @@
       ],
       "todos": [
         {
-          "name": "ACG panel blog post \u2014 \"Practical AI for Business Owners\" companion resource",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
-          "name": "Review & edit remaining 3 March posts \u2014 Church ERISA, Church Insurance Options, ICHRA Marketplace Exodus",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
           "name": "Send Ken & Brenda interview questions \u2014 templates in team-content-program.md",
           "done": false,
           "owner": "Jason Bearup",
@@ -841,7 +817,25 @@
           "priority": "medium"
         },
         {
-          "name": "March blog posts \u2014 finalize and get to website agent (Posts #2, #3, #4 reviewed and ready)",
+          "name": "April posts (05-08) \u2014 Need to locate drafts, run Sonnet editorial review, email Jason batch for approval via Mia",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
+        },
+        {
+          "name": "March posts \u2014 4 posts in website DB as drafts. Jason to publish from admin panel once Replit image pipeline confirmed working.",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
+        },
+        {
+          "name": "April posts (05-08) \u2014 Need to locate drafts, run Sonnet editorial review, email Jason batch for approval",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
+        },
+        {
+          "name": "March posts \u2014 4 posts in website DB as drafts. Jason to publish from admin panel once Replit image pipeline confirmed working.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -1783,9 +1777,9 @@
         "domain": "Marketing",
         "icon": "megaphone",
         "color": "blue",
-        "headline": "7 projects, 1 alerts",
+        "headline": "7 projects, 0 alerts",
         "activeProjects": 1,
-        "urgentItems": 1
+        "urgentItems": 0
       },
       {
         "domain": "Operations",
@@ -1859,10 +1853,6 @@
     "recentActivity": [
       {
         "date": "2026-03-23",
-        "description": "[Finance] [2026-03-23 05:45] Sent daily briefing email"
-      },
-      {
-        "date": "2026-03-23",
         "description": "[Operations] [2026-03-22 05:45] Sent daily briefing email"
       },
       {
@@ -1876,6 +1866,10 @@
       {
         "date": "2026-03-23",
         "description": "[Technology] [2026-03-23 05:45] Sent daily briefing email"
+      },
+      {
+        "date": "2026-03-23",
+        "description": "[Talent] [2026-03-23 06:00] Sent weekly briefing email"
       }
     ],
     "adminTools": {
