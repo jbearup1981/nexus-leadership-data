@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-23T10:00:20.904829+00:00",
+    "lastUpdated": "2026-03-24T09:45:50.226475+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -18,7 +18,7 @@
       {
         "name": "Active Group Clients",
         "goal": 10,
-        "actual": 40,
+        "actual": 39,
         "unit": "count",
         "period": "Mar 2026",
         "status": "on_track"
@@ -34,7 +34,7 @@
       {
         "name": "Automation Jobs",
         "goal": 30,
-        "actual": 53,
+        "actual": 55,
         "unit": "count",
         "period": "Mar 2026",
         "status": "complete"
@@ -50,7 +50,7 @@
       {
         "name": "Past Due Projects",
         "goal": 0,
-        "actual": 12,
+        "actual": 11,
         "unit": "count",
         "period": "Mar 2026",
         "status": "at_risk"
@@ -109,7 +109,7 @@
     ],
     "issues": [
       {
-        "title": "12 projects past due",
+        "title": "11 projects past due",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "operations"
@@ -133,7 +133,7 @@
         "category": "technology"
       },
       {
-        "title": "4795 errors in job logs in the last 24 hours",
+        "title": "5451 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -159,49 +159,79 @@
     ],
     "todos": [
       {
-        "name": "Nexus Health Plus: Connect with indemnity carriers \u2014 Need carrier conversations started before Howard follow-up meeting Fri Mar 21. Top targets: Crum & Forster (Michael Vaccaro), Clear Spring Health, AXIS Group Benefits.",
+        "name": "Nexus Health Plus: carrier outreach \u2014 C&F, Clear Spring, AXIS. Overdue from Mar 21.",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
       },
       {
-        "name": "Review 1,202 scraped contacts \u2014 Clean personal/junk contacts, then approve CRM import. Jason 502, Ken 700. File: ~/.config/m365-mcp/contact_review_jason.json. Import job paused until review complete.",
+        "name": "CRM Client Audit \u2014 policies & renewals \u2014 verify all policies in NexHub CRM. Overdue from Mar 21.",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
       },
       {
-        "name": "Contact sync architecture \u2014 Decide: CRM \u2192 Outlook/Exchange \u2192 phones. Three categories: client contacts (per-advisor), shared resources (carrier reps, GAs, team \u2014 curated master list pushed to everyone), prospect contacts. Needs Graph API Contacts write permissions. Project: 5-technology/crm-contact-sync/.",
+        "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 confirm docs complete and filed. Overdue from Mar 21.",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
       },
       {
-        "name": "CRM Client Audit \u2014 policies & renewals \u2014 Review every client org in NexHub CRM. Verify all policies are entered with correct carrier, plan type, effective/renewal dates. Flag missing or stale records. Due: Mar 21.",
+        "name": "May blog posts (09-12) \u2014 run through review + publish pipeline. Always 2 months ahead.",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
       },
       {
-        "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 For each client, confirm onboarding docs (signed agreements, BAA, etc.) and compliance docs (POP, SBC, wrap doc, ERISA notices) are complete and filed. Flag gaps. Due: Mar 21.",
+        "name": "Review 1,202 scraped contacts for CRM import \u2014 Jason 502, Ken 700. Import paused.",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
       },
       {
-        "name": "Bob Griffin follow-up \u2014 ping again Wed Mar 18 if no response",
+        "name": "Bob Griffin follow-up \u2014 overdue, needs another ping",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
       },
       {
-        "name": "March posts \u2014 4 posts in website DB as drafts. Jason to publish from admin panel once Replit image pipeline confirmed working.",
+        "name": "Future pipeline: add imagePrompt to blog publish flow",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
       },
       {
-        "name": "Start March 2026 commission workbook",
+        "name": "Start March 2026 commission workbook \u2014 carrier statements needed, Ellen gathering",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
+      },
+      {
+        "name": "Viper Industrial Feb Beam commission \u2014 missed during Feb data entry, add to Tom's next pay",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
+      },
+      {
+        "name": "Move March PH statement \u2014 Priority_Health_03_2026.csv \u2192 OneDrive Commission_Statements/Group_2026/PriorityHealth_2026-03.csv",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
+      },
+      {
+        "name": "QuickBooks Online \u2014 2025 backlog cleanup \u2014 reconcile 2025, categorize, verify commissions, close books. Due: Mar 31.",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
+      },
+      {
+        "name": "QuickBooks Online \u2014 2026 setup \u2014 categories, recurring transactions, agent pay tracking. Due: Mar 31.",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
+      },
+      {
+        "name": "Skill quality uplift \u2014 Bring 20 weak/fair skills to Good+. Fix QBO evals (25%), rewrite 8 domain agent descriptions, add eval cases for 6 missing skills, refresh 3 stale skills. Med priority. Due: Apr 6.",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
@@ -213,37 +243,13 @@
         "priority": "medium"
       },
       {
-        "name": "Ellen: logins + system access \u2014 email, OneDrive, carrier portals, etc.",
+        "name": "Ellen: logins + system access \u2014 email, OneDrive, carrier portals",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
       },
       {
-        "name": "QuickBooks Online \u2014 2025 backlog cleanup \u2014 Reconcile all 2025 transactions, categorize uncategorized items, verify commission income entries match tracker, close out 2025 books. Due: Mar 31.",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "QuickBooks Online \u2014 2026 running smooth \u2014 Set up 2026 categories, recurring transactions, agent pay tracking, ensure monthly close process is clean going forward. Due: Mar 31.",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "Ken's individual commissions \u2014 look up old individual policy data for Ken",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "Move March PH statement \u2014 Priority_Health_03_2026.csv from ~/Downloads \u2192 OneDrive Commission_Statements/Group_2026/ as PriorityHealth_2026-03.csv",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "Viper Industrial Feb Beam commission \u2014 missed during Feb data entry, needs added to Tom's next pay",
+        "name": "Ken's individual commissions \u2014 look up old individual policy data",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
@@ -291,43 +297,43 @@
         "priority": "medium"
       },
       {
+        "name": "March posts \u2014 4 posts in website DB as drafts. Jason to publish from admin panel once Replit image pipeline confirmed working.",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
+      },
+      {
         "name": "Marketing keep/kill rules (~/.config/m365-mcp/marketing_rules.json)",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
       },
       {
-        "name": "Courtney onboarding checklist \u2014 finalize docs, get her signed and rolling",
+        "name": "Donny Koop COBRA enrollment \u2014 iSolved form + PH medical + MetLife dental/vision. Calendar block Mon 4pm or Tue.",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
       },
       {
-        "name": "Order business cards \u2014 get this done this weekend",
+        "name": "Ellen: photo + profile on Nexus website",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
       },
       {
-        "name": "Courtney training plan \u2014 scope out what she can start working on next 2 weeks",
+        "name": "Courtney onboarding checklist \u2014 finalize docs, get signed",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
       },
       {
-        "name": "Donald Koop personal email \u2014 work email may be dead (involuntary term). Need personal email or phone outreach (616-848-1170) for COBRA letter",
+        "name": "Courtney training plan \u2014 scope what she can start next 2 weeks",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
       },
       {
-        "name": "Blocked senders list (~/.config/m365-mcp/blocked_senders.json)",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "launchd job health \u2014 check logs at ~/.config/nexmail/job_logs/",
+        "name": "Contact sync architecture \u2014 CRM \u2192 Outlook \u2192 phones. Project: 5-technology/crm-contact-sync/",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
@@ -445,9 +451,9 @@
         "totalPipelineValue": 75000.0,
         "activeDeals": 1,
         "wonDeals": 0,
-        "customers": 40,
-        "prospects": 10267,
-        "hotProspects": 99
+        "customers": 39,
+        "prospects": 10455,
+        "hotProspects": 114
       },
       "projects": [
         {
@@ -485,7 +491,7 @@
         },
         {
           "name": "courtney-prospect-list",
-          "status": "Enrichment complete \u2014 ready for CRM upload",
+          "status": "COMPLETE \u2014 Live in [[NexHub CRM]]",
           "path": "1-sales/courtney-prospect-list/",
           "owner": "Jason Bearup",
           "priority": "low",
@@ -524,49 +530,43 @@
       ],
       "todos": [
         {
-          "name": "Nexus Health Plus: Connect with indemnity carriers \u2014 Need carrier conversations started before Howard follow-up meeting Fri Mar 21. Top targets: Crum & Forster (Michael Vaccaro), Clear Spring Health, AXIS Group Benefits.",
+          "name": "Nexus Health Plus: carrier outreach \u2014 C&F, Clear Spring, AXIS. Overdue from Mar 21.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "Review 1,202 scraped contacts \u2014 Clean personal/junk contacts, then approve CRM import. Jason 502, Ken 700. File: ~/.config/m365-mcp/contact_review_jason.json. Import job paused until review complete.",
+          "name": "CRM Client Audit \u2014 policies & renewals \u2014 verify all policies in NexHub CRM. Overdue from Mar 21.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "Contact sync architecture \u2014 Decide: CRM \u2192 Outlook/Exchange \u2192 phones. Three categories: client contacts (per-advisor), shared resources (carrier reps, GAs, team \u2014 curated master list pushed to everyone), prospect contacts. Needs Graph API Contacts write permissions. Project: 5-technology/crm-contact-sync/.",
+          "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 confirm docs complete and filed. Overdue from Mar 21.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "CRM Client Audit \u2014 policies & renewals \u2014 Review every client org in NexHub CRM. Verify all policies are entered with correct carrier, plan type, effective/renewal dates. Flag missing or stale records. Due: Mar 21.",
+          "name": "May blog posts (09-12) \u2014 run through review + publish pipeline. Always 2 months ahead.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 For each client, confirm onboarding docs (signed agreements, BAA, etc.) and compliance docs (POP, SBC, wrap doc, ERISA notices) are complete and filed. Flag gaps. Due: Mar 21.",
+          "name": "Review 1,202 scraped contacts for CRM import \u2014 Jason 502, Ken 700. Import paused.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "Bob Griffin follow-up \u2014 ping again Wed Mar 18 if no response",
+          "name": "Bob Griffin follow-up \u2014 overdue, needs another ping",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "March posts \u2014 4 posts in website DB as drafts. Jason to publish from admin panel once Replit image pipeline confirmed working.",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
-          "name": "March posts \u2014 4 posts in website DB as drafts. Jason to publish from admin panel once Replit image pipeline confirmed working.",
+          "name": "Future pipeline: add imagePrompt to blog publish flow",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -624,13 +624,37 @@
       ],
       "todos": [
         {
-          "name": "Nexus Health Plus: Connect with indemnity carriers \u2014 Need carrier conversations started before Howard follow-up meeting Fri Mar 21. Top targets: Crum & Forster (Michael Vaccaro), Clear Spring Health, AXIS Group Benefits.",
+          "name": "Start March 2026 commission workbook \u2014 carrier statements needed, Ellen gathering",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "Start March 2026 commission workbook",
+          "name": "Viper Industrial Feb Beam commission \u2014 missed during Feb data entry, add to Tom's next pay",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
+        },
+        {
+          "name": "Move March PH statement \u2014 Priority_Health_03_2026.csv \u2192 OneDrive Commission_Statements/Group_2026/PriorityHealth_2026-03.csv",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
+        },
+        {
+          "name": "QuickBooks Online \u2014 2025 backlog cleanup \u2014 reconcile 2025, categorize, verify commissions, close books. Due: Mar 31.",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
+        },
+        {
+          "name": "QuickBooks Online \u2014 2026 setup \u2014 categories, recurring transactions, agent pay tracking. Due: Mar 31.",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
+        },
+        {
+          "name": "Skill quality uplift \u2014 Bring 20 weak/fair skills to Good+. Fix QBO evals (25%), rewrite 8 domain agent descriptions, add eval cases for 6 missing skills, refresh 3 stale skills. Med priority. Due: Apr 6.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -642,49 +666,19 @@
           "priority": "medium"
         },
         {
-          "name": "Ellen: logins + system access \u2014 email, OneDrive, carrier portals, etc.",
+          "name": "Ellen: logins + system access \u2014 email, OneDrive, carrier portals",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "Contact sync architecture \u2014 Decide: CRM \u2192 Outlook/Exchange \u2192 phones. Three categories: client contacts (per-advisor), shared resources (carrier reps, GAs, team \u2014 curated master list pushed to everyone), prospect contacts. Needs Graph API Contacts write permissions. Project: 5-technology/crm-contact-sync/.",
+          "name": "Nexus Health Plus: carrier outreach \u2014 C&F, Clear Spring, AXIS. Overdue from Mar 21.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "CRM Client Audit \u2014 policies & renewals \u2014 Review every client org in NexHub CRM. Verify all policies are entered with correct carrier, plan type, effective/renewal dates. Flag missing or stale records. Due: Mar 21.",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
-          "name": "QuickBooks Online \u2014 2025 backlog cleanup \u2014 Reconcile all 2025 transactions, categorize uncategorized items, verify commission income entries match tracker, close out 2025 books. Due: Mar 31.",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
-          "name": "QuickBooks Online \u2014 2026 running smooth \u2014 Set up 2026 categories, recurring transactions, agent pay tracking, ensure monthly close process is clean going forward. Due: Mar 31.",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
-          "name": "Ken's individual commissions \u2014 look up old individual policy data for Ken",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
-          "name": "Move March PH statement \u2014 Priority_Health_03_2026.csv from ~/Downloads \u2192 OneDrive Commission_Statements/Group_2026/ as PriorityHealth_2026-03.csv",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
-          "name": "Viper Industrial Feb Beam commission \u2014 missed during Feb data entry, needs added to Tom's next pay",
+          "name": "Ken's individual commissions \u2014 look up old individual policy data",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -853,27 +847,35 @@
       "summary": "13 onboarding docs FINAL. VA trial active (Cam). Leadership dashboard building on Replit. 12 past-due projects need date review. 44 automation jobs running.",
       "metrics": {
         "totalProjects": 101,
-        "pastDue": 12,
+        "pastDue": 11,
         "needsDate": 23,
-        "complete": 5,
-        "vaultFiles": 1553,
-        "withFrontmatter": 1148,
-        "vaultIssues": 5028,
+        "complete": 11,
+        "vaultFiles": 1570,
+        "withFrontmatter": 1162,
+        "vaultIssues": 5137,
         "issuesByType": {
-          "broken_links": 921,
-          "duplicate_title": 1066,
-          "incomplete_frontmatter": 461,
-          "missing_domain": 1123,
-          "missing_frontmatter": 405,
+          "broken_links": 941,
+          "duplicate_title": 1125,
+          "incomplete_frontmatter": 474,
+          "missing_domain": 1137,
+          "missing_frontmatter": 408,
           "orphan": 871,
           "stale_project": 34,
           "untagged": 147
         },
-        "filesChanged24h": 51,
+        "filesChanged24h": 30,
         "automationJobs": 0,
         "onboardingCount": 0
       },
       "projects": [
+        {
+          "name": "claude-commands",
+          "status": "Active",
+          "path": "3-operations/claude-commands/",
+          "owner": "Jason Bearup",
+          "priority": "medium",
+          "rock": false
+        },
         {
           "name": "icloud-cleanup",
           "status": "unknown",
@@ -1083,73 +1085,73 @@
       ],
       "todos": [
         {
+          "name": "Donny Koop COBRA enrollment \u2014 iSolved form + PH medical + MetLife dental/vision. Calendar block Mon 4pm or Tue.",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
+        },
+        {
+          "name": "Start March 2026 commission workbook \u2014 carrier statements needed, Ellen gathering",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
+        },
+        {
           "name": "Ellen: carrier portal access + Loom videos \u2014 13 carriers, target Mar 31",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "Ellen: photo + profile on Nexus website \u2014 new team member page",
+          "name": "Ellen: logins + system access \u2014 email, OneDrive, carrier portals",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "Ellen: logins + system access \u2014 email, OneDrive, carrier portals, etc.",
+          "name": "Ellen: photo + profile on Nexus website",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "Contact sync architecture \u2014 Decide: CRM \u2192 Outlook/Exchange \u2192 phones. Three categories: client contacts (per-advisor), shared resources (carrier reps, GAs, team \u2014 curated master list pushed to everyone), prospect contacts. Needs Graph API Contacts write permissions. Project: 5-technology/crm-contact-sync/.",
+          "name": "Courtney onboarding checklist \u2014 finalize docs, get signed",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 For each client, confirm onboarding docs (signed agreements, BAA, etc.) and compliance docs (POP, SBC, wrap doc, ERISA notices) are complete and filed. Flag gaps. Due: Mar 21.",
+          "name": "Courtney training plan \u2014 scope what she can start next 2 weeks",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "QuickBooks Online \u2014 2026 running smooth \u2014 Set up 2026 categories, recurring transactions, agent pay tracking, ensure monthly close process is clean going forward. Due: Mar 31.",
+          "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 confirm docs complete and filed. Overdue from Mar 21.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "Courtney onboarding checklist \u2014 finalize docs, get her signed and rolling",
+          "name": "Contact sync architecture \u2014 CRM \u2192 Outlook \u2192 phones. Project: 5-technology/crm-contact-sync/",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "All team member website pages \u2014 build out profiles for onboarding (Ellen, Grace, Wendi, Sheya, Courtney)",
+          "name": "All team member website pages \u2014 Ellen, Grace, Wendi, Sheya, Courtney",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "Enneagram assessments \u2014 remind everyone this weekend (Ken, Cam, Tom, Courtney, Ellen, Grace, Wendi, Sheya)",
+          "name": "Enneagram assessments \u2014 remind Ken, Cam, Tom, Courtney, Ellen, Grace, Wendi, Sheya",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "Order business cards \u2014 get this done this weekend",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
-          "name": "Courtney training plan \u2014 scope out what she can start working on next 2 weeks",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
-          "name": "Donald Koop personal email \u2014 work email may be dead (involuntary term). Need personal email or phone outreach (616-848-1170) for COBRA letter",
+          "name": "Order business cards",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -1160,10 +1162,10 @@
     "technology": {
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
-        "totalJobs": 53,
+        "totalJobs": 55,
         "failedJobs": 3,
         "tokenStatus": "healthy",
-        "errorsLast24h": 4795,
+        "errorsLast24h": 5451,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1529,49 +1531,49 @@
       ],
       "todos": [
         {
-          "name": "Review 1,202 scraped contacts \u2014 Clean personal/junk contacts, then approve CRM import. Jason 502, Ken 700. File: ~/.config/m365-mcp/contact_review_jason.json. Import job paused until review complete.",
+          "name": "NexMail: Deploy domain-agents code to iMac \u2014 plists exist but scripts never copied over. 4 jobs broken (exit 78).",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "Contact sync architecture \u2014 Decide: CRM \u2192 Outlook/Exchange \u2192 phones. Three categories: client contacts (per-advisor), shared resources (carrier reps, GAs, team \u2014 curated master list pushed to everyone), prospect contacts. Needs Graph API Contacts write permissions. Project: 5-technology/crm-contact-sync/.",
+          "name": "QuickBooks Online \u2014 2025 backlog cleanup \u2014 reconcile 2025, categorize, verify commissions, close books. Due: Mar 31.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "CRM Client Audit \u2014 policies & renewals \u2014 Review every client org in NexHub CRM. Verify all policies are entered with correct carrier, plan type, effective/renewal dates. Flag missing or stale records. Due: Mar 21.",
+          "name": "QuickBooks Online \u2014 2026 setup \u2014 categories, recurring transactions, agent pay tracking. Due: Mar 31.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 For each client, confirm onboarding docs (signed agreements, BAA, etc.) and compliance docs (POP, SBC, wrap doc, ERISA notices) are complete and filed. Flag gaps. Due: Mar 21.",
+          "name": "Skill quality uplift \u2014 Bring 20 weak/fair skills to Good+. Fix QBO evals (25%), rewrite 8 domain agent descriptions, add eval cases for 6 missing skills, refresh 3 stale skills. Med priority. Due: Apr 6.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "QuickBooks Online \u2014 2025 backlog cleanup \u2014 Reconcile all 2025 transactions, categorize uncategorized items, verify commission income entries match tracker, close out 2025 books. Due: Mar 31.",
+          "name": "CRM Client Audit \u2014 policies & renewals \u2014 verify all policies in NexHub CRM. Overdue from Mar 21.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "QuickBooks Online \u2014 2026 running smooth \u2014 Set up 2026 categories, recurring transactions, agent pay tracking, ensure monthly close process is clean going forward. Due: Mar 31.",
+          "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 confirm docs complete and filed. Overdue from Mar 21.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "March posts \u2014 4 posts in website DB as drafts. Jason to publish from admin panel once Replit image pipeline confirmed working.",
+          "name": "Review 1,202 scraped contacts for CRM import \u2014 Jason 502, Ken 700. Import paused.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "March posts \u2014 4 posts in website DB as drafts. Jason to publish from admin panel once Replit image pipeline confirmed working.",
+          "name": "Contact sync architecture \u2014 CRM \u2192 Outlook \u2192 phones. Project: 5-technology/crm-contact-sync/",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -1785,8 +1787,8 @@
         "domain": "Operations",
         "icon": "settings",
         "color": "gray",
-        "headline": "19 projects, 1 alerts",
-        "activeProjects": 2,
+        "headline": "20 projects, 1 alerts",
+        "activeProjects": 3,
         "urgentItems": 1
       },
       {
@@ -1852,23 +1854,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-03-23",
-        "description": "[Operations] [2026-03-22 05:45] Sent daily briefing email"
-      },
-      {
-        "date": "2026-03-23",
+        "date": "2026-03-24",
         "description": "[Operations] [2026-03-23 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-23",
-        "description": "[Technology] [2026-03-22 05:45] Sent daily briefing email"
+        "date": "2026-03-24",
+        "description": "[Operations] [2026-03-24 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-23",
+        "date": "2026-03-24",
         "description": "[Technology] [2026-03-23 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-23",
+        "date": "2026-03-24",
+        "description": "[Technology] [2026-03-24 05:45] Sent daily briefing email"
+      },
+      {
+        "date": "2026-03-24",
         "description": "[Talent] [2026-03-23 06:00] Sent weekly briefing email"
       }
     ],
