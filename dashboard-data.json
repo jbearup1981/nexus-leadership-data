@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-24T09:45:50.226475+00:00",
-    "updatedBy": "Domain Agents",
+    "lastUpdated": "2026-03-25T05:08:45.501729+00:00",
+    "updatedBy": "Claude Code \u2014 Advisor Hub automation deployed, Leadership Dashboard status corrected",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
   },
@@ -705,12 +705,12 @@
           "name": "advisor-hub",
           "displayName": "Advisor Hub",
           "summary": "Content hub website for benefits advisors centralizing market updates, carrier news, compliance alerts, product spotlights, sales tools, and resources. Weekly curated emails link back to hub.",
-          "status": "queued",
+          "status": "active",
           "path": "4-marketing/advisor-hub/",
           "priority": "low",
           "owner": "Jason Bearup",
           "rock": false,
-          "nextAction": "Define scope and content requirements"
+          "nextAction": "Replit agent wiring 13 API endpoints. iMac automation live (12 jobs)."
         },
         {
           "name": "sbbmi-resource-hub",
@@ -721,7 +721,7 @@
           "priority": "low",
           "owner": "Jason Bearup",
           "rock": false,
-          "nextAction": "Plan resource hub structure"
+          "nextAction": "Planned Q3-Q4 2026. Transform SBBMI into standalone resource website."
         },
         {
           "name": "nexus-website",
@@ -970,7 +970,7 @@
           "priority": "high",
           "owner": "Jason Bearup",
           "rock": true,
-          "nextAction": "Hand off to Replit agent for 8-page build"
+          "nextAction": "Pages built on Replit, awaiting deploy. Intelligence + content factory jobs live on iMac."
         },
         {
           "name": "compliance-audit",
@@ -1854,6 +1854,10 @@
     ],
     "recentActivity": [
       {
+        "date": "2026-03-25",
+        "description": "Advisor Hub: 12 automation jobs deployed to iMac (6 content factory + 6 intelligence curation). All running clean."
+      },
+      {
         "date": "2026-03-24",
         "description": "[Operations] [2026-03-23 05:45] Sent daily briefing email"
       },
@@ -1868,10 +1872,6 @@
       {
         "date": "2026-03-24",
         "description": "[Technology] [2026-03-24 05:45] Sent daily briefing email"
-      },
-      {
-        "date": "2026-03-24",
-        "description": "[Talent] [2026-03-23 06:00] Sent weekly briefing email"
       }
     ],
     "adminTools": {
