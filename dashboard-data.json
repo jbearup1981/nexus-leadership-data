@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-25T05:08:45.501729+00:00",
-    "updatedBy": "Claude Code \u2014 Advisor Hub automation deployed, Leadership Dashboard status corrected",
+    "lastUpdated": "2026-03-25T09:49:27.797763+00:00",
+    "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
   },
@@ -133,7 +133,7 @@
         "category": "technology"
       },
       {
-        "title": "5451 errors in job logs in the last 24 hours",
+        "title": "5817 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -172,12 +172,6 @@
       },
       {
         "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 confirm docs complete and filed. Overdue from Mar 21.",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "May blog posts (09-12) \u2014 run through review + publish pipeline. Always 2 months ahead.",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
@@ -337,6 +331,12 @@
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
+      },
+      {
+        "name": "All team member website pages \u2014 Ellen, Grace, Wendi, Sheya, Courtney",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
       }
     ],
     "accountability": [
@@ -452,7 +452,7 @@
         "activeDeals": 1,
         "wonDeals": 0,
         "customers": 39,
-        "prospects": 10455,
+        "prospects": 10456,
         "hotProspects": 114
       },
       "projects": [
@@ -543,12 +543,6 @@
         },
         {
           "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 confirm docs complete and filed. Overdue from Mar 21.",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
-          "name": "May blog posts (09-12) \u2014 run through review + publish pipeline. Always 2 months ahead.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -849,21 +843,21 @@
         "totalProjects": 101,
         "pastDue": 11,
         "needsDate": 23,
-        "complete": 11,
-        "vaultFiles": 1570,
-        "withFrontmatter": 1162,
-        "vaultIssues": 5137,
+        "complete": 10,
+        "vaultFiles": 1576,
+        "withFrontmatter": 1164,
+        "vaultIssues": 5210,
         "issuesByType": {
-          "broken_links": 941,
-          "duplicate_title": 1125,
-          "incomplete_frontmatter": 474,
-          "missing_domain": 1137,
-          "missing_frontmatter": 408,
-          "orphan": 871,
-          "stale_project": 34,
+          "broken_links": 951,
+          "duplicate_title": 1184,
+          "incomplete_frontmatter": 476,
+          "missing_domain": 1139,
+          "missing_frontmatter": 412,
+          "orphan": 868,
+          "stale_project": 33,
           "untagged": 147
         },
-        "filesChanged24h": 30,
+        "filesChanged24h": 52,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1165,7 +1159,7 @@
         "totalJobs": 55,
         "failedJobs": 3,
         "tokenStatus": "healthy",
-        "errorsLast24h": 5451,
+        "errorsLast24h": 5817,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1855,23 +1849,23 @@
     "recentActivity": [
       {
         "date": "2026-03-25",
-        "description": "Advisor Hub: 12 automation jobs deployed to iMac (6 content factory + 6 intelligence curation). All running clean."
-      },
-      {
-        "date": "2026-03-24",
-        "description": "[Operations] [2026-03-23 05:45] Sent daily briefing email"
-      },
-      {
-        "date": "2026-03-24",
         "description": "[Operations] [2026-03-24 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-24",
-        "description": "[Technology] [2026-03-23 05:45] Sent daily briefing email"
+        "date": "2026-03-25",
+        "description": "[Operations] [2026-03-25 05:49] Sent daily briefing email"
       },
       {
-        "date": "2026-03-24",
+        "date": "2026-03-25",
         "description": "[Technology] [2026-03-24 05:45] Sent daily briefing email"
+      },
+      {
+        "date": "2026-03-25",
+        "description": "[Technology] [2026-03-25 05:49] Sent daily briefing email"
+      },
+      {
+        "date": "2026-03-25",
+        "description": "[Talent] [2026-03-23 06:00] Sent weekly briefing email"
       }
     ],
     "adminTools": {
