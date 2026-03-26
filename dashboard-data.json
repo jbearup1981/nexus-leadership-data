@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-25T09:49:27.797763+00:00",
+    "lastUpdated": "2026-03-26T09:45:43.368820+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -34,7 +34,7 @@
       {
         "name": "Automation Jobs",
         "goal": 30,
-        "actual": 55,
+        "actual": 52,
         "unit": "count",
         "period": "Mar 2026",
         "status": "complete"
@@ -115,25 +115,7 @@
         "category": "operations"
       },
       {
-        "title": "Job failed (exit 78): com.jasonsmac.action-tracker",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
-        "title": "Job failed (exit 78): com.jasonsmac.email-intelligence",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
-        "title": "Job failed (exit 78): com.jasonsmac.crm-contact-import",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
-        "title": "5817 errors in job logs in the last 24 hours",
+        "title": "6255 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -172,12 +154,6 @@
       },
       {
         "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 confirm docs complete and filed. Overdue from Mar 21.",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "Review 1,202 scraped contacts for CRM import \u2014 Jason 502, Ken 700. Import paused.",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
@@ -327,13 +303,19 @@
         "priority": "medium"
       },
       {
-        "name": "Contact sync architecture \u2014 CRM \u2192 Outlook \u2192 phones. Project: 5-technology/crm-contact-sync/",
+        "name": "All team member website pages \u2014 Ellen, Grace, Wendi, Sheya, Courtney",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
       },
       {
-        "name": "All team member website pages \u2014 Ellen, Grace, Wendi, Sheya, Courtney",
+        "name": "Enneagram assessments \u2014 remind Ken, Cam, Tom, Courtney, Ellen, Grace, Wendi, Sheya",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
+      },
+      {
+        "name": "Order business cards",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
@@ -543,12 +525,6 @@
         },
         {
           "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 confirm docs complete and filed. Overdue from Mar 21.",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
-          "name": "Review 1,202 scraped contacts for CRM import \u2014 Jason 502, Ken 700. Import paused.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -844,20 +820,20 @@
         "pastDue": 11,
         "needsDate": 23,
         "complete": 10,
-        "vaultFiles": 1576,
-        "withFrontmatter": 1164,
-        "vaultIssues": 5210,
+        "vaultFiles": 1583,
+        "withFrontmatter": 1172,
+        "vaultIssues": 5211,
         "issuesByType": {
-          "broken_links": 951,
-          "duplicate_title": 1184,
-          "incomplete_frontmatter": 476,
-          "missing_domain": 1139,
-          "missing_frontmatter": 412,
-          "orphan": 868,
-          "stale_project": 33,
+          "broken_links": 963,
+          "duplicate_title": 1162,
+          "incomplete_frontmatter": 484,
+          "missing_domain": 1147,
+          "missing_frontmatter": 411,
+          "orphan": 863,
+          "stale_project": 34,
           "untagged": 147
         },
-        "filesChanged24h": 52,
+        "filesChanged24h": 50,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1127,12 +1103,6 @@
           "priority": "medium"
         },
         {
-          "name": "Contact sync architecture \u2014 CRM \u2192 Outlook \u2192 phones. Project: 5-technology/crm-contact-sync/",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
           "name": "All team member website pages \u2014 Ellen, Grace, Wendi, Sheya, Courtney",
           "done": false,
           "owner": "Jason Bearup",
@@ -1156,10 +1126,10 @@
     "technology": {
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
-        "totalJobs": 55,
-        "failedJobs": 3,
+        "totalJobs": 52,
+        "failedJobs": 0,
         "tokenStatus": "healthy",
-        "errorsLast24h": 5817,
+        "errorsLast24h": 6255,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1490,6 +1460,14 @@
           "rock": false
         },
         {
+          "name": "remote-hands",
+          "status": "unknown",
+          "path": "5-technology/remote-hands/",
+          "owner": "Jason Bearup",
+          "priority": "medium",
+          "rock": false
+        },
+        {
           "name": "icra-calculator",
           "displayName": "ICRA Calculator",
           "summary": "Claude-powered ICRA rate estimation tool. Advisors input group demographics, get competitiveness assessment vs traditional group coverage. Published rate tables as knowledge files.",
@@ -1556,18 +1534,6 @@
         },
         {
           "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 confirm docs complete and filed. Overdue from Mar 21.",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
-          "name": "Review 1,202 scraped contacts for CRM import \u2014 Jason 502, Ken 700. Import paused.",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
-          "name": "Contact sync architecture \u2014 CRM \u2192 Outlook \u2192 phones. Project: 5-technology/crm-contact-sync/",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -1789,9 +1755,9 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "34 projects, 4 alerts",
+        "headline": "35 projects, 1 alerts",
         "activeProjects": 3,
-        "urgentItems": 4
+        "urgentItems": 1
       },
       {
         "domain": "Talent & Training",
@@ -1848,23 +1814,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-03-25",
-        "description": "[Operations] [2026-03-24 05:45] Sent daily briefing email"
-      },
-      {
-        "date": "2026-03-25",
+        "date": "2026-03-26",
         "description": "[Operations] [2026-03-25 05:49] Sent daily briefing email"
       },
       {
-        "date": "2026-03-25",
-        "description": "[Technology] [2026-03-24 05:45] Sent daily briefing email"
+        "date": "2026-03-26",
+        "description": "[Operations] [2026-03-26 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-25",
+        "date": "2026-03-26",
         "description": "[Technology] [2026-03-25 05:49] Sent daily briefing email"
       },
       {
-        "date": "2026-03-25",
+        "date": "2026-03-26",
+        "description": "[Technology] [2026-03-26 05:45] Sent daily briefing email"
+      },
+      {
+        "date": "2026-03-26",
         "description": "[Talent] [2026-03-23 06:00] Sent weekly briefing email"
       }
     ],
