@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-26T09:45:43.368820+00:00",
+    "lastUpdated": "2026-03-27T09:45:50.042069+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -10,10 +10,10 @@
       {
         "name": "Monthly Commission Revenue",
         "goal": 20000,
-        "actual": 0.0,
+        "actual": 35109.38,
         "unit": "USD",
         "period": "2026-03",
-        "status": "behind"
+        "status": "on_track"
       },
       {
         "name": "Active Group Clients",
@@ -115,7 +115,7 @@
         "category": "operations"
       },
       {
-        "title": "6255 errors in job logs in the last 24 hours",
+        "title": "6289 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -434,7 +434,7 @@
         "activeDeals": 1,
         "wonDeals": 0,
         "customers": 39,
-        "prospects": 10456,
+        "prospects": 10464,
         "hotProspects": 114
       },
       "projects": [
@@ -548,13 +548,13 @@
       "summary": "Feb 2026 closed at $17,842.70 revenue, $0 reconciliation gap. March collection starting. Agency E&O is #1 risk gap. QuickBooks 2025 backlog cleanup needed.",
       "metrics": {
         "currentPeriod": "2026-03",
-        "totalCommissions": 0.0,
-        "entryCount": 0,
-        "pendingCount": 0,
+        "totalCommissions": 35109.38,
+        "entryCount": 161,
+        "pendingCount": 161,
         "approvedCount": 0,
         "flaggedCount": 0,
-        "totalAgency": 0.0,
-        "totalAgentPayments": 0.0,
+        "totalAgency": 3081.5,
+        "totalAgentPayments": 24255.56,
         "monthStatus": "No Period"
       },
       "projects": [
@@ -820,20 +820,20 @@
         "pastDue": 11,
         "needsDate": 23,
         "complete": 10,
-        "vaultFiles": 1583,
-        "withFrontmatter": 1172,
-        "vaultIssues": 5211,
+        "vaultFiles": 1593,
+        "withFrontmatter": 1179,
+        "vaultIssues": 5313,
         "issuesByType": {
-          "broken_links": 963,
-          "duplicate_title": 1162,
-          "incomplete_frontmatter": 484,
-          "missing_domain": 1147,
-          "missing_frontmatter": 411,
-          "orphan": 863,
+          "broken_links": 973,
+          "duplicate_title": 1230,
+          "incomplete_frontmatter": 491,
+          "missing_domain": 1154,
+          "missing_frontmatter": 414,
+          "orphan": 870,
           "stale_project": 34,
           "untagged": 147
         },
-        "filesChanged24h": 50,
+        "filesChanged24h": 66,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1129,7 +1129,7 @@
         "totalJobs": 52,
         "failedJobs": 0,
         "tokenStatus": "healthy",
-        "errorsLast24h": 6255,
+        "errorsLast24h": 6289,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1814,23 +1814,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-03-26",
-        "description": "[Operations] [2026-03-25 05:49] Sent daily briefing email"
-      },
-      {
-        "date": "2026-03-26",
+        "date": "2026-03-27",
         "description": "[Operations] [2026-03-26 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-26",
-        "description": "[Technology] [2026-03-25 05:49] Sent daily briefing email"
+        "date": "2026-03-27",
+        "description": "[Operations] [2026-03-27 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-26",
+        "date": "2026-03-27",
         "description": "[Technology] [2026-03-26 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-26",
+        "date": "2026-03-27",
+        "description": "[Technology] [2026-03-27 05:45] Sent daily briefing email"
+      },
+      {
+        "date": "2026-03-27",
         "description": "[Talent] [2026-03-23 06:00] Sent weekly briefing email"
       }
     ],
