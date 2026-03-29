@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-28T09:45:35.311626+00:00",
+    "lastUpdated": "2026-03-29T10:08:57.393394+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -115,7 +115,31 @@
         "category": "operations"
       },
       {
-        "title": "6338 errors in job logs in the last 24 hours",
+        "title": "Job failed (exit 1): com.jasonsmac.ken-marketing-cleanup",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
+        "title": "Job failed (exit 1): com.jasonsmac.email-follow-up",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
+        "title": "Job failed (exit 1): com.jasonsmac.ken-follow-up",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
+        "title": "Job failed (exit 1): com.jasonsmac.email-marketing-cleanup",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
+        "title": "6384 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -439,6 +463,14 @@
       },
       "projects": [
         {
+          "name": "highstreet-lawsuit",
+          "status": "unknown",
+          "path": "1-sales/highstreet-lawsuit/",
+          "owner": "Jason Bearup",
+          "priority": "medium",
+          "rock": false
+        },
+        {
           "name": "michigan-prospect-pipeline",
           "displayName": "Michigan Prospect Pipeline",
           "summary": "Statewide prospect database of 10-500 employee companies from public data sources, loaded into NexHub CRM. 71K staged orgs, 746 in sweet spot (10-250 West MI for-profit). Top 100 scored and ranked.",
@@ -450,10 +482,18 @@
           "nextAction": "Review and clean 1,202 scraped contacts for CRM import"
         },
         {
+          "name": "captive-insurance-formation",
+          "status": "Research / Feasibility Assessment",
+          "path": "1-sales/captive-insurance-formation/",
+          "owner": "Jason Bearup",
+          "priority": "medium",
+          "rock": false
+        },
+        {
           "name": "nexus-health-plus",
           "displayName": "Nexus Health Plus",
           "summary": "Section 125 wellness/fixed indemnity program with virtual primary care. Partnership with Howard Lancaster (Insight Benefits TPA). Phase 2 active with carrier outreach as critical path.",
-          "status": "PHASE 2 ACTIVE \u2014 Met with [[Howard]] Mar 13. Follow-up **Fri Mar 21**. Carrier outreach is the critical path.",
+          "status": "PHASE 3 ACTIVE \u2014 [[Howard]] committed, [[Dave Silverstein]] on board, structural model decided (accident-only + SIMRP), carrier outreach next.",
           "path": "1-sales/nexus-health-plus/",
           "priority": "high",
           "owner": "Jason Bearup",
@@ -579,6 +619,14 @@
           "owner": "Jason Bearup",
           "rock": false,
           "nextAction": "Resolve agency E&O insurance gap"
+        },
+        {
+          "name": "section-125-commission-research",
+          "status": "** Research complete \u2014 comprehensive findings documented",
+          "path": "2-finance/section-125-commission-research/",
+          "owner": "Jason Bearup",
+          "priority": "low",
+          "rock": false
         },
         {
           "name": "financial-cleanup",
@@ -820,20 +868,20 @@
         "pastDue": 11,
         "needsDate": 23,
         "complete": 10,
-        "vaultFiles": 1595,
-        "withFrontmatter": 1180,
-        "vaultIssues": 5339,
+        "vaultFiles": 1619,
+        "withFrontmatter": 1199,
+        "vaultIssues": 5459,
         "issuesByType": {
-          "broken_links": 975,
-          "duplicate_title": 1249,
-          "incomplete_frontmatter": 492,
-          "missing_domain": 1155,
-          "missing_frontmatter": 415,
-          "orphan": 871,
-          "stale_project": 35,
+          "broken_links": 990,
+          "duplicate_title": 1316,
+          "incomplete_frontmatter": 503,
+          "missing_domain": 1174,
+          "missing_frontmatter": 418,
+          "orphan": 875,
+          "stale_project": 36,
           "untagged": 147
         },
-        "filesChanged24h": 41,
+        "filesChanged24h": 28,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1127,9 +1175,9 @@
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
         "totalJobs": 52,
-        "failedJobs": 0,
+        "failedJobs": 4,
         "tokenStatus": "healthy",
-        "errorsLast24h": 6338,
+        "errorsLast24h": 6384,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1348,6 +1396,14 @@
           "nextAction": "Replit webhooks for instant response, Mia mailbox creation"
         },
         {
+          "name": "ai-legal-thinking",
+          "status": "unknown",
+          "path": "5-technology/ai-legal-thinking/",
+          "owner": "Jason Bearup",
+          "priority": "medium",
+          "rock": false
+        },
+        {
           "name": "notion-command-center",
           "displayName": "Notion Command Center",
           "summary": "Unified Notion dashboard pulling together active projects, tasks, quick-access links, and at-a-glance metrics. Not started. May be superseded by Leadership Dashboard.",
@@ -1425,6 +1481,14 @@
           "name": "automation-skills",
           "status": "unknown",
           "path": "5-technology/automation-skills/",
+          "owner": "Jason Bearup",
+          "priority": "medium",
+          "rock": false
+        },
+        {
+          "name": "legal-thinking-partner",
+          "status": "unknown",
+          "path": "5-technology/legal-thinking-partner/",
           "owner": "Jason Bearup",
           "priority": "medium",
           "rock": false
@@ -1723,7 +1787,7 @@
         "domain": "Sales",
         "icon": "briefcase",
         "color": "orange",
-        "headline": "5 projects, 0 alerts",
+        "headline": "7 projects, 0 alerts",
         "activeProjects": 0,
         "urgentItems": 0
       },
@@ -1731,7 +1795,7 @@
         "domain": "Finance",
         "icon": "dollar-sign",
         "color": "green",
-        "headline": "3 projects, 0 alerts",
+        "headline": "4 projects, 0 alerts",
         "activeProjects": 1,
         "urgentItems": 0
       },
@@ -1755,9 +1819,9 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "35 projects, 1 alerts",
+        "headline": "37 projects, 5 alerts",
         "activeProjects": 3,
-        "urgentItems": 1
+        "urgentItems": 5
       },
       {
         "domain": "Talent & Training",
@@ -1814,23 +1878,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-03-28",
-        "description": "[Operations] [2026-03-27 05:45] Sent daily briefing email"
-      },
-      {
-        "date": "2026-03-28",
+        "date": "2026-03-29",
         "description": "[Operations] [2026-03-28 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-28",
-        "description": "[Technology] [2026-03-27 05:45] Sent daily briefing email"
+        "date": "2026-03-29",
+        "description": "[Operations] [2026-03-29 06:08] Sent daily briefing email"
       },
       {
-        "date": "2026-03-28",
+        "date": "2026-03-29",
         "description": "[Technology] [2026-03-28 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-03-28",
+        "date": "2026-03-29",
+        "description": "[Technology] [2026-03-29 06:08] Sent daily briefing email"
+      },
+      {
+        "date": "2026-03-29",
         "description": "[Talent] [2026-03-23 06:00] Sent weekly briefing email"
       }
     ],
