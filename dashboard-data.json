@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-30T09:46:02.079687+00:00",
+    "lastUpdated": "2026-03-30T10:00:19.083078+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -127,13 +127,7 @@
         "category": "talent"
       },
       {
-        "title": "Unsigned docs: CRM Client Audit \u2014 onboarding & compliance docs \u2014 For each client, confirm onboarding docs (signed agreements, BAA, etc.) and compliance docs (POP, SBC, wrap doc, ERISA notices) are complete and filed. Flag gaps. Due: Mar 21.",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "talent"
-      },
-      {
-        "title": "Unsigned docs: Courtney onboarding checklist \u2014 finalize docs, get her signed and rolling",
+        "title": "Unsigned docs: Courtney onboarding checklist \u2014 finalize docs, get signed",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "talent"
@@ -231,6 +225,12 @@
         "priority": "medium"
       },
       {
+        "name": "Ellen: photo + profile on Nexus website",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
+      },
+      {
         "name": "Send Ken & Brenda interview questions \u2014 templates in team-content-program.md",
         "done": false,
         "owner": "Jason Bearup",
@@ -238,66 +238,6 @@
       },
       {
         "name": "Audit/set up Nexus LinkedIn company page",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "Ellen: photo + profile on Nexus website \u2014 new team member page",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "All team member website pages \u2014 build out profiles for onboarding (Ellen, Grace, Wendi, Sheya, Courtney)",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "Enneagram assessments \u2014 remind everyone this weekend (Ken, Cam, Tom, Courtney, Ellen, Grace, Wendi, Sheya)",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "April posts (05-08) \u2014 Need to locate drafts, run Sonnet editorial review, email Jason batch for approval via Mia",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "March posts \u2014 4 posts in website DB as drafts. Jason to publish from admin panel once Replit image pipeline confirmed working.",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "Marketing keep/kill rules (~/.config/m365-mcp/marketing_rules.json)",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "Donny Koop COBRA enrollment \u2014 iSolved form + PH medical + MetLife dental/vision. Calendar block Mon 4pm or Tue.",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "Ellen: photo + profile on Nexus website",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "Courtney onboarding checklist \u2014 finalize docs, get signed",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "Courtney training plan \u2014 scope what she can start next 2 weeks",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
@@ -315,7 +255,49 @@
         "priority": "medium"
       },
       {
+        "name": "Marketing keep/kill rules (~/.config/m365-mcp/marketing_rules.json)",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
+      },
+      {
+        "name": "Donny Koop COBRA enrollment \u2014 iSolved form + PH medical + MetLife dental/vision. Calendar block Mon 4pm or Tue.",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
+      },
+      {
+        "name": "Courtney onboarding checklist \u2014 finalize docs, get signed",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
+      },
+      {
+        "name": "Courtney training plan \u2014 scope what she can start next 2 weeks",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
+      },
+      {
         "name": "Order business cards",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
+      },
+      {
+        "name": "NexMail: Deploy domain-agents code to iMac \u2014 plists exist but scripts never copied over. 4 jobs broken (exit 78).",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
+      },
+      {
+        "name": "Blocked senders list (~/.config/m365-mcp/blocked_senders.json)",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
+      },
+      {
+        "name": "launchd job health \u2014 check logs at ~/.config/nexmail/job_logs/",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
@@ -775,6 +757,12 @@
       ],
       "todos": [
         {
+          "name": "Ellen: photo + profile on Nexus website",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
+        },
+        {
           "name": "Send Ken & Brenda interview questions \u2014 templates in team-content-program.md",
           "done": false,
           "owner": "Jason Bearup",
@@ -787,43 +775,19 @@
           "priority": "medium"
         },
         {
-          "name": "Ellen: photo + profile on Nexus website \u2014 new team member page",
+          "name": "All team member website pages \u2014 Ellen, Grace, Wendi, Sheya, Courtney",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "All team member website pages \u2014 build out profiles for onboarding (Ellen, Grace, Wendi, Sheya, Courtney)",
+          "name": "Enneagram assessments \u2014 remind Ken, Cam, Tom, Courtney, Ellen, Grace, Wendi, Sheya",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "Enneagram assessments \u2014 remind everyone this weekend (Ken, Cam, Tom, Courtney, Ellen, Grace, Wendi, Sheya)",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
-          "name": "April posts (05-08) \u2014 Need to locate drafts, run Sonnet editorial review, email Jason batch for approval via Mia",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
-          "name": "March posts \u2014 4 posts in website DB as drafts. Jason to publish from admin panel once Replit image pipeline confirmed working.",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
-          "name": "April posts (05-08) \u2014 Need to locate drafts, run Sonnet editorial review, email Jason batch for approval",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
-          "name": "March posts \u2014 4 posts in website DB as drafts. Jason to publish from admin panel once Replit image pipeline confirmed working.",
+          "name": "Future pipeline: add imagePrompt to blog publish flow",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -1700,55 +1664,61 @@
       ],
       "todos": [
         {
+          "name": "Start March 2026 commission workbook \u2014 carrier statements needed, Ellen gathering",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
+        },
+        {
           "name": "Ellen: carrier portal access + Loom videos \u2014 13 carriers, target Mar 31",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "Ellen: photo + profile on Nexus website \u2014 new team member page",
+          "name": "Ellen: logins + system access \u2014 email, OneDrive, carrier portals",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "Ellen: logins + system access \u2014 email, OneDrive, carrier portals, etc.",
+          "name": "Ellen: photo + profile on Nexus website",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 For each client, confirm onboarding docs (signed agreements, BAA, etc.) and compliance docs (POP, SBC, wrap doc, ERISA notices) are complete and filed. Flag gaps. Due: Mar 21.",
+          "name": "Courtney onboarding checklist \u2014 finalize docs, get signed",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "Courtney onboarding checklist \u2014 finalize docs, get her signed and rolling",
+          "name": "Courtney training plan \u2014 scope what she can start next 2 weeks",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "All team member website pages \u2014 build out profiles for onboarding (Ellen, Grace, Wendi, Sheya, Courtney)",
+          "name": "CRM Client Audit \u2014 onboarding & compliance docs \u2014 confirm docs complete and filed. Overdue from Mar 21.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "Enneagram assessments \u2014 remind everyone this weekend (Ken, Cam, Tom, Courtney, Ellen, Grace, Wendi, Sheya)",
+          "name": "All team member website pages \u2014 Ellen, Grace, Wendi, Sheya, Courtney",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "Order business cards \u2014 get this done this weekend",
+          "name": "Enneagram assessments \u2014 remind Ken, Cam, Tom, Courtney, Ellen, Grace, Wendi, Sheya",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
         },
         {
-          "name": "Courtney training plan \u2014 scope out what she can start working on next 2 weeks",
+          "name": "Order business cards",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -1803,9 +1773,9 @@
         "domain": "Talent & Training",
         "icon": "users",
         "color": "purple",
-        "headline": "8 projects, 3 alerts",
+        "headline": "8 projects, 2 alerts",
         "activeProjects": 1,
-        "urgentItems": 3
+        "urgentItems": 2
       }
     ],
     "systemsOnline": [
@@ -1855,10 +1825,6 @@
     "recentActivity": [
       {
         "date": "2026-03-30",
-        "description": "[Operations] [2026-03-29 06:08] Sent daily briefing email"
-      },
-      {
-        "date": "2026-03-30",
         "description": "[Operations] [2026-03-30 05:46] Sent daily briefing email"
       },
       {
@@ -1872,6 +1838,10 @@
       {
         "date": "2026-03-30",
         "description": "[Talent] [2026-03-23 06:00] Sent weekly briefing email"
+      },
+      {
+        "date": "2026-03-30",
+        "description": "[Talent] [2026-03-30 06:00] Sent weekly briefing email"
       }
     ],
     "adminTools": {
