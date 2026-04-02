@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-01T09:45:33.699875+00:00",
+    "lastUpdated": "2026-04-02T09:45:55.093635+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -115,7 +115,7 @@
         "category": "operations"
       },
       {
-        "title": "7448 errors in job logs in the last 24 hours",
+        "title": "7485 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -808,20 +808,20 @@
         "pastDue": 11,
         "needsDate": 23,
         "complete": 10,
-        "vaultFiles": 1636,
-        "withFrontmatter": 1207,
-        "vaultIssues": 5714,
+        "vaultFiles": 1650,
+        "withFrontmatter": 1216,
+        "vaultIssues": 5858,
         "issuesByType": {
-          "broken_links": 1004,
-          "duplicate_title": 1516,
-          "incomplete_frontmatter": 509,
-          "missing_domain": 1182,
-          "missing_frontmatter": 429,
-          "orphan": 883,
-          "stale_project": 44,
+          "broken_links": 1013,
+          "duplicate_title": 1602,
+          "incomplete_frontmatter": 517,
+          "missing_domain": 1191,
+          "missing_frontmatter": 434,
+          "orphan": 894,
+          "stale_project": 60,
           "untagged": 147
         },
-        "filesChanged24h": 25,
+        "filesChanged24h": 30,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1117,7 +1117,7 @@
         "totalJobs": 52,
         "failedJobs": 0,
         "tokenStatus": "healthy",
-        "errorsLast24h": 7448,
+        "errorsLast24h": 7485,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1824,23 +1824,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-04-01",
-        "description": "[Operations] [2026-04-01 05:45] Sent daily briefing email"
+        "date": "2026-04-02",
+        "description": "[Operations] [2026-04-02 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-01",
-        "description": "[Technology] [2026-03-31 05:45] Sent daily briefing email"
-      },
-      {
-        "date": "2026-04-01",
+        "date": "2026-04-02",
         "description": "[Technology] [2026-04-01 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-01",
+        "date": "2026-04-02",
+        "description": "[Technology] [2026-04-02 05:45] Sent daily briefing email"
+      },
+      {
+        "date": "2026-04-02",
         "description": "[Talent] [2026-03-23 06:00] Sent weekly briefing email"
       },
       {
-        "date": "2026-04-01",
+        "date": "2026-04-02",
         "description": "[Talent] [2026-03-30 06:00] Sent weekly briefing email"
       }
     ],
