@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-02T09:45:55.093635+00:00",
+    "lastUpdated": "2026-04-03T09:45:32.862200+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -34,7 +34,7 @@
       {
         "name": "Automation Jobs",
         "goal": 30,
-        "actual": 52,
+        "actual": 51,
         "unit": "count",
         "period": "Apr 2026",
         "status": "complete"
@@ -115,7 +115,13 @@
         "category": "operations"
       },
       {
-        "title": "7485 errors in job logs in the last 24 hours",
+        "title": "Job failed (exit 1): com.jasonsmac.claude-backup",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
+        "title": "7494 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -285,6 +291,12 @@
         "priority": "medium"
       },
       {
+        "name": "Review creative writing exports in 7-knowledge-base/creative/ \u2014 \"A Fire Still Burning\" (essay/book project), \"What is a black hole\"",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
+      },
+      {
         "name": "NexMail: Deploy domain-agents code to iMac \u2014 plists exist but scripts never copied over. 4 jobs broken (exit 78).",
         "done": false,
         "owner": "Jason Bearup",
@@ -420,6 +432,14 @@
         "hotProspects": 0
       },
       "projects": [
+        {
+          "name": "gis-benefits-report",
+          "status": "Data gathering & baseline build",
+          "path": "1-sales/gis-benefits-report/",
+          "owner": "Jason Bearup",
+          "priority": "medium",
+          "rock": false
+        },
         {
           "name": "highstreet-lawsuit",
           "status": "unknown",
@@ -808,20 +828,20 @@
         "pastDue": 11,
         "needsDate": 23,
         "complete": 10,
-        "vaultFiles": 1650,
-        "withFrontmatter": 1216,
-        "vaultIssues": 5858,
+        "vaultFiles": 1680,
+        "withFrontmatter": 1230,
+        "vaultIssues": 5971,
         "issuesByType": {
-          "broken_links": 1013,
-          "duplicate_title": 1602,
-          "incomplete_frontmatter": 517,
-          "missing_domain": 1191,
-          "missing_frontmatter": 434,
-          "orphan": 894,
-          "stale_project": 60,
+          "broken_links": 1026,
+          "duplicate_title": 1648,
+          "incomplete_frontmatter": 531,
+          "missing_domain": 1205,
+          "missing_frontmatter": 450,
+          "orphan": 907,
+          "stale_project": 57,
           "untagged": 147
         },
-        "filesChanged24h": 30,
+        "filesChanged24h": 64,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -951,6 +971,14 @@
           "owner": "Jason Bearup",
           "rock": false,
           "nextAction": "Address 4,178 vault issues (broken links, missing frontmatter)"
+        },
+        {
+          "name": "client-onboarding-cleanup",
+          "status": "unknown",
+          "path": "3-operations/client-onboarding-cleanup/",
+          "owner": "Jason Bearup",
+          "priority": "medium",
+          "rock": false
         },
         {
           "name": "business-process-docs",
@@ -1107,6 +1135,12 @@
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
+        },
+        {
+          "name": "Review creative writing exports in 7-knowledge-base/creative/ \u2014 \"A Fire Still Burning\" (essay/book project), \"What is a black hole\"",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
         }
       ],
       "resources": []
@@ -1114,10 +1148,10 @@
     "technology": {
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
-        "totalJobs": 52,
-        "failedJobs": 0,
+        "totalJobs": 51,
+        "failedJobs": 1,
         "tokenStatus": "healthy",
-        "errorsLast24h": 7485,
+        "errorsLast24h": 7494,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1733,7 +1767,7 @@
         "domain": "Sales",
         "icon": "briefcase",
         "color": "orange",
-        "headline": "7 projects, 0 alerts",
+        "headline": "8 projects, 0 alerts",
         "activeProjects": 0,
         "urgentItems": 0
       },
@@ -1757,7 +1791,7 @@
         "domain": "Operations",
         "icon": "settings",
         "color": "gray",
-        "headline": "20 projects, 1 alerts",
+        "headline": "21 projects, 1 alerts",
         "activeProjects": 3,
         "urgentItems": 1
       },
@@ -1765,9 +1799,9 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "37 projects, 1 alerts",
+        "headline": "37 projects, 2 alerts",
         "activeProjects": 3,
-        "urgentItems": 1
+        "urgentItems": 2
       },
       {
         "domain": "Talent & Training",
@@ -1824,23 +1858,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-04-02",
-        "description": "[Operations] [2026-04-02 05:45] Sent daily briefing email"
+        "date": "2026-04-03",
+        "description": "[Operations] [2026-04-03 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-02",
-        "description": "[Technology] [2026-04-01 05:45] Sent daily briefing email"
-      },
-      {
-        "date": "2026-04-02",
+        "date": "2026-04-03",
         "description": "[Technology] [2026-04-02 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-02",
+        "date": "2026-04-03",
+        "description": "[Technology] [2026-04-03 05:45] Sent daily briefing email"
+      },
+      {
+        "date": "2026-04-03",
         "description": "[Talent] [2026-03-23 06:00] Sent weekly briefing email"
       },
       {
-        "date": "2026-04-02",
+        "date": "2026-04-03",
         "description": "[Talent] [2026-03-30 06:00] Sent weekly briefing email"
       }
     ],
