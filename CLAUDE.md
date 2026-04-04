@@ -135,7 +135,7 @@ Per-advisor activity data fed from [[nexmail|NexMail]]'s `advisor_metrics.py` co
 |------|---------|
 | `CLAUDE.md` | This doc — project entry point |
 | `dashboard-data.json` | Live data file, pushed to GitHub |
-| `[[Replit|replit]]-agent-instructions.md` | Complete build spec for the Replit agent |
+| `[[Replit|replit]]-agent-instructions.md` | Complete build spec for the [[Replit]] agent |
 
 ## Data Refresh Process
 
@@ -161,15 +161,16 @@ Per-advisor activity data fed from [[nexmail|NexMail]]'s `advisor_metrics.py` co
 - [x] JSON data file built with current vault data (1,094 lines, 8 scorecard, 9 rocks, 8 issues, 18 todos, 10 team, 6 domains)
 - [x] [[Replit]] agent instructions written with accurate tech details
 - [x] GitHub repo created — `jbearup1981/nexus-leadership-data` — raw URL verified working
-- [ ] **Hand off to Replit agent** — give it `replit-agent-instructions.md` + `dashboard-data.json`
-- [ ] Replit agent builds all 8 pages
-- [ ] Test on desktop + phone after build
-- [ ] Wire up data refresh — session wrapup hook or nightly launchd job
+- [x] **Hand off to [[Replit]] agent** — gave `[[Replit|replit]]-agent-instructions.md` + `dashboard-data.json`
+- [x] [[Replit]] agent builds all 8 pages (per Jason — built, awaiting deploy)
+- [x] Data refresh automated — Domain Agents push daily at 5:45/6:00 AM via `dashboard_builder.py` → GitHub
+- [ ] **Deploy website** — Jason needs to deploy the [[Replit]] project to make pages live
+- [ ] Test on desktop + phone after deploy
 - [ ] Add financial data sources (revenue/ARR needs a source beyond commissions)
 
 ## Open Items
 
-- **Refresh automation** — manual per session wrapup? Nightly launchd job? Hook into `/wrapup` skill?
+- **Deploy** — pages are built but website hasn't been redeployed yet
 - **Financial depth** — commissions come from tracker API, but revenue/ARR/expenses need a source ([[QuickBooks]]?)
 - **Repo visibility** — currently public. Consider private + GitHub token if data gets more sensitive.
 - **Calendar integration** — domain pages could show upcoming meetings from [[M365]] for that domain's contacts. Would need the data refresh to pull calendar data.
