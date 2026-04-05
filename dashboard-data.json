@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-04T09:45:10.516730+00:00",
+    "lastUpdated": "2026-04-05T09:45:09.898812+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -34,7 +34,7 @@
       {
         "name": "Automation Jobs",
         "goal": 30,
-        "actual": 51,
+        "actual": 52,
         "unit": "count",
         "period": "Apr 2026",
         "status": "complete"
@@ -109,7 +109,7 @@
     ],
     "issues": [
       {
-        "title": "Content deadline: RxDC filing deadline in 57 days \u2014 need matching blog post",
+        "title": "Content deadline: RxDC filing deadline in 56 days \u2014 need matching blog post",
         "priority": "medium",
         "owner": "Jason Bearup",
         "category": "marketing"
@@ -121,25 +121,19 @@
         "category": "operations"
       },
       {
-        "title": "Job failed (exit 1): com.jasonsmac.ken-marketing-cleanup",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
         "title": "Job failed (exit 1): com.jasonsmac.claude-backup",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
       },
       {
-        "title": "Job failed (exit 1): com.jasonsmac.email-marketing-cleanup",
+        "title": "Job failed (exit 127): com.jasonsmac.logo-enrichment",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
       },
       {
-        "title": "7572 errors in job logs in the last 24 hours",
+        "title": "7574 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -846,20 +840,20 @@
         "pastDue": 11,
         "needsDate": 23,
         "complete": 10,
-        "vaultFiles": 1694,
-        "withFrontmatter": 1264,
-        "vaultIssues": 6047,
+        "vaultFiles": 1709,
+        "withFrontmatter": 1285,
+        "vaultIssues": 6115,
         "issuesByType": {
-          "broken_links": 1051,
-          "duplicate_title": 1677,
-          "incomplete_frontmatter": 543,
-          "missing_domain": 1223,
-          "missing_frontmatter": 430,
-          "orphan": 901,
+          "broken_links": 1064,
+          "duplicate_title": 1689,
+          "incomplete_frontmatter": 564,
+          "missing_domain": 1243,
+          "missing_frontmatter": 424,
+          "orphan": 909,
           "stale_project": 55,
           "untagged": 167
         },
-        "filesChanged24h": 80,
+        "filesChanged24h": 76,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1172,10 +1166,10 @@
     "technology": {
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
-        "totalJobs": 51,
-        "failedJobs": 3,
+        "totalJobs": 52,
+        "failedJobs": 2,
         "tokenStatus": "healthy",
-        "errorsLast24h": 7572,
+        "errorsLast24h": 7574,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1823,9 +1817,9 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "37 projects, 4 alerts",
+        "headline": "37 projects, 3 alerts",
         "activeProjects": 3,
-        "urgentItems": 4
+        "urgentItems": 3
       },
       {
         "domain": "Talent & Training",
@@ -1882,23 +1876,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-04-04",
-        "description": "[Operations] [2026-04-03 05:45] Sent daily briefing email"
+        "date": "2026-04-05",
+        "description": "[Operations] [2026-04-04 05:45] Sent unified daily brief email"
       },
       {
-        "date": "2026-04-04",
+        "date": "2026-04-05",
         "description": "[Technology] [2026-04-02 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-04",
+        "date": "2026-04-05",
         "description": "[Technology] [2026-04-03 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-04",
+        "date": "2026-04-05",
         "description": "[Talent] [2026-03-23 06:00] Sent weekly briefing email"
       },
       {
-        "date": "2026-04-04",
+        "date": "2026-04-05",
         "description": "[Talent] [2026-03-30 06:00] Sent weekly briefing email"
       }
     ],
