@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-05T09:45:09.898812+00:00",
+    "lastUpdated": "2026-04-06T09:45:33.378848+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -109,7 +109,7 @@
     ],
     "issues": [
       {
-        "title": "Content deadline: RxDC filing deadline in 56 days \u2014 need matching blog post",
+        "title": "Content deadline: RxDC filing deadline in 55 days \u2014 need matching blog post",
         "priority": "medium",
         "owner": "Jason Bearup",
         "category": "marketing"
@@ -133,7 +133,7 @@
         "category": "technology"
       },
       {
-        "title": "7574 errors in job logs in the last 24 hours",
+        "title": "7615 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -840,20 +840,20 @@
         "pastDue": 11,
         "needsDate": 23,
         "complete": 10,
-        "vaultFiles": 1709,
-        "withFrontmatter": 1285,
-        "vaultIssues": 6115,
+        "vaultFiles": 1726,
+        "withFrontmatter": 1308,
+        "vaultIssues": 6197,
         "issuesByType": {
-          "broken_links": 1064,
-          "duplicate_title": 1689,
-          "incomplete_frontmatter": 564,
-          "missing_domain": 1243,
-          "missing_frontmatter": 424,
-          "orphan": 909,
+          "broken_links": 1089,
+          "duplicate_title": 1728,
+          "incomplete_frontmatter": 567,
+          "missing_domain": 1266,
+          "missing_frontmatter": 418,
+          "orphan": 907,
           "stale_project": 55,
           "untagged": 167
         },
-        "filesChanged24h": 76,
+        "filesChanged24h": 79,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1169,13 +1169,13 @@
         "totalJobs": 52,
         "failedJobs": 2,
         "tokenStatus": "healthy",
-        "errorsLast24h": 7574,
+        "errorsLast24h": 7615,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
         "mcpServers": 2,
-        "hooks": 11,
-        "skills": 41,
+        "hooks": 12,
+        "skills": 43,
         "openKnownIssues": 20
       },
       "projects": [
@@ -1876,23 +1876,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-04-05",
-        "description": "[Operations] [2026-04-04 05:45] Sent unified daily brief email"
+        "date": "2026-04-06",
+        "description": "[Operations] [2026-04-05 05:45] Sent unified daily brief email"
       },
       {
-        "date": "2026-04-05",
+        "date": "2026-04-06",
         "description": "[Technology] [2026-04-02 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-05",
+        "date": "2026-04-06",
         "description": "[Technology] [2026-04-03 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-05",
+        "date": "2026-04-06",
         "description": "[Talent] [2026-03-23 06:00] Sent weekly briefing email"
       },
       {
-        "date": "2026-04-05",
+        "date": "2026-04-06",
         "description": "[Talent] [2026-03-30 06:00] Sent weekly briefing email"
       }
     ],
