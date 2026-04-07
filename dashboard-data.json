@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-06T09:45:33.378848+00:00",
+    "lastUpdated": "2026-04-07T09:45:22.632917+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -34,7 +34,7 @@
       {
         "name": "Automation Jobs",
         "goal": 30,
-        "actual": 52,
+        "actual": 55,
         "unit": "count",
         "period": "Apr 2026",
         "status": "complete"
@@ -109,7 +109,7 @@
     ],
     "issues": [
       {
-        "title": "Content deadline: RxDC filing deadline in 55 days \u2014 need matching blog post",
+        "title": "Content deadline: RxDC filing deadline in 54 days \u2014 need matching blog post",
         "priority": "medium",
         "owner": "Jason Bearup",
         "category": "marketing"
@@ -127,13 +127,7 @@
         "category": "technology"
       },
       {
-        "title": "Job failed (exit 127): com.jasonsmac.logo-enrichment",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
-        "title": "7615 errors in job logs in the last 24 hours",
+        "title": "8145 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -508,6 +502,14 @@
           "nextAction": "Expand component library (compliance, voluntary benefits, ICHRA, level-funded)"
         },
         {
+          "name": "augusta-tower",
+          "status": "unknown",
+          "path": "1-sales/augusta-tower/",
+          "owner": "Jason Bearup",
+          "priority": "medium",
+          "rock": false
+        },
+        {
           "name": "courtney-prospect-list",
           "status": "COMPLETE \u2014 Live in [[NexHub CRM]]",
           "path": "1-sales/courtney-prospect-list/",
@@ -840,20 +842,20 @@
         "pastDue": 11,
         "needsDate": 23,
         "complete": 10,
-        "vaultFiles": 1726,
-        "withFrontmatter": 1308,
-        "vaultIssues": 6197,
+        "vaultFiles": 1731,
+        "withFrontmatter": 1330,
+        "vaultIssues": 6264,
         "issuesByType": {
-          "broken_links": 1089,
-          "duplicate_title": 1728,
-          "incomplete_frontmatter": 567,
-          "missing_domain": 1266,
-          "missing_frontmatter": 418,
-          "orphan": 907,
-          "stale_project": 55,
+          "broken_links": 1106,
+          "duplicate_title": 1785,
+          "incomplete_frontmatter": 569,
+          "missing_domain": 1287,
+          "missing_frontmatter": 401,
+          "orphan": 898,
+          "stale_project": 51,
           "untagged": 167
         },
-        "filesChanged24h": 79,
+        "filesChanged24h": 80,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1166,10 +1168,10 @@
     "technology": {
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
-        "totalJobs": 52,
-        "failedJobs": 2,
+        "totalJobs": 55,
+        "failedJobs": 1,
         "tokenStatus": "healthy",
-        "errorsLast24h": 7615,
+        "errorsLast24h": 8145,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1785,7 +1787,7 @@
         "domain": "Sales",
         "icon": "briefcase",
         "color": "orange",
-        "headline": "8 projects, 0 alerts",
+        "headline": "9 projects, 0 alerts",
         "activeProjects": 0,
         "urgentItems": 0
       },
@@ -1817,9 +1819,9 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "37 projects, 3 alerts",
+        "headline": "37 projects, 2 alerts",
         "activeProjects": 3,
-        "urgentItems": 3
+        "urgentItems": 2
       },
       {
         "domain": "Talent & Training",
@@ -1876,23 +1878,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-04-06",
-        "description": "[Operations] [2026-04-05 05:45] Sent unified daily brief email"
+        "date": "2026-04-07",
+        "description": "[Operations] [2026-04-06 05:46] Sent unified daily brief email"
       },
       {
-        "date": "2026-04-06",
+        "date": "2026-04-07",
         "description": "[Technology] [2026-04-02 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-06",
+        "date": "2026-04-07",
         "description": "[Technology] [2026-04-03 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-06",
+        "date": "2026-04-07",
         "description": "[Talent] [2026-03-23 06:00] Sent weekly briefing email"
       },
       {
-        "date": "2026-04-06",
+        "date": "2026-04-07",
         "description": "[Talent] [2026-03-30 06:00] Sent weekly briefing email"
       }
     ],
