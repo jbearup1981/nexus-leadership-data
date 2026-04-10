@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-09T09:45:05.452709+00:00",
+    "lastUpdated": "2026-04-10T09:45:26.583601+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -109,7 +109,7 @@
     ],
     "issues": [
       {
-        "title": "Content deadline: RxDC filing deadline in 52 days \u2014 need matching blog post",
+        "title": "Content deadline: RxDC filing deadline in 51 days \u2014 need matching blog post",
         "priority": "medium",
         "owner": "Jason Bearup",
         "category": "marketing"
@@ -127,13 +127,19 @@
         "category": "technology"
       },
       {
+        "title": "Job failed (exit 1): com.jasonsmac.email-junk-cleanup",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
         "title": "Job failed (exit 1): com.jasonsmac.photo-enrichment",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
       },
       {
-        "title": "8375 errors in job logs in the last 24 hours",
+        "title": "9372 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -848,20 +854,20 @@
         "pastDue": 11,
         "needsDate": 23,
         "complete": 10,
-        "vaultFiles": 1744,
-        "withFrontmatter": 1378,
-        "vaultIssues": 6381,
+        "vaultFiles": 1746,
+        "withFrontmatter": 1398,
+        "vaultIssues": 6464,
         "issuesByType": {
-          "broken_links": 1120,
-          "duplicate_title": 1840,
-          "incomplete_frontmatter": 617,
-          "missing_domain": 1333,
-          "missing_frontmatter": 366,
-          "orphan": 890,
-          "stale_project": 48,
+          "broken_links": 1127,
+          "duplicate_title": 1904,
+          "incomplete_frontmatter": 637,
+          "missing_domain": 1352,
+          "missing_frontmatter": 348,
+          "orphan": 880,
+          "stale_project": 49,
           "untagged": 167
         },
-        "filesChanged24h": 68,
+        "filesChanged24h": 33,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1175,9 +1181,9 @@
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
         "totalJobs": 55,
-        "failedJobs": 2,
+        "failedJobs": 3,
         "tokenStatus": "healthy",
-        "errorsLast24h": 8375,
+        "errorsLast24h": 9372,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1833,9 +1839,9 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "38 projects, 3 alerts",
+        "headline": "38 projects, 4 alerts",
         "activeProjects": 4,
-        "urgentItems": 3
+        "urgentItems": 4
       },
       {
         "domain": "Talent & Training",
@@ -1892,23 +1898,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-04-09",
-        "description": "[Operations] [2026-04-08 05:45] Sent unified daily brief email"
+        "date": "2026-04-10",
+        "description": "[Operations] [2026-04-09 05:45] Sent unified daily brief email"
       },
       {
-        "date": "2026-04-09",
+        "date": "2026-04-10",
         "description": "[Technology] [2026-04-02 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-09",
+        "date": "2026-04-10",
         "description": "[Technology] [2026-04-03 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-09",
+        "date": "2026-04-10",
         "description": "[Talent] [2026-03-23 06:00] Sent weekly briefing email"
       },
       {
-        "date": "2026-04-09",
+        "date": "2026-04-10",
         "description": "[Talent] [2026-03-30 06:00] Sent weekly briefing email"
       }
     ],
