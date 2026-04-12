@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-11T09:45:11.395284+00:00",
+    "lastUpdated": "2026-04-12T09:45:09.278946+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -109,7 +109,7 @@
     ],
     "issues": [
       {
-        "title": "Content deadline: RxDC filing deadline in 50 days \u2014 need matching blog post",
+        "title": "Content deadline: RxDC filing deadline in 49 days \u2014 need matching blog post",
         "priority": "medium",
         "owner": "Jason Bearup",
         "category": "marketing"
@@ -127,13 +127,13 @@
         "category": "technology"
       },
       {
-        "title": "Job failed (exit 1): com.jasonsmac.photo-enrichment",
+        "title": "Job failed (exit 127): com.jasonsmac.logo-enrichment",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
       },
       {
-        "title": "9844 errors in job logs in the last 24 hours",
+        "title": "8504 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -848,20 +848,20 @@
         "pastDue": 11,
         "needsDate": 23,
         "complete": 10,
-        "vaultFiles": 1752,
-        "withFrontmatter": 1400,
-        "vaultIssues": 6517,
+        "vaultFiles": 1759,
+        "withFrontmatter": 1423,
+        "vaultIssues": 6609,
         "issuesByType": {
-          "broken_links": 1127,
-          "duplicate_title": 1945,
-          "incomplete_frontmatter": 638,
-          "missing_domain": 1354,
-          "missing_frontmatter": 352,
+          "broken_links": 1138,
+          "duplicate_title": 2023,
+          "incomplete_frontmatter": 639,
+          "missing_domain": 1375,
+          "missing_frontmatter": 336,
           "orphan": 884,
-          "stale_project": 50,
+          "stale_project": 47,
           "untagged": 167
         },
-        "filesChanged24h": 30,
+        "filesChanged24h": 34,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1177,7 +1177,7 @@
         "totalJobs": 56,
         "failedJobs": 2,
         "tokenStatus": "healthy",
-        "errorsLast24h": 9844,
+        "errorsLast24h": 8504,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1906,23 +1906,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-04-11",
-        "description": "[Operations] [2026-04-10 05:45] Sent unified daily brief email"
+        "date": "2026-04-12",
+        "description": "[Operations] [2026-04-11 05:45] Sent unified daily brief email"
       },
       {
-        "date": "2026-04-11",
+        "date": "2026-04-12",
         "description": "[Technology] [2026-04-02 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-11",
+        "date": "2026-04-12",
         "description": "[Technology] [2026-04-03 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-11",
+        "date": "2026-04-12",
         "description": "[Talent] [2026-03-23 06:00] Sent weekly briefing email"
       },
       {
-        "date": "2026-04-11",
+        "date": "2026-04-12",
         "description": "[Talent] [2026-03-30 06:00] Sent weekly briefing email"
       }
     ],
