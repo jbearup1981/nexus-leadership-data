@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-16T09:45:06.462636+00:00",
+    "lastUpdated": "2026-04-17T09:45:19.021414+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -109,7 +109,7 @@
     ],
     "issues": [
       {
-        "title": "Content deadline: RxDC filing deadline in 45 days \u2014 need matching blog post",
+        "title": "Content deadline: RxDC filing deadline in 44 days \u2014 need matching blog post",
         "priority": "medium",
         "owner": "Jason Bearup",
         "category": "marketing"
@@ -145,6 +145,12 @@
         "category": "technology"
       },
       {
+        "title": "Job failed (exit 1): com.jasonsmac.ken-follow-up",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
         "title": "Job failed (exit 127): com.jasonsmac.logo-enrichment",
         "priority": "high",
         "owner": "Jason Bearup",
@@ -175,7 +181,7 @@
         "category": "technology"
       },
       {
-        "title": "12069 errors in job logs in the last 24 hours",
+        "title": "12994 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -890,20 +896,20 @@
         "pastDue": 11,
         "needsDate": 23,
         "complete": 10,
-        "vaultFiles": 1784,
-        "withFrontmatter": 1494,
-        "vaultIssues": 6927,
+        "vaultFiles": 1789,
+        "withFrontmatter": 1516,
+        "vaultIssues": 6966,
         "issuesByType": {
-          "broken_links": 1160,
-          "duplicate_title": 2236,
-          "incomplete_frontmatter": 686,
-          "missing_domain": 1444,
-          "missing_frontmatter": 290,
-          "orphan": 892,
-          "stale_project": 52,
+          "broken_links": 1162,
+          "duplicate_title": 2263,
+          "incomplete_frontmatter": 688,
+          "missing_domain": 1465,
+          "missing_frontmatter": 273,
+          "orphan": 895,
+          "stale_project": 53,
           "untagged": 167
         },
-        "filesChanged24h": 30,
+        "filesChanged24h": 35,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1217,9 +1223,9 @@
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
         "totalJobs": 56,
-        "failedJobs": 9,
+        "failedJobs": 10,
         "tokenStatus": "healthy",
-        "errorsLast24h": 12069,
+        "errorsLast24h": 12994,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1889,9 +1895,9 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "39 projects, 10 alerts",
+        "headline": "39 projects, 11 alerts",
         "activeProjects": 4,
-        "urgentItems": 10
+        "urgentItems": 11
       },
       {
         "domain": "Talent & Training",
@@ -1948,23 +1954,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-04-16",
-        "description": "[Operations] [2026-04-15 05:46] Sent unified daily brief email"
+        "date": "2026-04-17",
+        "description": "[Operations] [2026-04-16 05:45] Sent unified daily brief email"
       },
       {
-        "date": "2026-04-16",
+        "date": "2026-04-17",
         "description": "[Technology] [2026-04-02 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-16",
+        "date": "2026-04-17",
         "description": "[Technology] [2026-04-03 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-16",
+        "date": "2026-04-17",
         "description": "[Talent] [2026-03-30 06:00] Sent weekly briefing email"
       },
       {
-        "date": "2026-04-16",
+        "date": "2026-04-17",
         "description": "[Talent] [2026-04-13 06:00] Sent weekly briefing email"
       }
     ],
