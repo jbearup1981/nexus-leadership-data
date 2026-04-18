@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-17T09:45:19.021414+00:00",
+    "lastUpdated": "2026-04-18T09:45:08.518887+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -109,7 +109,7 @@
     ],
     "issues": [
       {
-        "title": "Content deadline: RxDC filing deadline in 44 days \u2014 need matching blog post",
+        "title": "Content deadline: RxDC filing deadline in 43 days \u2014 need matching blog post",
         "priority": "medium",
         "owner": "Jason Bearup",
         "category": "marketing"
@@ -127,61 +127,13 @@
         "category": "technology"
       },
       {
-        "title": "Job failed (exit 1): com.jasonsmac.email-follow-up",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
         "title": "Job failed (exit 1): com.jasonsmac.claude-backup",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
       },
       {
-        "title": "Job failed (exit 1): com.jasonsmac.system-daily",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
-        "title": "Job failed (exit 1): com.jasonsmac.ken-follow-up",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
-        "title": "Job failed (exit 127): com.jasonsmac.logo-enrichment",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
-        "title": "Job failed (exit 1): com.jasonsmac.dashboard-morning-email",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
-        "title": "Job failed (exit 1): com.jasonsmac.mark-all-read",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
-        "title": "Job failed (exit 1): com.jasonsmac.photo-enrichment",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
-        "title": "Job failed (exit 1): com.jasonsmac.email-marketing-cleanup",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
-        "title": "12994 errors in job logs in the last 24 hours",
+        "title": "12020 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -243,7 +195,7 @@
         "priority": "medium"
       },
       {
-        "name": "Skill quality uplift \u2014 Bring 20 weak/fair skills to Good+. Fix QBO evals (25%), rewrite 8 domain agent descriptions, add eval cases for 6 missing. Due: Apr 6.",
+        "name": "Skill quality uplift \u2014 Bring 20 weak/fair skills to Good+. QBO evals fixed (25% \u2192 100%). Overall pass rate 89.7% \u2192 92.2%. Desc avg 59.7 \u2192 74.8; skills below 60 dropped from 20 to 1. Awaiting Jason approval on: 8 domain-agent description rewrites, 6 new eval YAML files (carrier-forms, commission-tracker, content-engine, nexhub-crm, nexmail, process-inbox), content-engine v2 draft. Full proposal in 4-17 session transcript. Due: Apr 6.",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
@@ -280,6 +232,12 @@
       },
       {
         "name": "ACG AI Panel \u2014 bio + headshot to Denise \u2014 3.5 weeks to event (Apr 28).",
+        "done": false,
+        "owner": "Jason Bearup",
+        "priority": "medium"
+      },
+      {
+        "name": "Advisor Hub \u2014 Replit Agent deploy \u2014 paste 4-marketing/advisor-hub/replit-agent-prompt.md (12 tasks) into Replit. Runs drizzle-kit push, sets Secrets, wires live /advisor-hub page to API. Unblocks March post publish + Story's weekly content factory workflow.",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
@@ -370,12 +328,6 @@
       },
       {
         "name": "CRM folder rename \u2014 rocktship-crm \u2192 nexhub-crm (1,818 files, wiki-links, dashboard refs \u2014 careful operation)",
-        "done": false,
-        "owner": "Jason Bearup",
-        "priority": "medium"
-      },
-      {
-        "name": "Blocked senders list (~/.config/m365-mcp/blocked_senders.json)",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
@@ -508,7 +460,7 @@
         },
         {
           "name": "highstreet-lawsuit",
-          "status": "unknown",
+          "status": "Awaiting Todd's detailed update after April 13 conference with Judge Benson. Varnum wants to meet before April 28 to avoid evidentiary hearing.",
           "path": "1-sales/highstreet-lawsuit/",
           "owner": "Jason Bearup",
           "priority": "medium",
@@ -537,7 +489,7 @@
           "name": "nexus-health-plus",
           "displayName": "Nexus Health Plus",
           "summary": "Section 125 wellness/fixed indemnity program with virtual primary care. Partnership with Howard Lancaster (Insight Benefits TPA). Phase 2 active with carrier outreach as critical path.",
-          "status": "PHASE 3 ACTIVE \u2014 [[Howard]] committed, [[Dave Silverstein]] on board, structural model decided (accident-only + SIMRP), carrier outreach next.",
+          "status": "OPERATIONAL \u2014 READY FOR CARRIER PAPER.** Product designed, technology platform live in CRM, training materials built, website nearly complete, live 150-life group being quoted. Only remaining domino: SiriusPoint carrier paper via Brenda's 30-year MGU contact.",
           "path": "1-sales/nexus-health-plus/",
           "priority": "high",
           "owner": "Jason Bearup",
@@ -706,7 +658,7 @@
           "priority": "medium"
         },
         {
-          "name": "Skill quality uplift \u2014 Bring 20 weak/fair skills to Good+. Fix QBO evals (25%), rewrite 8 domain agent descriptions, add eval cases for 6 missing. Due: Apr 6.",
+          "name": "Skill quality uplift \u2014 Bring 20 weak/fair skills to Good+. QBO evals fixed (25% \u2192 100%). Overall pass rate 89.7% \u2192 92.2%. Desc avg 59.7 \u2192 74.8; skills below 60 dropped from 20 to 1. Awaiting Jason approval on: 8 domain-agent description rewrites, 6 new eval YAML files (carrier-forms, commission-tracker, content-engine, nexhub-crm, nexmail, process-inbox), content-engine v2 draft. Full proposal in 4-17 session transcript. Due: Apr 6.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -845,6 +797,18 @@
           "priority": "medium"
         },
         {
+          "name": "Advisor Hub \u2014 Replit Agent deploy \u2014 paste 4-marketing/advisor-hub/replit-agent-prompt.md (12 tasks) into Replit. Runs drizzle-kit push, sets Secrets, wires live /advisor-hub page to API. Unblocks March post publish + Story's weekly content factory workflow.",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
+        },
+        {
+          "name": "Skill quality uplift \u2014 Bring 20 weak/fair skills to Good+. QBO evals fixed (25% \u2192 100%). Overall pass rate 89.7% \u2192 92.2%. Desc avg 59.7 \u2192 74.8; skills below 60 dropped from 20 to 1. Awaiting Jason approval on: 8 domain-agent description rewrites, 6 new eval YAML files (carrier-forms, commission-tracker, content-engine, nexhub-crm, nexmail, process-inbox), content-engine v2 draft. Full proposal in 4-17 session transcript. Due: Apr 6.",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
+        },
+        {
           "name": "Ellen: photo + profile on Nexus website",
           "done": false,
           "owner": "Jason Bearup",
@@ -896,20 +860,20 @@
         "pastDue": 11,
         "needsDate": 23,
         "complete": 10,
-        "vaultFiles": 1789,
-        "withFrontmatter": 1516,
-        "vaultIssues": 6966,
+        "vaultFiles": 1876,
+        "withFrontmatter": 1595,
+        "vaultIssues": 7696,
         "issuesByType": {
-          "broken_links": 1162,
-          "duplicate_title": 2263,
-          "incomplete_frontmatter": 688,
-          "missing_domain": 1465,
-          "missing_frontmatter": 273,
-          "orphan": 895,
+          "broken_links": 1184,
+          "duplicate_title": 2725,
+          "incomplete_frontmatter": 765,
+          "missing_domain": 1544,
+          "missing_frontmatter": 281,
+          "orphan": 977,
           "stale_project": 53,
           "untagged": 167
         },
-        "filesChanged24h": 35,
+        "filesChanged24h": 90,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1145,6 +1109,12 @@
           "priority": "medium"
         },
         {
+          "name": "Skill quality uplift \u2014 Bring 20 weak/fair skills to Good+. QBO evals fixed (25% \u2192 100%). Overall pass rate 89.7% \u2192 92.2%. Desc avg 59.7 \u2192 74.8; skills below 60 dropped from 20 to 1. Awaiting Jason approval on: 8 domain-agent description rewrites, 6 new eval YAML files (carrier-forms, commission-tracker, content-engine, nexhub-crm, nexmail, process-inbox), content-engine v2 draft. Full proposal in 4-17 session transcript. Due: Apr 6.",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
+        },
+        {
           "name": "Ellen: carrier portal access + Loom videos \u2014 13 carriers. Overdue from Mar 31.",
           "done": false,
           "owner": "Jason Bearup",
@@ -1223,9 +1193,9 @@
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
         "totalJobs": 56,
-        "failedJobs": 10,
+        "failedJobs": 2,
         "tokenStatus": "healthy",
-        "errorsLast24h": 12994,
+        "errorsLast24h": 12020,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1643,7 +1613,13 @@
           "priority": "medium"
         },
         {
-          "name": "Skill quality uplift \u2014 Bring 20 weak/fair skills to Good+. Fix QBO evals (25%), rewrite 8 domain agent descriptions, add eval cases for 6 missing. Due: Apr 6.",
+          "name": "Advisor Hub \u2014 Replit Agent deploy \u2014 paste 4-marketing/advisor-hub/replit-agent-prompt.md (12 tasks) into Replit. Runs drizzle-kit push, sets Secrets, wires live /advisor-hub page to API. Unblocks March post publish + Story's weekly content factory workflow.",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
+        },
+        {
+          "name": "Skill quality uplift \u2014 Bring 20 weak/fair skills to Good+. QBO evals fixed (25% \u2192 100%). Overall pass rate 89.7% \u2192 92.2%. Desc avg 59.7 \u2192 74.8; skills below 60 dropped from 20 to 1. Awaiting Jason approval on: 8 domain-agent description rewrites, 6 new eval YAML files (carrier-forms, commission-tracker, content-engine, nexhub-crm, nexmail, process-inbox), content-engine v2 draft. Full proposal in 4-17 session transcript. Due: Apr 6.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -1895,9 +1871,9 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "39 projects, 11 alerts",
+        "headline": "39 projects, 3 alerts",
         "activeProjects": 4,
-        "urgentItems": 11
+        "urgentItems": 3
       },
       {
         "domain": "Talent & Training",
@@ -1954,23 +1930,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-04-17",
-        "description": "[Operations] [2026-04-16 05:45] Sent unified daily brief email"
+        "date": "2026-04-18",
+        "description": "[Operations] [2026-04-17 05:45] Sent unified daily brief email"
       },
       {
-        "date": "2026-04-17",
+        "date": "2026-04-18",
         "description": "[Technology] [2026-04-02 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-17",
+        "date": "2026-04-18",
         "description": "[Technology] [2026-04-03 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-17",
+        "date": "2026-04-18",
         "description": "[Talent] [2026-03-30 06:00] Sent weekly briefing email"
       },
       {
-        "date": "2026-04-17",
+        "date": "2026-04-18",
         "description": "[Talent] [2026-04-13 06:00] Sent weekly briefing email"
       }
     ],
