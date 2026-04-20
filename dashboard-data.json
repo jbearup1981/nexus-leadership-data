@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-19T09:45:10.537020+00:00",
+    "lastUpdated": "2026-04-20T09:45:17.306335+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -109,7 +109,7 @@
     ],
     "issues": [
       {
-        "title": "Content deadline: RxDC filing deadline in 42 days \u2014 need matching blog post",
+        "title": "Content deadline: RxDC filing deadline in 41 days \u2014 need matching blog post",
         "priority": "medium",
         "owner": "Jason Bearup",
         "category": "marketing"
@@ -175,7 +175,13 @@
         "category": "technology"
       },
       {
-        "title": "12795 errors in job logs in the last 24 hours",
+        "title": "Job failed (exit 1): com.jasonsmac.system-weekly",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
+        "title": "13575 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -902,20 +908,20 @@
         "pastDue": 11,
         "needsDate": 23,
         "complete": 10,
-        "vaultFiles": 1886,
-        "withFrontmatter": 1617,
-        "vaultIssues": 7819,
+        "vaultFiles": 1897,
+        "withFrontmatter": 1639,
+        "vaultIssues": 7977,
         "issuesByType": {
-          "broken_links": 1201,
-          "duplicate_title": 2806,
+          "broken_links": 1205,
+          "duplicate_title": 2946,
           "incomplete_frontmatter": 787,
-          "missing_domain": 1565,
-          "missing_frontmatter": 269,
-          "orphan": 974,
-          "stale_project": 50,
+          "missing_domain": 1586,
+          "missing_frontmatter": 258,
+          "orphan": 981,
+          "stale_project": 47,
           "untagged": 167
         },
-        "filesChanged24h": 64,
+        "filesChanged24h": 48,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1235,9 +1241,9 @@
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
         "totalJobs": 56,
-        "failedJobs": 9,
+        "failedJobs": 10,
         "tokenStatus": "healthy",
-        "errorsLast24h": 12795,
+        "errorsLast24h": 13575,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1913,9 +1919,9 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "39 projects, 10 alerts",
+        "headline": "39 projects, 11 alerts",
         "activeProjects": 4,
-        "urgentItems": 10
+        "urgentItems": 11
       },
       {
         "domain": "Talent & Training",
@@ -1972,23 +1978,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-04-19",
-        "description": "[Operations] [2026-04-18 05:45] Sent unified daily brief email"
+        "date": "2026-04-20",
+        "description": "[Operations] [2026-04-19 05:45] Sent unified daily brief email"
       },
       {
-        "date": "2026-04-19",
+        "date": "2026-04-20",
         "description": "[Technology] [2026-04-02 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-19",
+        "date": "2026-04-20",
         "description": "[Technology] [2026-04-03 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-19",
+        "date": "2026-04-20",
         "description": "[Talent] [2026-03-30 06:00] Sent weekly briefing email"
       },
       {
-        "date": "2026-04-19",
+        "date": "2026-04-20",
         "description": "[Talent] [2026-04-13 06:00] Sent weekly briefing email"
       }
     ],
