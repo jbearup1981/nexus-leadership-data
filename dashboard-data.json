@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-20T10:00:19.828968+00:00",
+    "lastUpdated": "2026-04-21T09:45:05.772679+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -34,7 +34,7 @@
       {
         "name": "Automation Jobs",
         "goal": 30,
-        "actual": 56,
+        "actual": 57,
         "unit": "count",
         "period": "Apr 2026",
         "status": "complete"
@@ -109,7 +109,7 @@
     ],
     "issues": [
       {
-        "title": "Content deadline: RxDC filing deadline in 41 days \u2014 need matching blog post",
+        "title": "Content deadline: RxDC filing deadline in 40 days \u2014 need matching blog post",
         "priority": "medium",
         "owner": "Jason Bearup",
         "category": "marketing"
@@ -157,6 +157,12 @@
         "category": "technology"
       },
       {
+        "title": "Job failed (exit 1): com.jasonsmac.email-junk-cleanup",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
         "title": "Job failed (exit 1): com.jasonsmac.dashboard-morning-email",
         "priority": "high",
         "owner": "Jason Bearup",
@@ -169,7 +175,25 @@
         "category": "technology"
       },
       {
+        "title": "Job failed (exit 1): com.jasonsmac.dashboard-weekly-open",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
         "title": "Job failed (exit 1): com.jasonsmac.email-marketing-cleanup",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
+        "title": "Job failed (exit 1): com.jasonsmac.system-watchdog",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
+        "title": "Job failed (exit 1): com.jasonsmac.command-scanner",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -181,7 +205,7 @@
         "category": "technology"
       },
       {
-        "title": "13575 errors in job logs in the last 24 hours",
+        "title": "14741 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -908,20 +932,20 @@
         "pastDue": 11,
         "needsDate": 23,
         "complete": 10,
-        "vaultFiles": 1897,
-        "withFrontmatter": 1639,
-        "vaultIssues": 7977,
+        "vaultFiles": 1904,
+        "withFrontmatter": 1664,
+        "vaultIssues": 8090,
         "issuesByType": {
-          "broken_links": 1205,
-          "duplicate_title": 2946,
-          "incomplete_frontmatter": 787,
-          "missing_domain": 1586,
-          "missing_frontmatter": 258,
-          "orphan": 981,
-          "stale_project": 47,
+          "broken_links": 1213,
+          "duplicate_title": 3046,
+          "incomplete_frontmatter": 789,
+          "missing_domain": 1610,
+          "missing_frontmatter": 240,
+          "orphan": 977,
+          "stale_project": 48,
           "untagged": 167
         },
-        "filesChanged24h": 48,
+        "filesChanged24h": 47,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1240,10 +1264,10 @@
     "technology": {
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
-        "totalJobs": 56,
-        "failedJobs": 10,
+        "totalJobs": 57,
+        "failedJobs": 14,
         "tokenStatus": "healthy",
-        "errorsLast24h": 13575,
+        "errorsLast24h": 14741,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1919,9 +1943,9 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "39 projects, 11 alerts",
+        "headline": "39 projects, 15 alerts",
         "activeProjects": 4,
-        "urgentItems": 11
+        "urgentItems": 15
       },
       {
         "domain": "Talent & Training",
@@ -1978,23 +2002,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-04-20",
+        "date": "2026-04-21",
         "description": "[Operations] [2026-04-20 05:45] Sent unified daily brief email"
       },
       {
-        "date": "2026-04-20",
+        "date": "2026-04-21",
         "description": "[Technology] [2026-04-02 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-20",
+        "date": "2026-04-21",
         "description": "[Technology] [2026-04-03 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-20",
+        "date": "2026-04-21",
         "description": "[Talent] [2026-04-13 06:00] Sent weekly briefing email"
       },
       {
-        "date": "2026-04-20",
+        "date": "2026-04-21",
         "description": "[Talent] [2026-04-20 06:00] Sent weekly briefing email"
       }
     ],
