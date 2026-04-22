@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-21T09:45:05.772679+00:00",
+    "lastUpdated": "2026-04-22T09:45:08.827886+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -109,7 +109,7 @@
     ],
     "issues": [
       {
-        "title": "Content deadline: RxDC filing deadline in 40 days \u2014 need matching blog post",
+        "title": "Content deadline: RxDC filing deadline in 39 days \u2014 need matching blog post",
         "priority": "medium",
         "owner": "Jason Bearup",
         "category": "marketing"
@@ -122,6 +122,18 @@
       },
       {
         "title": "Job failed (exit 1): com.jasonsmac.dashboard-evening-email",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
+        "title": "Job failed (exit 1): com.jasonsmac.email-daily-digest",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
+        "title": "Job failed (exit 1): com.jasonsmac.meeting-sync",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -175,6 +187,12 @@
         "category": "technology"
       },
       {
+        "title": "Job failed (exit 1): com.jasonsmac.client-folder-sync",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
         "title": "Job failed (exit 1): com.jasonsmac.dashboard-weekly-open",
         "priority": "high",
         "owner": "Jason Bearup",
@@ -205,7 +223,7 @@
         "category": "technology"
       },
       {
-        "title": "14741 errors in job logs in the last 24 hours",
+        "title": "9481 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -532,7 +550,7 @@
         },
         {
           "name": "highstreet-lawsuit",
-          "status": "Awaiting Todd's detailed update after April 13 conference with Judge Benson. Varnum wants to meet before April 28 to avoid evidentiary hearing.",
+          "status": "Monsma pushing stipulated PI narrow-and-tether play. Jason's floor (12mo non-solicit + fee-shift + walk-away) not yet addressed by Varnum. Holding firm \u2014 no signing PI without full framework.",
           "path": "1-sales/highstreet-lawsuit/",
           "owner": "Jason Bearup",
           "priority": "medium",
@@ -932,20 +950,20 @@
         "pastDue": 11,
         "needsDate": 23,
         "complete": 10,
-        "vaultFiles": 1904,
-        "withFrontmatter": 1664,
-        "vaultIssues": 8090,
+        "vaultFiles": 1909,
+        "withFrontmatter": 1687,
+        "vaultIssues": 8208,
         "issuesByType": {
-          "broken_links": 1213,
-          "duplicate_title": 3046,
-          "incomplete_frontmatter": 789,
-          "missing_domain": 1610,
-          "missing_frontmatter": 240,
-          "orphan": 977,
-          "stale_project": 48,
+          "broken_links": 1215,
+          "duplicate_title": 3125,
+          "incomplete_frontmatter": 811,
+          "missing_domain": 1632,
+          "missing_frontmatter": 222,
+          "orphan": 981,
+          "stale_project": 55,
           "untagged": 167
         },
-        "filesChanged24h": 47,
+        "filesChanged24h": 36,
         "automationJobs": 0,
         "onboardingCount": 0
       },
@@ -1265,9 +1283,9 @@
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
         "totalJobs": 57,
-        "failedJobs": 14,
+        "failedJobs": 17,
         "tokenStatus": "healthy",
-        "errorsLast24h": 14741,
+        "errorsLast24h": 9481,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1943,9 +1961,9 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "39 projects, 15 alerts",
+        "headline": "39 projects, 18 alerts",
         "activeProjects": 4,
-        "urgentItems": 15
+        "urgentItems": 18
       },
       {
         "domain": "Talent & Training",
@@ -2002,23 +2020,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-04-21",
-        "description": "[Operations] [2026-04-20 05:45] Sent unified daily brief email"
+        "date": "2026-04-22",
+        "description": "[Operations] [2026-04-21 05:45] Sent unified daily brief email"
       },
       {
-        "date": "2026-04-21",
+        "date": "2026-04-22",
         "description": "[Technology] [2026-04-02 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-21",
+        "date": "2026-04-22",
         "description": "[Technology] [2026-04-03 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-21",
+        "date": "2026-04-22",
         "description": "[Talent] [2026-04-13 06:00] Sent weekly briefing email"
       },
       {
-        "date": "2026-04-21",
+        "date": "2026-04-22",
         "description": "[Talent] [2026-04-20 06:00] Sent weekly briefing email"
       }
     ],
