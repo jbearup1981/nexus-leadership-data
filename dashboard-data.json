@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-27T09:45:05.489806+00:00",
+    "lastUpdated": "2026-04-27T10:00:18.354046+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -2010,7 +2010,7 @@
     "recentActivity": [
       {
         "date": "2026-04-27",
-        "description": "[Operations] [2026-04-26 16:43] Replied to email: Re: Command Central \u2014 Daily Brief (Apr 26)"
+        "description": "[Operations] [2026-04-27 05:45] Sent unified daily brief email"
       },
       {
         "date": "2026-04-27",
@@ -2022,11 +2022,11 @@
       },
       {
         "date": "2026-04-27",
-        "description": "[Talent] [2026-04-13 06:00] Sent weekly briefing email"
+        "description": "[Talent] [2026-04-20 06:00] Sent weekly briefing email"
       },
       {
         "date": "2026-04-27",
-        "description": "[Talent] [2026-04-20 06:00] Sent weekly briefing email"
+        "description": "[Talent] [2026-04-27 06:00] Sent weekly briefing email"
       }
     ],
     "adminTools": {
