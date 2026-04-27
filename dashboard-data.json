@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-26T09:45:10.642059+00:00",
+    "lastUpdated": "2026-04-27T09:45:05.489806+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -34,7 +34,7 @@
       {
         "name": "Automation Jobs",
         "goal": 30,
-        "actual": 57,
+        "actual": 58,
         "unit": "count",
         "period": "Apr 2026",
         "status": "complete"
@@ -50,7 +50,7 @@
       {
         "name": "Past Due Projects",
         "goal": 0,
-        "actual": 11,
+        "actual": 10,
         "unit": "count",
         "period": "Apr 2026",
         "status": "at_risk"
@@ -109,13 +109,13 @@
     ],
     "issues": [
       {
-        "title": "Content deadline: RxDC filing deadline in 35 days \u2014 need matching blog post",
+        "title": "Content deadline: RxDC filing deadline in 34 days \u2014 need matching blog post",
         "priority": "medium",
         "owner": "Jason Bearup",
         "category": "marketing"
       },
       {
-        "title": "11 projects past due",
+        "title": "10 projects past due",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "operations"
@@ -134,12 +134,6 @@
       },
       {
         "title": "Job failed (exit 1): com.jasonsmac.meeting-sync",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
-        "title": "Job failed (exit 1): com.jasonsmac.ken-mark-all-read",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -217,7 +211,13 @@
         "category": "technology"
       },
       {
-        "title": "12478 errors in job logs in the last 24 hours",
+        "title": "Job failed (exit 1): com.jasonsmac.system-weekly",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
+        "title": "10641 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -934,25 +934,26 @@
     "operations": {
       "summary": "13 onboarding docs FINAL. VA trial active (Cam). Leadership dashboard building on Replit. 12 past-due projects need date review. 44 automation jobs running.",
       "metrics": {
-        "totalProjects": 101,
-        "pastDue": 11,
+        "totalProjects": 88,
+        "pastDue": 10,
         "needsDate": 23,
-        "complete": 10,
-        "vaultFiles": 1921,
-        "withFrontmatter": 1774,
-        "vaultIssues": 8437,
+        "complete": 9,
+        "projectsMdLastUpdated": "2026-03-24 (v7 \u2014 Leadership Dashboard reverted to In Progress; 5 projects complete: [[claude-team|Claude Team]], [[nexbench-hris|NexBench]], West Cannon, Zero Collective, Puritan Reformed)",
+        "vaultFiles": 1925,
+        "withFrontmatter": 1792,
+        "vaultIssues": 8494,
         "issuesByType": {
-          "broken_links": 1230,
-          "duplicate_title": 3302,
-          "incomplete_frontmatter": 836,
-          "missing_domain": 1717,
-          "missing_frontmatter": 147,
-          "orphan": 980,
-          "stale_project": 58,
+          "broken_links": 1231,
+          "duplicate_title": 3353,
+          "incomplete_frontmatter": 835,
+          "missing_domain": 1735,
+          "missing_frontmatter": 133,
+          "orphan": 984,
+          "stale_project": 56,
           "untagged": 167
         },
-        "filesChanged24h": 34,
-        "automationJobs": 0,
+        "filesChanged24h": 38,
+        "automationJobs": 57,
         "onboardingCount": 0
       },
       "projects": [
@@ -1270,10 +1271,10 @@
     "technology": {
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
-        "totalJobs": 57,
+        "totalJobs": 58,
         "failedJobs": 16,
         "tokenStatus": "healthy",
-        "errorsLast24h": 12478,
+        "errorsLast24h": 10641,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -2008,23 +2009,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-04-26",
-        "description": "[Operations] [2026-04-25 05:45] Sent unified daily brief email"
+        "date": "2026-04-27",
+        "description": "[Operations] [2026-04-26 16:43] Replied to email: Re: Command Central \u2014 Daily Brief (Apr 26)"
       },
       {
-        "date": "2026-04-26",
+        "date": "2026-04-27",
         "description": "[Technology] [2026-04-02 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-26",
+        "date": "2026-04-27",
         "description": "[Technology] [2026-04-03 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-26",
+        "date": "2026-04-27",
         "description": "[Talent] [2026-04-13 06:00] Sent weekly briefing email"
       },
       {
-        "date": "2026-04-26",
+        "date": "2026-04-27",
         "description": "[Talent] [2026-04-20 06:00] Sent weekly briefing email"
       }
     ],
