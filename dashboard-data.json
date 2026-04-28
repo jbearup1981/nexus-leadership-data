@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-27T10:00:18.354046+00:00",
+    "lastUpdated": "2026-04-28T09:45:06.393035+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -34,7 +34,7 @@
       {
         "name": "Automation Jobs",
         "goal": 30,
-        "actual": 58,
+        "actual": 59,
         "unit": "count",
         "period": "Apr 2026",
         "status": "complete"
@@ -109,7 +109,25 @@
     ],
     "issues": [
       {
-        "title": "Content deadline: RxDC filing deadline in 34 days \u2014 need matching blog post",
+        "title": "CRM pipeline query failed: [Errno 8] nodename nor servname provided, or not known",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "sales"
+      },
+      {
+        "title": "Commission API query failed: [Errno 8] nodename nor servname provided, or not known",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "finance"
+      },
+      {
+        "title": "Website appears down: [Errno 8] nodename nor servname provided, or not known",
+        "priority": "medium",
+        "owner": "Jason Bearup",
+        "category": "marketing"
+      },
+      {
+        "title": "Content deadline: RxDC filing deadline in 33 days \u2014 need matching blog post",
         "priority": "medium",
         "owner": "Jason Bearup",
         "category": "marketing"
@@ -163,7 +181,25 @@
         "category": "technology"
       },
       {
+        "title": "Job failed (exit 1): com.jasonsmac.domain-agents-renew-subs",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
+        "title": "Job failed (exit 1): com.jasonsmac.draft-cleanup",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
         "title": "Job failed (exit 127): com.jasonsmac.logo-enrichment",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
+        "title": "Job failed (exit 1): com.jasonsmac.contact-import",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -193,6 +229,12 @@
         "category": "technology"
       },
       {
+        "title": "Job failed (exit 1): com.jasonsmac.dashboard-weekly-open",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
         "title": "Job failed (exit 1): com.jasonsmac.email-marketing-cleanup",
         "priority": "high",
         "owner": "Jason Bearup",
@@ -217,7 +259,7 @@
         "category": "technology"
       },
       {
-        "title": "10641 errors in job logs in the last 24 hours",
+        "title": "14710 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -279,7 +321,7 @@
         "priority": "medium"
       },
       {
-        "name": "Skill quality uplift \u2014 Bring 20 weak/fair skills to Good+. QBO evals fixed (25% \u2192 100%). Overall pass rate 89.7% \u2192 92.2%. Desc avg 59.7 \u2192 74.8; skills below 60 dropped from 20 to 1. Awaiting Jason approval on: 8 domain-agent description rewrites, 6 new eval YAML files (carrier-forms, commission-tracker, content-engine, nexhub-crm, nexmail, process-inbox), content-engine v2 draft. Full proposal in 4-17 session transcript. Due: Apr 6.",
+        "name": "Skill quality uplift \u2014 QBO evals fixed (25% \u2192 100%). Overall pass rate 89.7% \u2192 92.2%. Desc avg 59.7 \u2192 74.8; skills below 60 dropped from 20 to 1 (cheatsheet at 55). Awaiting approval on: 8 domain-agent description rewrites + 6 new eval YAML files + content-engine v2 draft. Full proposals + ready-to-apply YAML in session_2026-04-27 (5-technology/skill-improvement/). All 44 skills snapshotted as recovery baseline. Next agent: read that session log, get approval, apply.",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
@@ -593,7 +635,7 @@
         },
         {
           "name": "augusta-tower",
-          "status": "unknown",
+          "status": "** Waiting on payroll/census data. The Wendi/Brandi planning call happened April 10. Outcome: Brandi was going to request accountant-level view-only iSolved access for Wendi so she could pull payroll reports + bswift enrollment export with SSN unmasked. **No data has been delivered to Jason as of April 27 (17 days later).** The Augusta Tower email folder under Outlook \u2192 Prospects/Clients has no new messages since April 10.",
           "path": "1-sales/augusta-tower/",
           "owner": "Jason Bearup",
           "priority": "medium",
@@ -742,7 +784,7 @@
           "priority": "medium"
         },
         {
-          "name": "Skill quality uplift \u2014 Bring 20 weak/fair skills to Good+. QBO evals fixed (25% \u2192 100%). Overall pass rate 89.7% \u2192 92.2%. Desc avg 59.7 \u2192 74.8; skills below 60 dropped from 20 to 1. Awaiting Jason approval on: 8 domain-agent description rewrites, 6 new eval YAML files (carrier-forms, commission-tracker, content-engine, nexhub-crm, nexmail, process-inbox), content-engine v2 draft. Full proposal in 4-17 session transcript. Due: Apr 6.",
+          "name": "Skill quality uplift \u2014 QBO evals fixed (25% \u2192 100%). Overall pass rate 89.7% \u2192 92.2%. Desc avg 59.7 \u2192 74.8; skills below 60 dropped from 20 to 1 (cheatsheet at 55). Awaiting approval on: 8 domain-agent description rewrites + 6 new eval YAML files + content-engine v2 draft. Full proposals + ready-to-apply YAML in session_2026-04-27 (5-technology/skill-improvement/). All 44 skills snapshotted as recovery baseline. Next agent: read that session log, get approval, apply.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -792,7 +834,7 @@
         "totalDrafts": 40,
         "published": 2,
         "readyForReview": 0,
-        "websiteStatus": "up"
+        "websiteStatus": "down ([Errno 8] nodename nor servname provided, or not known)"
       },
       "projects": [
         {
@@ -881,7 +923,7 @@
           "priority": "medium"
         },
         {
-          "name": "Skill quality uplift \u2014 Bring 20 weak/fair skills to Good+. QBO evals fixed (25% \u2192 100%). Overall pass rate 89.7% \u2192 92.2%. Desc avg 59.7 \u2192 74.8; skills below 60 dropped from 20 to 1. Awaiting Jason approval on: 8 domain-agent description rewrites, 6 new eval YAML files (carrier-forms, commission-tracker, content-engine, nexhub-crm, nexmail, process-inbox), content-engine v2 draft. Full proposal in 4-17 session transcript. Due: Apr 6.",
+          "name": "Skill quality uplift \u2014 QBO evals fixed (25% \u2192 100%). Overall pass rate 89.7% \u2192 92.2%. Desc avg 59.7 \u2192 74.8; skills below 60 dropped from 20 to 1 (cheatsheet at 55). Awaiting approval on: 8 domain-agent description rewrites + 6 new eval YAML files + content-engine v2 draft. Full proposals + ready-to-apply YAML in session_2026-04-27 (5-technology/skill-improvement/). All 44 skills snapshotted as recovery baseline. Next agent: read that session log, get approval, apply.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -939,20 +981,20 @@
         "needsDate": 23,
         "complete": 9,
         "projectsMdLastUpdated": "2026-03-24 (v7 \u2014 Leadership Dashboard reverted to In Progress; 5 projects complete: [[claude-team|Claude Team]], [[nexbench-hris|NexBench]], West Cannon, Zero Collective, Puritan Reformed)",
-        "vaultFiles": 1925,
-        "withFrontmatter": 1792,
-        "vaultIssues": 8494,
+        "vaultFiles": 1949,
+        "withFrontmatter": 1831,
+        "vaultIssues": 8891,
         "issuesByType": {
-          "broken_links": 1231,
-          "duplicate_title": 3353,
-          "incomplete_frontmatter": 835,
-          "missing_domain": 1735,
-          "missing_frontmatter": 133,
-          "orphan": 984,
-          "stale_project": 56,
+          "broken_links": 1254,
+          "duplicate_title": 3675,
+          "incomplete_frontmatter": 853,
+          "missing_domain": 1774,
+          "missing_frontmatter": 118,
+          "orphan": 997,
+          "stale_project": 53,
           "untagged": 167
         },
-        "filesChanged24h": 38,
+        "filesChanged24h": 54,
         "automationJobs": 57,
         "onboardingCount": 0
       },
@@ -1188,12 +1230,6 @@
           "priority": "medium"
         },
         {
-          "name": "Skill quality uplift \u2014 Bring 20 weak/fair skills to Good+. QBO evals fixed (25% \u2192 100%). Overall pass rate 89.7% \u2192 92.2%. Desc avg 59.7 \u2192 74.8; skills below 60 dropped from 20 to 1. Awaiting Jason approval on: 8 domain-agent description rewrites, 6 new eval YAML files (carrier-forms, commission-tracker, content-engine, nexhub-crm, nexmail, process-inbox), content-engine v2 draft. Full proposal in 4-17 session transcript. Due: Apr 6.",
-          "done": false,
-          "owner": "Jason Bearup",
-          "priority": "medium"
-        },
-        {
           "name": "Ellen: carrier portal access + Loom videos \u2014 13 carriers. Overdue from Mar 31.",
           "done": false,
           "owner": "Jason Bearup",
@@ -1271,10 +1307,10 @@
     "technology": {
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
-        "totalJobs": 58,
-        "failedJobs": 16,
+        "totalJobs": 59,
+        "failedJobs": 20,
         "tokenStatus": "healthy",
-        "errorsLast24h": 10641,
+        "errorsLast24h": 14710,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1698,7 +1734,7 @@
           "priority": "medium"
         },
         {
-          "name": "Skill quality uplift \u2014 Bring 20 weak/fair skills to Good+. QBO evals fixed (25% \u2192 100%). Overall pass rate 89.7% \u2192 92.2%. Desc avg 59.7 \u2192 74.8; skills below 60 dropped from 20 to 1. Awaiting Jason approval on: 8 domain-agent description rewrites, 6 new eval YAML files (carrier-forms, commission-tracker, content-engine, nexhub-crm, nexmail, process-inbox), content-engine v2 draft. Full proposal in 4-17 session transcript. Due: Apr 6.",
+          "name": "Skill quality uplift \u2014 QBO evals fixed (25% \u2192 100%). Overall pass rate 89.7% \u2192 92.2%. Desc avg 59.7 \u2192 74.8; skills below 60 dropped from 20 to 1 (cheatsheet at 55). Awaiting approval on: 8 domain-agent description rewrites + 6 new eval YAML files + content-engine v2 draft. Full proposals + ready-to-apply YAML in session_2026-04-27 (5-technology/skill-improvement/). All 44 skills snapshotted as recovery baseline. Next agent: read that session log, get approval, apply.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -1918,25 +1954,25 @@
         "domain": "Sales",
         "icon": "briefcase",
         "color": "orange",
-        "headline": "9 projects, 0 alerts",
+        "headline": "9 projects, 1 alerts",
         "activeProjects": 0,
-        "urgentItems": 0
+        "urgentItems": 1
       },
       {
         "domain": "Finance",
         "icon": "dollar-sign",
         "color": "green",
-        "headline": "4 projects, 0 alerts",
+        "headline": "4 projects, 1 alerts",
         "activeProjects": 1,
-        "urgentItems": 0
+        "urgentItems": 1
       },
       {
         "domain": "Marketing",
         "icon": "megaphone",
         "color": "blue",
-        "headline": "7 projects, 1 alerts",
+        "headline": "7 projects, 2 alerts",
         "activeProjects": 1,
-        "urgentItems": 1
+        "urgentItems": 2
       },
       {
         "domain": "Operations",
@@ -1950,9 +1986,9 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "39 projects, 17 alerts",
+        "headline": "39 projects, 21 alerts",
         "activeProjects": 4,
-        "urgentItems": 17
+        "urgentItems": 21
       },
       {
         "domain": "Talent & Training",
@@ -2009,23 +2045,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-04-27",
+        "date": "2026-04-28",
         "description": "[Operations] [2026-04-27 05:45] Sent unified daily brief email"
       },
       {
-        "date": "2026-04-27",
+        "date": "2026-04-28",
         "description": "[Technology] [2026-04-02 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-27",
+        "date": "2026-04-28",
         "description": "[Technology] [2026-04-03 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-27",
+        "date": "2026-04-28",
         "description": "[Talent] [2026-04-20 06:00] Sent weekly briefing email"
       },
       {
-        "date": "2026-04-27",
+        "date": "2026-04-28",
         "description": "[Talent] [2026-04-27 06:00] Sent weekly briefing email"
       }
     ],
