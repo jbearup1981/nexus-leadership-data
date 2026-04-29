@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-28T09:45:06.393035+00:00",
+    "lastUpdated": "2026-04-29T09:45:06.100954+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -109,25 +109,7 @@
     ],
     "issues": [
       {
-        "title": "CRM pipeline query failed: [Errno 8] nodename nor servname provided, or not known",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "sales"
-      },
-      {
-        "title": "Commission API query failed: [Errno 8] nodename nor servname provided, or not known",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "finance"
-      },
-      {
-        "title": "Website appears down: [Errno 8] nodename nor servname provided, or not known",
-        "priority": "medium",
-        "owner": "Jason Bearup",
-        "category": "marketing"
-      },
-      {
-        "title": "Content deadline: RxDC filing deadline in 33 days \u2014 need matching blog post",
+        "title": "Content deadline: RxDC filing deadline in 32 days \u2014 need matching blog post",
         "priority": "medium",
         "owner": "Jason Bearup",
         "category": "marketing"
@@ -163,43 +145,13 @@
         "category": "technology"
       },
       {
-        "title": "Job failed (exit 1): com.jasonsmac.dashboard-weekly-close",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
         "title": "Job failed (exit 1): com.jasonsmac.claude-backup",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
       },
       {
-        "title": "Job failed (exit 1): com.jasonsmac.system-daily",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
-        "title": "Job failed (exit 1): com.jasonsmac.domain-agents-renew-subs",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
-        "title": "Job failed (exit 1): com.jasonsmac.draft-cleanup",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
-        "title": "Job failed (exit 127): com.jasonsmac.logo-enrichment",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
-        "title": "Job failed (exit 1): com.jasonsmac.contact-import",
+        "title": "Job failed (exit 1): com.jasonsmac.ken-follow-up",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -211,25 +163,7 @@
         "category": "technology"
       },
       {
-        "title": "Job failed (exit 1): com.jasonsmac.dashboard-morning-email",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
         "title": "Job failed (exit 1): com.jasonsmac.mark-all-read",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
-        "title": "Job failed (exit 1): com.jasonsmac.client-folder-sync",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
-        "title": "Job failed (exit 1): com.jasonsmac.dashboard-weekly-open",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -247,19 +181,19 @@
         "category": "technology"
       },
       {
+        "title": "Job failed (exit 1): com.jasonsmac.dashboard-monthly-close",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
         "title": "Job failed (exit 1): com.jasonsmac.command-scanner",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
       },
       {
-        "title": "Job failed (exit 1): com.jasonsmac.system-weekly",
-        "priority": "high",
-        "owner": "Jason Bearup",
-        "category": "technology"
-      },
-      {
-        "title": "14710 errors in job logs in the last 24 hours",
+        "title": "28858 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -834,7 +768,7 @@
         "totalDrafts": 40,
         "published": 2,
         "readyForReview": 0,
-        "websiteStatus": "down ([Errno 8] nodename nor servname provided, or not known)"
+        "websiteStatus": "up"
       },
       "projects": [
         {
@@ -981,20 +915,20 @@
         "needsDate": 23,
         "complete": 9,
         "projectsMdLastUpdated": "2026-03-24 (v7 \u2014 Leadership Dashboard reverted to In Progress; 5 projects complete: [[claude-team|Claude Team]], [[nexbench-hris|NexBench]], West Cannon, Zero Collective, Puritan Reformed)",
-        "vaultFiles": 1949,
-        "withFrontmatter": 1831,
-        "vaultIssues": 8891,
+        "vaultFiles": 1952,
+        "withFrontmatter": 1851,
+        "vaultIssues": 8992,
         "issuesByType": {
-          "broken_links": 1254,
-          "duplicate_title": 3675,
-          "incomplete_frontmatter": 853,
-          "missing_domain": 1774,
-          "missing_frontmatter": 118,
-          "orphan": 997,
-          "stale_project": 53,
+          "broken_links": 1257,
+          "duplicate_title": 3771,
+          "incomplete_frontmatter": 854,
+          "missing_domain": 1793,
+          "missing_frontmatter": 101,
+          "orphan": 995,
+          "stale_project": 54,
           "untagged": 167
         },
-        "filesChanged24h": 54,
+        "filesChanged24h": 52,
         "automationJobs": 57,
         "onboardingCount": 0
       },
@@ -1308,9 +1242,9 @@
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
         "totalJobs": 59,
-        "failedJobs": 20,
+        "failedJobs": 12,
         "tokenStatus": "healthy",
-        "errorsLast24h": 14710,
+        "errorsLast24h": 28858,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1954,25 +1888,25 @@
         "domain": "Sales",
         "icon": "briefcase",
         "color": "orange",
-        "headline": "9 projects, 1 alerts",
+        "headline": "9 projects, 0 alerts",
         "activeProjects": 0,
-        "urgentItems": 1
+        "urgentItems": 0
       },
       {
         "domain": "Finance",
         "icon": "dollar-sign",
         "color": "green",
-        "headline": "4 projects, 1 alerts",
+        "headline": "4 projects, 0 alerts",
         "activeProjects": 1,
-        "urgentItems": 1
+        "urgentItems": 0
       },
       {
         "domain": "Marketing",
         "icon": "megaphone",
         "color": "blue",
-        "headline": "7 projects, 2 alerts",
+        "headline": "7 projects, 1 alerts",
         "activeProjects": 1,
-        "urgentItems": 2
+        "urgentItems": 1
       },
       {
         "domain": "Operations",
@@ -1986,9 +1920,9 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "39 projects, 21 alerts",
+        "headline": "39 projects, 13 alerts",
         "activeProjects": 4,
-        "urgentItems": 21
+        "urgentItems": 13
       },
       {
         "domain": "Talent & Training",
@@ -2045,23 +1979,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-04-28",
+        "date": "2026-04-29",
         "description": "[Operations] [2026-04-27 05:45] Sent unified daily brief email"
       },
       {
-        "date": "2026-04-28",
+        "date": "2026-04-29",
         "description": "[Technology] [2026-04-02 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-28",
+        "date": "2026-04-29",
         "description": "[Technology] [2026-04-03 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-28",
+        "date": "2026-04-29",
         "description": "[Talent] [2026-04-20 06:00] Sent weekly briefing email"
       },
       {
-        "date": "2026-04-28",
+        "date": "2026-04-29",
         "description": "[Talent] [2026-04-27 06:00] Sent weekly briefing email"
       }
     ],
