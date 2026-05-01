@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-30T09:45:20.095475+00:00",
+    "lastUpdated": "2026-05-01T09:45:29.798538+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -20,7 +20,7 @@
         "goal": 10,
         "actual": 0,
         "unit": "count",
-        "period": "Apr 2026",
+        "period": "May 2026",
         "status": "on_track"
       },
       {
@@ -28,7 +28,7 @@
         "goal": 7,
         "actual": 5,
         "unit": "count",
-        "period": "Apr 2026",
+        "period": "May 2026",
         "status": "on_track"
       },
       {
@@ -36,7 +36,7 @@
         "goal": 30,
         "actual": 59,
         "unit": "count",
-        "period": "Apr 2026",
+        "period": "May 2026",
         "status": "complete"
       },
       {
@@ -44,7 +44,7 @@
         "goal": 4,
         "actual": 2,
         "unit": "count",
-        "period": "Apr 2026",
+        "period": "May 2026",
         "status": "on_track"
       },
       {
@@ -52,7 +52,7 @@
         "goal": 0,
         "actual": 10,
         "unit": "count",
-        "period": "Apr 2026",
+        "period": "May 2026",
         "status": "at_risk"
       }
     ],
@@ -109,7 +109,7 @@
     ],
     "issues": [
       {
-        "title": "Content deadline: RxDC filing deadline in 31 days \u2014 need matching blog post",
+        "title": "Content deadline: RxDC filing deadline in 30 days \u2014 need matching blog post",
         "priority": "medium",
         "owner": "Jason Bearup",
         "category": "marketing"
@@ -152,6 +152,12 @@
       },
       {
         "title": "Job failed (exit 1): com.jasonsmac.system-daily",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
+        "title": "Job failed (exit 1): com.jasonsmac.ken-follow-up",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -211,7 +217,7 @@
         "category": "technology"
       },
       {
-        "title": "28108 errors in job logs in the last 24 hours",
+        "title": "28685 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -933,20 +939,20 @@
         "needsDate": 23,
         "complete": 9,
         "projectsMdLastUpdated": "2026-03-24 (v7 \u2014 Leadership Dashboard reverted to In Progress; 5 projects complete: [[claude-team|Claude Team]], [[nexbench-hris|NexBench]], West Cannon, Zero Collective, Puritan Reformed)",
-        "vaultFiles": 1954,
-        "withFrontmatter": 1870,
-        "vaultIssues": 9086,
+        "vaultFiles": 1955,
+        "withFrontmatter": 1889,
+        "vaultIssues": 9116,
         "issuesByType": {
-          "broken_links": 1258,
-          "duplicate_title": 3862,
+          "broken_links": 1260,
+          "duplicate_title": 3897,
           "incomplete_frontmatter": 854,
-          "missing_domain": 1811,
-          "missing_frontmatter": 84,
-          "orphan": 996,
-          "stale_project": 54,
+          "missing_domain": 1829,
+          "missing_frontmatter": 66,
+          "orphan": 997,
+          "stale_project": 46,
           "untagged": 167
         },
-        "filesChanged24h": 38,
+        "filesChanged24h": 23,
         "automationJobs": 57,
         "onboardingCount": 0
       },
@@ -1260,9 +1266,9 @@
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
         "totalJobs": 59,
-        "failedJobs": 15,
+        "failedJobs": 16,
         "tokenStatus": "healthy",
-        "errorsLast24h": 28108,
+        "errorsLast24h": 28685,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1752,7 +1758,8 @@
         "totalTeam": 10,
         "trainingComplete": 0,
         "trainingTotal": 7,
-        "pipelineCount": 2
+        "pipelineCount": 2,
+        "advisorsTracked": 0
       },
       "projects": [
         {
@@ -1938,9 +1945,9 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "39 projects, 16 alerts",
+        "headline": "39 projects, 17 alerts",
         "activeProjects": 4,
-        "urgentItems": 16
+        "urgentItems": 17
       },
       {
         "domain": "Talent & Training",
@@ -1997,23 +2004,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-04-30",
-        "description": "[Operations] [2026-04-29 05:45] Sent unified daily brief email"
+        "date": "2026-05-01",
+        "description": "[Operations] [2026-04-30 05:45] Sent unified daily brief email"
       },
       {
-        "date": "2026-04-30",
+        "date": "2026-05-01",
         "description": "[Technology] [2026-04-02 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-30",
+        "date": "2026-05-01",
         "description": "[Technology] [2026-04-03 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-04-30",
+        "date": "2026-05-01",
         "description": "[Talent] [2026-04-20 06:00] Sent weekly briefing email"
       },
       {
-        "date": "2026-04-30",
+        "date": "2026-05-01",
         "description": "[Talent] [2026-04-27 06:00] Sent weekly briefing email"
       }
     ],
