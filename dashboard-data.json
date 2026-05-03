@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-02T09:45:48.862087+00:00",
+    "lastUpdated": "2026-05-03T09:45:09.357274+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -109,7 +109,7 @@
     ],
     "issues": [
       {
-        "title": "Content deadline: RxDC filing deadline in 29 days \u2014 need matching blog post",
+        "title": "Content deadline: RxDC filing deadline in 28 days \u2014 need matching blog post",
         "priority": "medium",
         "owner": "Jason Bearup",
         "category": "marketing"
@@ -151,6 +151,12 @@
         "category": "technology"
       },
       {
+        "title": "Job failed (exit 1): com.jasonsmac.dashboard-weekly-close",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
         "title": "Job failed (exit 1): com.jasonsmac.claude-backup",
         "priority": "high",
         "owner": "Jason Bearup",
@@ -158,6 +164,12 @@
       },
       {
         "title": "Job failed (exit 1): com.jasonsmac.system-daily",
+        "priority": "high",
+        "owner": "Jason Bearup",
+        "category": "technology"
+      },
+      {
+        "title": "Job failed (exit 127): com.jasonsmac.logo-enrichment",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -229,7 +241,7 @@
         "category": "technology"
       },
       {
-        "title": "13130 errors in job logs in the last 24 hours",
+        "title": "13436 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -291,7 +303,7 @@
         "priority": "medium"
       },
       {
-        "name": "Skill quality uplift \u2014 QBO evals fixed (25% \u2192 100%). Overall pass rate 89.7% \u2192 92.2%. Desc avg 59.7 \u2192 74.8; skills below 60 dropped from 20 to 1 (cheatsheet at 55). Awaiting approval on: 8 domain-agent description rewrites + 6 new eval YAML files + content-engine v2 draft. Full proposals + ready-to-apply YAML in session_2026-04-27 (5-technology/skill-improvement/). All 44 skills snapshotted as recovery baseline. Next agent: read that session log, get approval, apply.",
+        "name": "Skill quality uplift \u2014 May 3: applied 8 domain-agent description rewrites (avg 74.8 \u2192 78.0) + wrote 6 new eval YAML files (14 \u2192 20 skills with evals). New eval results: nexhub-crm/nexmail/process-inbox 100%, carrier-forms 67%, commission-tracker 33%, content-engine 0% (stale, known). Overall eval pass rate 92.2% \u2192 85.5% (drop reflects real gaps newly surfaced, not regressions). Still open: content-engine v2 rewrite from feedback_blog_voice.md, commission-tracker skill content fixes, carrier-forms 1-case gap.",
         "done": false,
         "owner": "Jason Bearup",
         "priority": "medium"
@@ -585,7 +597,7 @@
           "name": "nexus-health-plus",
           "displayName": "Nexus Health Plus",
           "summary": "Section 125 wellness/fixed indemnity program with virtual primary care. Partnership with Howard Lancaster (Insight Benefits TPA). Phase 2 active with carrier outreach as critical path.",
-          "status": "OPERATIONAL \u2014 READY FOR CARRIER PAPER.** Product designed, technology platform live in CRM, training materials built, website nearly complete, live 150-life group being quoted. Only remaining domino: SiriusPoint carrier paper via Brenda's 30-year MGU contact.",
+          "status": "CARRIER DOMINO RESOLVED \u2014 CAPITOL GROUP PARTNERSHIP (HANDSHAKE).** Friday May 1 meeting with Scott at Capitol Group reframed NHP strategy. Capitol Group becomes the carrier/captive/reinsurance rails (CEHAS captive + SiriusPoint reinsurance already built); Nexus owns implementation + ongoing service; Insight Benefits operates as TPA. Handshake deal in place; Capitol drafting terms this week. **Economics:** ~$80\u2013100 PEPM top line to Nexus, $20\u201330 PEPM to Insight, ~$30 PEPM partner-broker commission, remainder to Nexus. **What this resolves:** SiriusPoint direct via Brenda parked (captive + reinsurance already exist). Chris Cooper $35K captive feasibility irrelevant. Distribution chain 5 layers \u2192 3 (Capitol \u2192 Nexus \u2192 Client; Benchmark + GP Agency cut out). Time-to-market constraint solved. Existing 1,200-life book stays on same rails, Nexus captures implementation/service economics. **Revenue revised down but de-risked:** ~$50\u201380 PEPM net (vs. earlier $100\u2013170 PEPM target with own captive) \u2014 but zero carrier risk, zero capital reserves, zero feasibility spend, immediate go-live. **Upline optimization confirmed:** Jason explicitly asked Scott to cut the upline (no payment to people above Nexus who weren't doing anything). Scott agreed. This is what makes the $80\u2013100 PEPM top line possible \u2014 captures what was previously siphoned by Benchmark + GP Agency. **Existing book migration:** Scott amicable to moving the 1,200 existing lives to the new structure with some modifications \u2014 likely less favorable economics than forward deals, but acceptable. Lets Nexus build implementation muscle on known accounts before pipeline conversion. **Pipeline:** ~2,500 lives in pipeline all fall under new product / new economics on day one. **How the deal got done:** Capitol was hesitant on the original NHP pitch \u2014 skeptical Nexus could actually execute. Jason demoed the [[Replit]]-bu",
           "path": "1-sales/nexus-health-plus/",
           "priority": "high",
           "owner": "Jason Bearup",
@@ -754,7 +766,7 @@
           "priority": "medium"
         },
         {
-          "name": "Skill quality uplift \u2014 QBO evals fixed (25% \u2192 100%). Overall pass rate 89.7% \u2192 92.2%. Desc avg 59.7 \u2192 74.8; skills below 60 dropped from 20 to 1 (cheatsheet at 55). Awaiting approval on: 8 domain-agent description rewrites + 6 new eval YAML files + content-engine v2 draft. Full proposals + ready-to-apply YAML in session_2026-04-27 (5-technology/skill-improvement/). All 44 skills snapshotted as recovery baseline. Next agent: read that session log, get approval, apply.",
+          "name": "Skill quality uplift \u2014 May 3: applied 8 domain-agent description rewrites (avg 74.8 \u2192 78.0) + wrote 6 new eval YAML files (14 \u2192 20 skills with evals). New eval results: nexhub-crm/nexmail/process-inbox 100%, carrier-forms 67%, commission-tracker 33%, content-engine 0% (stale, known). Overall eval pass rate 92.2% \u2192 85.5% (drop reflects real gaps newly surfaced, not regressions). Still open: content-engine v2 rewrite from feedback_blog_voice.md, commission-tracker skill content fixes, carrier-forms 1-case gap.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -893,7 +905,7 @@
           "priority": "medium"
         },
         {
-          "name": "Skill quality uplift \u2014 QBO evals fixed (25% \u2192 100%). Overall pass rate 89.7% \u2192 92.2%. Desc avg 59.7 \u2192 74.8; skills below 60 dropped from 20 to 1 (cheatsheet at 55). Awaiting approval on: 8 domain-agent description rewrites + 6 new eval YAML files + content-engine v2 draft. Full proposals + ready-to-apply YAML in session_2026-04-27 (5-technology/skill-improvement/). All 44 skills snapshotted as recovery baseline. Next agent: read that session log, get approval, apply.",
+          "name": "Skill quality uplift \u2014 May 3: applied 8 domain-agent description rewrites (avg 74.8 \u2192 78.0) + wrote 6 new eval YAML files (14 \u2192 20 skills with evals). New eval results: nexhub-crm/nexmail/process-inbox 100%, carrier-forms 67%, commission-tracker 33%, content-engine 0% (stale, known). Overall eval pass rate 92.2% \u2192 85.5% (drop reflects real gaps newly surfaced, not regressions). Still open: content-engine v2 rewrite from feedback_blog_voice.md, commission-tracker skill content fixes, carrier-forms 1-case gap.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -951,20 +963,20 @@
         "needsDate": 23,
         "complete": 9,
         "projectsMdLastUpdated": "2026-03-24 (v7 \u2014 Leadership Dashboard reverted to In Progress; 5 projects complete: [[claude-team|Claude Team]], [[nexbench-hris|NexBench]], West Cannon, Zero Collective, Puritan Reformed)",
-        "vaultFiles": 1959,
-        "withFrontmatter": 1909,
-        "vaultIssues": 9170,
+        "vaultFiles": 1960,
+        "withFrontmatter": 1928,
+        "vaultIssues": 9230,
         "issuesByType": {
-          "broken_links": 1268,
-          "duplicate_title": 3937,
-          "incomplete_frontmatter": 855,
-          "missing_domain": 1847,
-          "missing_frontmatter": 50,
+          "broken_links": 1272,
+          "duplicate_title": 3973,
+          "incomplete_frontmatter": 874,
+          "missing_domain": 1866,
+          "missing_frontmatter": 32,
           "orphan": 995,
           "stale_project": 51,
           "untagged": 167
         },
-        "filesChanged24h": 5,
+        "filesChanged24h": 26,
         "automationJobs": 57,
         "onboardingCount": 0
       },
@@ -1200,6 +1212,12 @@
           "priority": "medium"
         },
         {
+          "name": "Skill quality uplift \u2014 May 3: applied 8 domain-agent description rewrites (avg 74.8 \u2192 78.0) + wrote 6 new eval YAML files (14 \u2192 20 skills with evals). New eval results: nexhub-crm/nexmail/process-inbox 100%, carrier-forms 67%, commission-tracker 33%, content-engine 0% (stale, known). Overall eval pass rate 92.2% \u2192 85.5% (drop reflects real gaps newly surfaced, not regressions). Still open: content-engine v2 rewrite from feedback_blog_voice.md, commission-tracker skill content fixes, carrier-forms 1-case gap.",
+          "done": false,
+          "owner": "Jason Bearup",
+          "priority": "medium"
+        },
+        {
           "name": "Ellen: carrier portal access + Loom videos \u2014 13 carriers. Overdue from Mar 31.",
           "done": false,
           "owner": "Jason Bearup",
@@ -1278,9 +1296,9 @@
       "summary": "Domain Agents v1 COMPLETE - 6 AI agents + Mia (Tier 2) built. MCP Apps UI LIVE. Admin CLI LIVE with 8 command groups. NexMail at 44 jobs across 2 users. 17 Claude Code skills, 11 hooks, 3 agents.",
       "metrics": {
         "totalJobs": 59,
-        "failedJobs": 18,
+        "failedJobs": 20,
         "tokenStatus": "healthy",
-        "errorsLast24h": 13130,
+        "errorsLast24h": 13436,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -1704,7 +1722,7 @@
           "priority": "medium"
         },
         {
-          "name": "Skill quality uplift \u2014 QBO evals fixed (25% \u2192 100%). Overall pass rate 89.7% \u2192 92.2%. Desc avg 59.7 \u2192 74.8; skills below 60 dropped from 20 to 1 (cheatsheet at 55). Awaiting approval on: 8 domain-agent description rewrites + 6 new eval YAML files + content-engine v2 draft. Full proposals + ready-to-apply YAML in session_2026-04-27 (5-technology/skill-improvement/). All 44 skills snapshotted as recovery baseline. Next agent: read that session log, get approval, apply.",
+          "name": "Skill quality uplift \u2014 May 3: applied 8 domain-agent description rewrites (avg 74.8 \u2192 78.0) + wrote 6 new eval YAML files (14 \u2192 20 skills with evals). New eval results: nexhub-crm/nexmail/process-inbox 100%, carrier-forms 67%, commission-tracker 33%, content-engine 0% (stale, known). Overall eval pass rate 92.2% \u2192 85.5% (drop reflects real gaps newly surfaced, not regressions). Still open: content-engine v2 rewrite from feedback_blog_voice.md, commission-tracker skill content fixes, carrier-forms 1-case gap.",
           "done": false,
           "owner": "Jason Bearup",
           "priority": "medium"
@@ -1957,9 +1975,9 @@
         "domain": "Technology",
         "icon": "monitor",
         "color": "yellow",
-        "headline": "39 projects, 19 alerts",
+        "headline": "39 projects, 21 alerts",
         "activeProjects": 4,
-        "urgentItems": 19
+        "urgentItems": 21
       },
       {
         "domain": "Talent & Training",
@@ -2016,23 +2034,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-05-02",
-        "description": "[Operations] [2026-05-01 05:46] Sent unified daily brief email"
+        "date": "2026-05-03",
+        "description": "[Operations] [2026-05-02 05:47] Sent unified daily brief email"
       },
       {
-        "date": "2026-05-02",
+        "date": "2026-05-03",
         "description": "[Technology] [2026-04-02 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-05-02",
+        "date": "2026-05-03",
         "description": "[Technology] [2026-04-03 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-05-02",
+        "date": "2026-05-03",
         "description": "[Talent] [2026-04-20 06:00] Sent weekly briefing email"
       },
       {
-        "date": "2026-05-02",
+        "date": "2026-05-03",
         "description": "[Talent] [2026-04-27 06:00] Sent weekly briefing email"
       }
     ],
