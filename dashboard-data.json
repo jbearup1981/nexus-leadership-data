@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-07T09:45:37.938940+00:00",
+    "lastUpdated": "2026-05-08T09:45:37.590991+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -109,7 +109,7 @@
     ],
     "issues": [
       {
-        "title": "Content deadline: RxDC filing deadline in 24 days \u2014 need matching blog post",
+        "title": "Content deadline: RxDC filing deadline in 23 days \u2014 need matching blog post",
         "priority": "medium",
         "owner": "Jason Bearup",
         "category": "marketing"
@@ -259,7 +259,7 @@
         "category": "technology"
       },
       {
-        "title": "14845 errors in job logs in the last 24 hours",
+        "title": "15285 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -981,20 +981,20 @@
         "needsDate": 23,
         "complete": 9,
         "projectsMdLastUpdated": "2026-03-24 (v7 \u2014 Leadership Dashboard reverted to In Progress; 5 projects complete: [[claude-team|Claude Team]], [[nexbench-hris|NexBench]], West Cannon, Zero Collective, Puritan Reformed)",
-        "vaultFiles": 1977,
-        "withFrontmatter": 1975,
-        "vaultIssues": 9475,
+        "vaultFiles": 1978,
+        "withFrontmatter": 1976,
+        "vaultIssues": 9507,
         "issuesByType": {
-          "broken_links": 1287,
-          "duplicate_title": 4169,
+          "broken_links": 1288,
+          "duplicate_title": 4196,
           "incomplete_frontmatter": 875,
-          "missing_domain": 1912,
+          "missing_domain": 1913,
           "missing_frontmatter": 2,
-          "orphan": 1004,
-          "stale_project": 59,
+          "orphan": 1005,
+          "stale_project": 61,
           "untagged": 167
         },
-        "filesChanged24h": 10,
+        "filesChanged24h": 7,
         "automationJobs": 59,
         "onboardingCount": 0
       },
@@ -1316,7 +1316,7 @@
         "totalJobs": 59,
         "failedJobs": 23,
         "tokenStatus": "healthy",
-        "errorsLast24h": 14845,
+        "errorsLast24h": 15285,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -2052,23 +2052,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-05-07",
-        "description": "[Operations] [2026-05-06 05:45] Sent unified daily brief email"
+        "date": "2026-05-08",
+        "description": "[Operations] [2026-05-07 05:46] Sent unified daily brief email"
       },
       {
-        "date": "2026-05-07",
+        "date": "2026-05-08",
         "description": "[Technology] [2026-04-02 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-05-07",
+        "date": "2026-05-08",
         "description": "[Technology] [2026-04-03 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-05-07",
+        "date": "2026-05-08",
         "description": "[Talent] [2026-04-27 06:00] Sent weekly briefing email"
       },
       {
-        "date": "2026-05-07",
+        "date": "2026-05-08",
         "description": "[Talent] [2026-05-04 06:00] Sent weekly briefing email"
       }
     ],
