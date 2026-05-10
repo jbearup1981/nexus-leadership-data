@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-09T09:45:09.325945+00:00",
+    "lastUpdated": "2026-05-10T09:45:34.989656+00:00",
     "updatedBy": "Domain Agents",
     "version": "2.1",
     "dataSource": "Agent State Files + Manual Curation"
@@ -109,7 +109,7 @@
     ],
     "issues": [
       {
-        "title": "Content deadline: RxDC filing deadline in 22 days \u2014 need matching blog post",
+        "title": "Content deadline: RxDC filing deadline in 21 days \u2014 need matching blog post",
         "priority": "medium",
         "owner": "Jason Bearup",
         "category": "marketing"
@@ -259,7 +259,7 @@
         "category": "technology"
       },
       {
-        "title": "16452 errors in job logs in the last 24 hours",
+        "title": "32514 errors in job logs in the last 24 hours",
         "priority": "high",
         "owner": "Jason Bearup",
         "category": "technology"
@@ -981,17 +981,17 @@
         "needsDate": 23,
         "complete": 9,
         "projectsMdLastUpdated": "2026-03-24 (v7 \u2014 Leadership Dashboard reverted to In Progress; 5 projects complete: [[claude-team|Claude Team]], [[nexbench-hris|NexBench]], West Cannon, Zero Collective, Puritan Reformed)",
-        "vaultFiles": 1979,
-        "withFrontmatter": 1977,
-        "vaultIssues": 9539,
+        "vaultFiles": 1980,
+        "withFrontmatter": 1978,
+        "vaultIssues": 9576,
         "issuesByType": {
-          "broken_links": 1289,
-          "duplicate_title": 4224,
+          "broken_links": 1290,
+          "duplicate_title": 4253,
           "incomplete_frontmatter": 876,
-          "missing_domain": 1914,
+          "missing_domain": 1915,
           "missing_frontmatter": 2,
-          "orphan": 1006,
-          "stale_project": 61,
+          "orphan": 1007,
+          "stale_project": 66,
           "untagged": 167
         },
         "filesChanged24h": 6,
@@ -1316,7 +1316,7 @@
         "totalJobs": 59,
         "failedJobs": 23,
         "tokenStatus": "healthy",
-        "errorsLast24h": 16452,
+        "errorsLast24h": 32514,
         "watchdogIssues": 0,
         "openFeatureRequests": 0,
         "plists": 0,
@@ -2052,23 +2052,23 @@
     ],
     "recentActivity": [
       {
-        "date": "2026-05-09",
-        "description": "[Operations] [2026-05-08 05:46] Sent unified daily brief email"
+        "date": "2026-05-10",
+        "description": "[Operations] [2026-05-09 05:45] Sent unified daily brief email"
       },
       {
-        "date": "2026-05-09",
+        "date": "2026-05-10",
         "description": "[Technology] [2026-04-02 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-05-09",
+        "date": "2026-05-10",
         "description": "[Technology] [2026-04-03 05:45] Sent daily briefing email"
       },
       {
-        "date": "2026-05-09",
+        "date": "2026-05-10",
         "description": "[Talent] [2026-04-27 06:00] Sent weekly briefing email"
       },
       {
-        "date": "2026-05-09",
+        "date": "2026-05-10",
         "description": "[Talent] [2026-05-04 06:00] Sent weekly briefing email"
       }
     ],
